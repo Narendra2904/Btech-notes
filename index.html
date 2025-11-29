@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Back.Benchers - B.Tech Resources</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -10,14 +10,34 @@
   <script src="https://unpkg.com/lucide@latest"></script>
 
   <style>
-      /* Keeping your custom glitch/neo styles here just in case */
+      /* 1. GLOBAL SCROLL FIXES */
+      html, body {
+          height: auto !important;
+          min-height: 100vh;
+          overflow-x: hidden; /* Prevent side scrolling */
+          overflow-y: auto;   /* Force vertical scroll */
+          scroll-behavior: smooth;
+      }
+
+      /* 2. MARQUEE ANIMATION */
+      @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .animate-marquee {
+        display: inline-block;
+        white-space: nowrap;
+        animation: marquee 20s linear infinite;
+      }
+
+      /* 3. UTILITIES */
       .neo-shadow { box-shadow: 4px 4px 0px 0px rgba(0,0,0,1); }
       .font-retro { font-family: 'Courier New', Courier, monospace; }
       
       @keyframes blink { 50% { opacity: 0; } }
       .blink { animation: blink 1s infinite; }
 
-      /* Mobile Menu Animation */
+      /* 4. MOBILE MENU ANIMATION */
       #mobile-menu {
           transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
           transform-origin: top;
@@ -25,7 +45,7 @@
       .menu-hidden {
           transform: scaleY(0);
           opacity: 0;
-          pointer-events: none;
+          pointer-events: none; /* Critical for clicking content behind menu */
       }
       .menu-visible {
           transform: scaleY(1);
@@ -34,10 +54,12 @@
       }
   </style>
 </head>
-<body class="min-h-screen bg-neutral-50 text-black selection:bg-pink-400 selection:text-white flex flex-col pt-[80px]"> 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b-4 border-black px-6 py-4 flex items-center justify-between h-[80px]">
+
+<body class="min-h-screen bg-neutral-50 text-black selection:bg-pink-400 selection:text-white flex flex-col pt-[80px]">
+
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b-4 border-black px-6 py-4 flex items-center justify-between h-[80px]">
       
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='#'">
           <div class="bg-yellow-400 p-2 border-2 border-black neo-shadow hover:rotate-12 transition-transform">
               <i data-lucide="graduation-cap" class="text-black w-6 h-6"></i>
           </div>
@@ -55,7 +77,7 @@
           </div>
       </div>
 
-      <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="md:hidden border-2 border-black p-2 hover:bg-yellow-400 transition-colors neo-shadow">
+      <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="md:hidden border-2 border-black p-2 hover:bg-yellow-400 transition-colors neo-shadow bg-white">
           <i data-lucide="menu" class="w-6 h-6"></i>
       </button>
   </nav>
@@ -74,18 +96,21 @@
   <header class="pt-12 pb-12 px-6 bg-white flex flex-col items-center text-center relative overflow-hidden border-b-4 border-black">
     <div class="max-w-4xl z-10 relative">
       <div class="inline-block bg-zinc-900 text-white px-3 py-1 font-mono text-sm mb-4 border-2 border-black -rotate-2">STUDENT_EDITION</div>
-      <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight glitch-hover cursor-default">
+      <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight cursor-default">
         SELECT. CLICK. <span class="bg-yellow-400 px-2 border-2 border-black inline-block transform hover:scale-110 transition-transform">STUDY.</span>
       </h1>
       <p class="text-xl text-gray-700 font-medium max-w-2xl mx-auto">No login required. No hidden fees. Just the raw materials you need to pass.</p>
     </div>
   </header>
 
-  <div class="bg-yellow-400 border-b-4 border-black py-3 marquee-wrapper font-black italic text-lg tracking-widest uppercase overflow-hidden whitespace-nowrap">
-    <div class="marquee-content inline-block animate-[marquee_10s_linear_infinite]">//Currently Updated CSE & CSM 4-1 Subjects Only. More Subjects Soon.// Currently Updated CSE & CSM 4-1 Subjects Only. More Subjects Soon.//</div>
+  <div class="bg-yellow-400 border-b-4 border-black py-3 overflow-hidden font-black italic text-lg tracking-widest uppercase relative whitespace-nowrap">
+      <div class="animate-marquee">
+          // CURRENTLY UPDATED CSE & CSM 4-1 SUBJECTS ONLY. MORE SUBJECTS SOON. // CURRENTLY UPDATED CSE & CSM 4-1 SUBJECTS ONLY. MORE SUBJECTS SOON. // CURRENTLY UPDATED CSE & CSM 4-1 SUBJECTS ONLY. MORE SUBJECTS SOON. // CURRENTLY UPDATED CSE & CSM 4-1 SUBJECTS ONLY. MORE SUBJECTS SOON. //
+      </div>
   </div>
 
   <div id="selection-zone" class="bg-zinc-50 flex-grow pb-20">
+    
     <section id="year-section" class="bg-black text-white py-12 px-6 border-b-4 border-black relative overflow-hidden scroll-mt-24">
       <div class="max-w-7xl mx-auto relative z-10">
         <h2 class="text-2xl font-black mb-6 uppercase tracking-widest text-yellow-400 flex items-center gap-2">
@@ -93,10 +118,7 @@
           Select Year
         </h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="year-container">
-            <button class="border-2 border-white p-4 font-bold hover:bg-yellow-400 hover:text-black transition-all">1st Year</button>
-            <button class="border-2 border-white p-4 font-bold hover:bg-yellow-400 hover:text-black transition-all">2nd Year</button>
-            <button class="border-2 border-white p-4 font-bold hover:bg-yellow-400 hover:text-black transition-all">3rd Year</button>
-            <button class="border-2 border-white p-4 font-bold hover:bg-yellow-400 hover:text-black transition-all">4th Year</button>
+            <div class="col-span-2 md:col-span-4 text-center text-gray-500 font-mono text-sm">[Loading Years from Script...]</div>
         </div>
       </div>
     </section>
@@ -151,51 +173,145 @@
     </section>
   </div>
 
-  <footer class="bg-white border-t-4 border-black relative z-10">
+  <footer class="bg-white border-t-4 border-black relative z-10 mt-auto">
     <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col lg:flex-row justify-between gap-12">
+      
       <div class="max-w-lg space-y-6">
         <div class="flex items-center gap-2">
-          <div class="bg-black p-2"><i data-lucide="graduation-cap" class="text-white w-6 h-6"></i></div>
+          <div class="bg-black p-2">
+            <i data-lucide="graduation-cap" class="text-white w-6 h-6"></i>
+          </div>
           <span class="text-3xl font-black uppercase italic tracking-tighter">Back<span class="bg-yellow-400 px-1">.Benchers</span></span>
         </div>
         <p class="text-lg font-medium text-gray-800 border-l-4 border-yellow-400 pl-4">
           Back.Benchers is the ultimate open-source library for engineers. We provide free B.Tech student notes, verified syllabus copies, and high-quality PDFs without any paywalls.
         </p>
       </div>
+
+      <div class="flex flex-col gap-4">
+        <h3 class="font-black text-xl uppercase tracking-widest bg-black text-white inline-block px-2 py-1 w-max">Connect With Us</h3>
+        <div class="flex gap-4">
+          <button onclick="openSocialModal('instagram')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-pink-400 hover:bg-black group transition-colors">
+            <i data-lucide="instagram" class="w-7 h-7 text-black group-hover:text-white"></i>
+          </button>
+          <button onclick="openSocialModal('linkedin')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-blue-400 hover:bg-black group transition-colors">
+            <i data-lucide="linkedin" class="w-7 h-7 text-black group-hover:text-white"></i>
+          </button>
+          <button onclick="openSocialModal('github')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-white hover:bg-black group transition-colors">
+            <i data-lucide="github" class="w-7 h-7 text-black group-hover:text-white"></i>
+          </button>
+        </div>
+      </div>
     </div>
+
     <div class="w-full bg-zinc-900 border-t-4 border-black py-8 text-center">
-      <p class="font-retro text-xs md:text-lg text-white leading-loose">
+      <p class="font-mono text-xs md:text-lg text-white leading-loose">
         DESIGNED & DEVELOPED BY <span class="text-yellow-400">MADHAN MYANA</span> & <span class="text-cyan-400">NARENDRA YENAGANDULA</span>
       </p>
     </div>
+
+    <div class="bg-black text-white py-6 text-center border-t-2 border-zinc-800">
+      <div class="font-mono text-sm tracking-widest">&copy; 2025 BACK.BENCHERS RESOURCES. OPEN SOURCE & FREE FOREVER.</div>
+    </div>
   </footer>
 
+  <div id="social-modal" class="fixed inset-0 z-[100] flex items-center justify-center hidden">
+    <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeSocialModal()"></div>
+    
+    <div class="relative bg-white border-4 border-black p-8 max-w-md w-full m-4 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
+      <button onclick="closeSocialModal()" class="absolute top-4 right-4 border-2 border-black bg-white p-1 hover:bg-red-500 hover:text-white transition-colors">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+      
+      <div class="text-center mb-8">
+        <div id="modal-icon-container" class="inline-flex p-3 border-2 border-black mb-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+          </div>
+        <h3 id="modal-title" class="text-2xl font-black uppercase italic"></h3>
+        <p class="font-mono text-xs text-gray-500 mt-2">SELECT A DEVELOPER TO CONNECT</p>
+      </div>
+      
+      <div id="modal-links" class="space-y-4">
+        </div>
+    </div>
+  </div>
+
   <script>
-    // Initialize Icons
+    // 1. Initialize Icons
     lucide.createIcons();
 
-    // MOBILE MENU TOGGLE FUNCTION
+    // 2. Mobile Menu Logic
     function toggleMobileMenu() {
         const menu = document.getElementById('mobile-menu');
         const btnIcon = document.querySelector('#mobile-menu-btn i');
         
         if (menu.classList.contains('menu-hidden')) {
-            // Open Menu
             menu.classList.remove('menu-hidden');
             menu.classList.add('menu-visible');
-            // Change Icon to X
             btnIcon.setAttribute('data-lucide', 'x');
         } else {
-            // Close Menu
             menu.classList.remove('menu-visible');
             menu.classList.add('menu-hidden');
-            // Change Icon back to Menu
             btnIcon.setAttribute('data-lucide', 'menu');
         }
-        lucide.createIcons(); // Refresh icon to show X or Menu
+        lucide.createIcons();
+    }
+
+    // 3. Social Modal Logic
+    const socialData = {
+        instagram: {
+            title: "Instagram",
+            icon: "instagram",
+            color: "bg-pink-400",
+            links: [
+                { name: "Madhan Myana", url: "https://instagram.com/madhan_myana" },
+                { name: "Narendra Yenagandula", url: "https://instagram.com/narendra_yenagandula" }
+            ]
+        },
+        linkedin: {
+            title: "LinkedIn",
+            icon: "linkedin",
+            color: "bg-blue-400",
+            links: [
+                { name: "Madhan Myana", url: "https://linkedin.com/in/madhanmyana" },
+                { name: "Narendra Yenagandula", url: "https://linkedin.com/in/narendrayenagandula" }
+            ]
+        },
+        github: {
+            title: "GitHub",
+            icon: "github",
+            color: "bg-gray-200",
+            links: [
+                { name: "Madhan Myana", url: "https://github.com/madhanmyana" },
+                { name: "Narendra Yenagandula", url: "https://github.com/narendra" }
+            ]
+        }
+    };
+
+    function openSocialModal(platform) {
+        const modal = document.getElementById('social-modal');
+        const data = socialData[platform];
+        
+        document.getElementById('modal-title').innerText = data.title;
+        const iconContainer = document.getElementById('modal-icon-container');
+        iconContainer.className = `inline-flex p-3 border-2 border-black mb-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] ${data.color}`;
+        iconContainer.innerHTML = `<i data-lucide="${data.icon}" class="w-8 h-8 text-black"></i>`;
+        
+        const linksContainer = document.getElementById('modal-links');
+        linksContainer.innerHTML = data.links.map(link => `
+            <a href="${link.url}" target="_blank" class="block border-2 border-black p-4 font-bold hover:bg-black hover:text-white hover:translate-x-1 hover:-translate-y-1 transition-all shadow-[4px_4px_0px_0px_rgba(0,0,0,0)] hover:shadow-[6px_6px_0px_0px_rgba(250,204,21,1)]">
+                ${link.name} <span class="float-right">→</span>
+            </a>
+        `).join('');
+
+        modal.classList.remove('hidden');
+        lucide.createIcons();
+    }
+
+    function closeSocialModal() {
+        document.getElementById('social-modal').classList.add('hidden');
     }
   </script>
   
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>
