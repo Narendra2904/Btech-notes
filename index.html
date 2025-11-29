@@ -5,37 +5,73 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Back.Benchers - B.Tech Resources</title>
 
-  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Lucide icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
-  <!-- Local CSS -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body class="min-h-screen bg-neutral-50 text-black selection:bg-pink-400 selection:text-white flex flex-col">
+  <style>
+      /* Keeping your custom glitch/neo styles here just in case */
+      .neo-shadow { box-shadow: 4px 4px 0px 0px rgba(0,0,0,1); }
+      .font-retro { font-family: 'Courier New', Courier, monospace; }
+      
+      @keyframes blink { 50% { opacity: 0; } }
+      .blink { animation: blink 1s infinite; }
 
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b-4 border-black px-6 py-4 flex items-center justify-between">
+      /* Mobile Menu Animation */
+      #mobile-menu {
+          transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+          transform-origin: top;
+      }
+      .menu-hidden {
+          transform: scaleY(0);
+          opacity: 0;
+          pointer-events: none;
+      }
+      .menu-visible {
+          transform: scaleY(1);
+          opacity: 1;
+          pointer-events: auto;
+      }
+  </style>
+</head>
+<body class="min-h-screen bg-neutral-50 text-black selection:bg-pink-400 selection:text-white flex flex-col pt-[80px]"> 
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b-4 border-black px-6 py-4 flex items-center justify-between h-[80px]">
+      
       <div class="flex items-center gap-2">
           <div class="bg-yellow-400 p-2 border-2 border-black neo-shadow hover:rotate-12 transition-transform">
               <i data-lucide="graduation-cap" class="text-black w-6 h-6"></i>
           </div>
           <span class="text-2xl font-black tracking-tighter uppercase italic">Back<span class="text-yellow-500">.Benchers</span></span>
       </div>
+
       <div class="hidden md:flex items-center gap-8 font-bold">
           <a href="#" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Home</a>
-        <a href="movie.html" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Movie Suggestions</a>
+          <a href="movie.html" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Movie Suggestions</a>
           <a href="#selection-zone" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Resources</a>
-
+          
           <div class="flex items-center gap-2 border-2 border-black px-4 py-1 bg-zinc-100 font-mono text-xs shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
               <div class="w-3 h-3 bg-green-500 rounded-full border border-black blink"></div>
               <span>SYSTEM: ONLINE</span>
           </div>
       </div>
+
+      <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="md:hidden border-2 border-black p-2 hover:bg-yellow-400 transition-colors neo-shadow">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
   </nav>
 
-  <header class="pt-32 pb-12 px-6 bg-white flex flex-col items-center text-center relative overflow-hidden border-b-4 border-black">
+  <div id="mobile-menu" class="fixed top-[80px] left-0 right-0 bg-white border-b-4 border-black z-40 p-6 flex flex-col gap-4 menu-hidden shadow-[0px_10px_20px_rgba(0,0,0,0.2)]">
+      <a href="#" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Home</a>
+      <a href="movie.html" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Movie Suggestions</a>
+      <a href="#selection-zone" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Resources</a>
+      
+      <div class="flex items-center justify-center gap-2 border-2 border-black p-3 bg-zinc-100 font-mono text-sm mt-2">
+          <div class="w-3 h-3 bg-green-500 rounded-full border border-black blink"></div>
+          <span>SYSTEM: ONLINE</span>
+      </div>
+  </div>
+
+  <header class="pt-12 pb-12 px-6 bg-white flex flex-col items-center text-center relative overflow-hidden border-b-4 border-black">
     <div class="max-w-4xl z-10 relative">
       <div class="inline-block bg-zinc-900 text-white px-3 py-1 font-mono text-sm mb-4 border-2 border-black -rotate-2">STUDENT_EDITION</div>
       <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight glitch-hover cursor-default">
@@ -45,22 +81,27 @@
     </div>
   </header>
 
-  <div class="bg-yellow-400 border-b-4 border-black py-3 marquee-wrapper font-black italic text-lg tracking-widest uppercase">
-    <div class="marquee-content">//Currently Updated CSE & CSM 4-1 Subjects Only, More Subjects are to be Updated Soon. Please Cooperate.// Currently Updated CSE & CSM 4-1 Subjects Only, More Subjects are to be Updated Soon. Please Cooperate.//</div>
+  <div class="bg-yellow-400 border-b-4 border-black py-3 marquee-wrapper font-black italic text-lg tracking-widest uppercase overflow-hidden whitespace-nowrap">
+    <div class="marquee-content inline-block animate-[marquee_10s_linear_infinite]">//Currently Updated CSE & CSM 4-1 Subjects Only. More Subjects Soon.// Currently Updated CSE & CSM 4-1 Subjects Only. More Subjects Soon.//</div>
   </div>
 
   <div id="selection-zone" class="bg-zinc-50 flex-grow pb-20">
-    <section id="year-section" class="bg-black text-white py-12 px-6 border-b-4 border-black relative overflow-hidden scroll-mt-20">
+    <section id="year-section" class="bg-black text-white py-12 px-6 border-b-4 border-black relative overflow-hidden scroll-mt-24">
       <div class="max-w-7xl mx-auto relative z-10">
         <h2 class="text-2xl font-black mb-6 uppercase tracking-widest text-yellow-400 flex items-center gap-2">
           <span class="bg-yellow-400 text-black w-8 h-8 flex items-center justify-center border-2 border-white">1</span>
           Select Year
         </h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="year-container"></div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="year-container">
+            <button class="border-2 border-white p-4 font-bold hover:bg-yellow-400 hover:text-black transition-all">1st Year</button>
+            <button class="border-2 border-white p-4 font-bold hover:bg-yellow-400 hover:text-black transition-all">2nd Year</button>
+            <button class="border-2 border-white p-4 font-bold hover:bg-yellow-400 hover:text-black transition-all">3rd Year</button>
+            <button class="border-2 border-white p-4 font-bold hover:bg-yellow-400 hover:text-black transition-all">4th Year</button>
+        </div>
       </div>
     </section>
 
-    <section id="branch-section" class="py-12 px-6 max-w-7xl mx-auto hidden scroll-mt-20">
+    <section id="branch-section" class="py-12 px-6 max-w-7xl mx-auto hidden scroll-mt-24">
       <h2 class="text-2xl font-black mb-6 uppercase tracking-widest text-black flex items-center gap-2">
         <span class="bg-black text-white w-8 h-8 flex items-center justify-center border-2 border-black">2</span>
         Select Branch
@@ -68,7 +109,7 @@
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3" id="branch-container"></div>
     </section>
 
-    <section id="semester-section" class="py-8 px-6 max-w-7xl mx-auto hidden border-t-2 border-dashed border-gray-400 mt-8 scroll-mt-20">
+    <section id="semester-section" class="py-8 px-6 max-w-7xl mx-auto hidden border-t-2 border-dashed border-gray-400 mt-8 scroll-mt-24">
       <h2 class="text-2xl font-black mb-6 uppercase tracking-widest text-black flex items-center gap-2">
         <span class="bg-black text-white w-8 h-8 flex items-center justify-center border-2 border-black">3</span>
         Select Semester
@@ -79,7 +120,7 @@
       </div>
     </section>
 
-    <section id="resources-section" class="py-12 px-6 max-w-7xl mx-auto hidden border-t-4 border-black mt-8 bg-white relative scroll-mt-20">
+    <section id="resources-section" class="py-12 px-6 max-w-7xl mx-auto hidden border-t-4 border-black mt-8 bg-white relative scroll-mt-24">
       <div class="mb-8 p-4 bg-yellow-100 border-2 border-black font-bold flex flex-wrap gap-2 items-center shadow-[4px_4px_0px_0px_rgba(0,0,0,0.2)]">
         <i data-lucide="folder-open" class="w-5 h-5"></i>
         <span class="font-mono text-sm text-gray-600">PATH://</span>
@@ -121,43 +162,40 @@
           Back.Benchers is the ultimate open-source library for engineers. We provide free B.Tech student notes, verified syllabus copies, and high-quality PDFs without any paywalls.
         </p>
       </div>
-
-      <div class="flex flex-col gap-4">
-        <h3 class="font-black text-xl uppercase tracking-widest bg-black text-white inline-block px-2 py-1 w-max">Connect With Us</h3>
-        <div class="flex gap-4">
-          <button onclick="openSocialModal('instagram')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-pink-400 group"><i data-lucide="instagram" class="w-7 h-7 text-black group-hover:text-white"></i></button>
-          <button onclick="openSocialModal('linkedin')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-blue-400 group"><i data-lucide="linkedin" class="w-7 h-7 text-black group-hover:text-white"></i></button>
-          <button onclick="openSocialModal('github')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-white group"><i data-lucide="github" class="w-7 h-7 text-black"></i></button>
-        </div>
-      </div>
     </div>
-
     <div class="w-full bg-zinc-900 border-t-4 border-black py-8 text-center">
       <p class="font-retro text-xs md:text-lg text-white leading-loose">
-        DESIGNED & DEVELOPED BY <span class="text-yellow-400">NARENDRA YENAGANDULA</span> & <span class="text-cyan-400">MADHAN MYANA</span>
+        DESIGNED & DEVELOPED BY <span class="text-yellow-400">MADHAN MYANA</span> & <span class="text-cyan-400">NARENDRA YENAGANDULA</span>
       </p>
-    </div>
-
-    <div class="bg-black text-white py-6 text-center border-t-2 border-zinc-800">
-      <div class="font-mono text-sm tracking-widest">&copy; 2025 BACK.BENCHERS RESOURCES. OPEN SOURCE & FREE FOREVER.</div>
     </div>
   </footer>
 
-  <!-- Modal -->
-  <div id="social-modal" class="fixed inset-0 z-[100] flex items-center justify-center hidden">
-    <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeSocialModal()"></div>
-    <div class="relative bg-white border-4 border-black p-8 max-w-md w-full m-4 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] modal-enter">
-      <button onclick="closeSocialModal()" class="absolute top-4 right-4 border-2 border-black bg-white p-1"><i data-lucide="x" class="w-6 h-6"></i></button>
-      <div class="text-center mb-8">
-        <div id="modal-icon-container" class="inline-flex p-3 border-2 border-black mb-4"></div>
-        <h3 id="modal-title" class="text-2xl font-black uppercase italic"></h3>
-        <p class="font-mono text-xs text-gray-500 mt-2">SELECT A DEVELOPER TO CONNECT</p>
-      </div>
-      <div id="modal-links" class="space-y-4"></div>
-    </div>
-  </div>
+  <script>
+    // Initialize Icons
+    lucide.createIcons();
 
-  <!-- Local JS -->
+    // MOBILE MENU TOGGLE FUNCTION
+    function toggleMobileMenu() {
+        const menu = document.getElementById('mobile-menu');
+        const btnIcon = document.querySelector('#mobile-menu-btn i');
+        
+        if (menu.classList.contains('menu-hidden')) {
+            // Open Menu
+            menu.classList.remove('menu-hidden');
+            menu.classList.add('menu-visible');
+            // Change Icon to X
+            btnIcon.setAttribute('data-lucide', 'x');
+        } else {
+            // Close Menu
+            menu.classList.remove('menu-visible');
+            menu.classList.add('menu-hidden');
+            // Change Icon back to Menu
+            btnIcon.setAttribute('data-lucide', 'menu');
+        }
+        lucide.createIcons(); // Refresh icon to show X or Menu
+    }
+  </script>
+  
   <script src="script.js" defer></script>
 </body>
 </html>
