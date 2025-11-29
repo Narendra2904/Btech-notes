@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "Narendra Yenagandula", url: "https://github.com/Narendra2904", color: "hover:bg-gray-200" }
       ],
       instagram: [
-        { name: "Madhan Myana", url: "https://instagram.com/PUT_YOUR_INSTA_ID_HERE", color: "hover:bg-pink-400" },
+        { name: "Madhan Myana", url: "insta.html", color: "hover:bg-pink-400" },
         { name: "Narendra Yenagandula", url: "https://instagram.com/narendra_yenagandula", color: "hover:bg-pink-400" }
       ]
     };
