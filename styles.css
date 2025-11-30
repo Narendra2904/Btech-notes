@@ -27,3 +27,45 @@ body { font-family: 'Inter', sans-serif; }
 @media (max-width: 640px) {
   .marquee-content { animation-duration: 30s; }
 }
+/* Assuming your container class is .navbar or .header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white; /* or your background color */
+    flex-wrap: wrap; /* This allows items to drop to next line */
+}
+
+/* Mobile specific adjustments */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stacks items vertically on phone */
+        gap: 10px;
+    }
+    
+    /* Make the button full width on mobile for easier tapping */
+    .system-btn {
+        width: 100%; 
+        text-align: center;
+    }
+}
+/* 1. Define the animation */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* 2. Make sure the text doesn't wrap */
+.marquee-content {
+  white-space: nowrap; /* Forces text into one long line */
+  display: inline-block;
+}
+
+/* 3. CRITICAL: Hide the overflow on the parent */
+.marquee-wrapper {
+  overflow-x: hidden; /* Prevents the moving text from creating a horizontal scrollbar */
+  width: 100%;
+  position: relative;
+  background-color: #FACC15; /* Your yellow color */
+}

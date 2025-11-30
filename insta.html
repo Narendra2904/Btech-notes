@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Insta Bro</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 90%;
+            animation: popIn 0.5s ease-out;
+        }
+
+        .emoji {
+            font-size: 80px;
+            display: block;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            line-height: 1.2;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 0px #000;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #ff4757;
+            border: none;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: 0 5px 15px rgba(255, 71, 87, 0.4);
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #ff6b81;
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Animations */
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.5); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            50% { transform: translateX(10px); }
+            75% { transform: translateX(-10px); }
+            100% { transform: translateX(0); }
+        }
+
+        .shake-element {
+            animation: shake 0.5s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="emoji">🤷‍♂️📵</div>
+        <h1 id="main-text">Nak Instagram<br>Ledhu Bro</h1>
+        <p>Error 404: Social Life Not Found</p>
+        
+        <button class="btn" onclick="doubleCheck()">Double Check?</button>
+        <p id="response" style="font-size: 0.9rem; margin-top: 20px; min-height: 20px; color: #ffcccb;"></p>
+    </div>
+
+    <script>
+        const messages = [
+            "Still checking... Nope, still no Instagram.",
+            "Bro, seriously. I touch grass instead.",
+            "Searching database... 0 results found.",
+            "Stop pressing this, go like a tree instead.",
+            "Nijamgane ledhu bro! (Really, I don't have it!)"
+        ];
+
+        function doubleCheck() {
+            const btn = document.querySelector('.btn');
+            const mainText = document.getElementById('main-text');
+            const responseText = document.getElementById('response');
+            
+            // Add shake animation
+            mainText.classList.add('shake-element');
+            
+            // Remove shake class after animation so it can run again
+            setTimeout(() => {
+                mainText.classList.remove('shake-element');
+            }, 500);
+
+            // Pick a random funny message
+            const randomMsg = messages[Math.floor(Math.random() * messages.length)];
+            responseText.innerText = randomMsg;
+        }
+    </script>
+
+</body>
+</html>
