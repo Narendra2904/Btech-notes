@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BTechNotes</string>
+    <string name="title_activity_main">BTechNotes</string>
+    <string name="package_name">com.yourdomain.btechnotes</string>
+    <string name="custom_url_scheme">com.yourdomain.btechnotes</string>
+</resources>
