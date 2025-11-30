@@ -2,16 +2,14 @@
   "name": "btech-notes",
   "version": "1.0.0",
   "private": true,
-  "description": "B.Tech Notes - static site",
   "scripts": {
-    "build": "rm -rf www && mkdir -p www && cp -r index.html offline.html manifest.json styles.css script.js icons assets www/ || true",
-    "start": "npx http-server www -p 8080"
+    "build": "rm -rf www && mkdir www && cp -r index.html offline.html manifest.json styles.css script.js icons assets www/ || true",
+    "cap:sync": "npx cap sync"
+  },
+  "dependencies": {
+    "@capacitor/core": "6.1.2"
   },
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "@capacitor/cli": "6.1.2"
   }
-}
-"scripts": {
-  "build": "rm -rf www && mkdir -p www && cp -r index.html offline.html manifest.json styles.css script.js icons assets www/ || true",
-  "cap:sync": "npx cap sync --verbose"
 }
