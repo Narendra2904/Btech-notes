@@ -321,30 +321,7 @@
         }
     };
 
-    function openSocialModal(platform) {
-        const modal = document.getElementById('social-modal');
-        const data = socialData[platform];
-        
-        document.getElementById('modal-title').innerText = data.title;
-        const iconContainer = document.getElementById('modal-icon-container');
-        iconContainer.className = `inline-flex p-3 border-2 border-black mb-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] ${data.color}`;
-        iconContainer.innerHTML = `<i data-lucide="${data.icon}" class="w-8 h-8 text-black"></i>`;
-        
-        const linksContainer = document.getElementById('modal-links');
-        linksContainer.innerHTML = data.links.map(link => `
-            <a href="${link.url}" target="_blank" class="block border-2 border-black p-4 font-bold hover:bg-black hover:text-white hover:translate-x-1 hover:-translate-y-1 transition-all shadow-[4px_4px_0px_0px_rgba(0,0,0,0)] hover:shadow-[6px_6px_0px_0px_rgba(250,204,21,1)]">
-                ${link.name} <span class="float-right">→</span>
-            </a>
-        `).join('');
-
-        modal.classList.remove('hidden');
-        lucide.createIcons();
-    }
-
-    function closeSocialModal() {
-        document.getElementById('social-modal').classList.add('hidden');
-    }
-  </script>
+    
   
   <script src="script.js"></script>
   
