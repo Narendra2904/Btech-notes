@@ -1,0 +1,13 @@
+{
+  "name": "btech-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "B.Tech Notes - static site",
+  "scripts": {
+    "build": "rm -rf www && mkdir -p www && cp -r index.html offline.html manifest.json styles.css script.js icons assets www/ || true",
+    "start": "npx http-server www -p 8080"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
