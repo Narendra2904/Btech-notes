@@ -212,7 +212,11 @@ const manifest = {
         { title: 'Web and Social Media analytics', file: 'WSMA.pdf', syllabus: 'WSMA_Syllabus.pdf' },
         { title: 'Remote Sensing & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' },
         { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
-        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' }
+        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' },
+        { title: 'Compiler Design', file: 'CD.pdf', syllabus: 'CD_Syllabus.pdf' },
+        { title: 'Electronic Sensors', file: 'ES.pdf', syllabus: 'ES_Syllabus.pdf' },
+        { title: 'Design Drawing And Visualization', file: 'DDV.pdf', syllabus: 'DDV_Syllabus.pdf' },
+        { title: 'Agile Methodology', file: 'AM.pdf', syllabus: 'AM_Syllabus.pdf' }
       ],
       2: [ 
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
