@@ -118,12 +118,266 @@ const manifest = {
     },
   },
   "ECE": {
-    1: {
-      1: [
+    1: { // Year 1
+      1: [ 
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
-        { title: 'Network Analysis', file: 'NA.pdf', syllabus: 'NA_Syllabus.pdf' }
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    }
+    },
+    2: { // Year 2
+      1: [ 
+        { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
+        { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
+      ], 
+      2: [] 
+    },
+    3: { // Year 3
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    4: { // Year 4
+      1: [ 
+        { title: 'MicroWave and Optical Communications', file: 'MWOC.pdf', syllabus: 'MWOC_Syllabus.pdf' },
+        { title: 'Professional Practice, Law & Ethics', file: 'PPLE.pdf', syllabus: 'PPLE_Syllabus.pdf' },
+        { title: 'Software Engineering', file: 'SE.pdf', syllabus: 'SE_Syllabus.pdf' },
+        { title: 'Radar Systems', file: 'RS.pdf', syllabus: 'RS_Syllabus.pdf' },
+        { title: 'Satellite Communication', file: 'SC.pdf', syllabus: 'SC_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+  },
+  "CSD": {
+    1: { // Year 1
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    2: { // Year 2
+      1: [ 
+        { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
+        { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
+      ], 
+      2: [] 
+    },
+    3: { // Year 3
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    4: { // Year 4
+      1: [ 
+        { title: 'Predictive Analytics', file: 'PA.pdf', syllabus: 'PA_Syllabus.pdf' },
+        { title: 'Web and Social Media analytics', file: 'WSMA.pdf', syllabus: 'WSMA_Syllabus.pdf' },
+        { title: 'Remote Sensing & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' },
+        { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
+        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+  },
+  "EEE": {
+    1: { // Year 1
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    2: { // Year 2
+      1: [ 
+        { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
+        { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
+      ], 
+      2: [] 
+    },
+    3: { // Year 3
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    4: { // Year 4
+      1: [ 
+        { title: 'Power Electric Applications to renewable Energy Systems', file: 'PEA.pdf', syllabus: 'PEA_Syllabus.pdf' },
+        { title: 'Fundamentals of Management for Engineers', file: 'FME.pdf', syllabus: 'FME_Syllabus.pdf' },
+        { title: 'Software Engineerings', file: 'SE.pdf', syllabus: 'SE_Syllabus.pdf' },
+        { title: 'Electric and Hybrid Vehicles', file: 'EHV.pdf', syllabus: 'EHV_Syllabus.pdf' },
+        { title: 'HVDC Transmission', file: 'HVDC.pdf', syllabus: 'HVDC_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+  },
+  "CIV": {
+    1: { // Year 1
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    2: { // Year 2
+      1: [ 
+        { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
+        { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
+      ], 
+      2: [] 
+    },
+    3: { // Year 3
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    4: { // Year 4
+      1: [ 
+        { title: 'Quantum Survey and Valuation', file: 'QSV.pdf', syllabus: 'QSV_Syllabus.pdf' },
+        { title: 'Project Management', file: 'PM.pdf', syllabus: 'PM_Syllabus.pdf' },
+        { title: 'Software Engineering', file: 'SE.pdf', syllabus: 'SE_Syllabus.pdf' },
+        { title: 'Prestressed Concrete', file: 'PC.pdf', syllabus: 'PC_Syllabus.pdf' },
+        { title: 'Ground Improvement Techniques', file: 'GIT.pdf', syllabus: 'GIT_Syllabus.pdf' },
+        { title: 'Ground Water Hydrology', file: 'GWH.pdf', syllabus: 'GWH_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+  },
+  "MECH": {
+    1: { // Year 1
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    2: { // Year 2
+      1: [ 
+        { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
+        { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
+      ], 
+      2: [] 
+    },
+    3: { // Year 3
+      1: [ 
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
+    4: { // Year 4
+      1: [ 
+        { title: 'Industrial Management', file: 'IM.pdf', syllabus: 'IM_Syllabus.pdf' },
+        { title: 'refrigerator & Air Conditioning', file: 'RAC.pdf', syllabus: 'RAC_Syllabus.pdf' },
+        { title: 'Software Engineering', file: 'SE.pdf', syllabus: 'SE_Syllabus.pdf' },
+        { title: 'Automation in Manufacturing', file: 'AIM.pdf', syllabus: 'AIM_Syllabus.pdf' },
+        { title: 'Automobile Engineering', file: 'AM.pdf', syllabus: 'AM_Syllabus.pdf' },
+        { title: 'Fluid Power System', file: 'FPS.pdf', syllabus: 'FPS_Syllabus.pdf' }
+      ],
+      2: [ 
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+      ]
+    },
   }
 };
 
