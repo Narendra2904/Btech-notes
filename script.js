@@ -1,3 +1,4 @@
+
 // script.js - COMPLETE: SEPARATE SYLLABUS + BREADCRUMBS + ALL SOCIAL LINKS
 
 // --- 1. CONFIGURATION ---
@@ -694,3 +695,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (window.lucide) window.lucide.createIcons();
 });
+// ... existing code ...
+
+// --- 10. FEEDBACK FORM HANDLER ---
+window.handleFeedback = function(e) {
+  e.preventDefault();
+  const text = document.getElementById('feedback-text').value;
+  
+  if(!text) return;
+
+  const subject = "Website Feedback: Back.Benchers";
+  // Replace this email with the primary developer email
+  const emailTo = "yenagandula.narendra@gmail.com"; 
+  
+  // Create mailto link
+  const mailtoLink = `mailto:${emailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+  
+  // Open email client
+  window.location.href = mailtoLink;
+  
+  // UI Feedback (Optional: clear the box)
+  document.getElementById('feedback-text').value = '';
+  alert("Opening your email client to send feedback!");
+};
