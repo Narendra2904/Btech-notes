@@ -521,7 +521,7 @@ function createSubjectFolderDOM(subject) {
       </div>
       <div class="flex items-center gap-2">
         ${sylLink}
-        <a class="text-sm underline open-subject-pdf hidden md:block" target="_blank" rel="noopener noreferrer">Full PDF</a>
+        <a class="text-sm underline open-subject-pdf hidden md:block" target="_blank" rel="noopener noreferrer"></a>
         <button class="toggle-units px-4 py-2 border-2 border-black bg-yellow-300 hover:bg-yellow-400 font-bold text-sm uppercase transition-colors">Open Folder</button>
       </div>
     </div>
