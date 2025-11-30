@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="manifest" href="/manifest.json" />
+<meta name="theme-color" content="#0d6efd" />
+<link rel="icon" href="/icons/icon-192.png" sizes="192x192" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Back.Benchers - B.Tech Resources</title>
 <link rel="icon" href="cropped.jpg"  />
   <script src="https://cdn.tailwindcss.com"></script>
+<script defer src="https://btech-notes.vercel.app/_vercel/insights/script.js"></script>
 
   <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -320,6 +328,7 @@
         }
     };
 
+<<<<<<< HEAD
     function openSocialModal(platform) {
         const modal = document.getElementById('social-modal');
         const data = socialData[platform];
@@ -346,6 +355,59 @@
   </script>
   
   <script src="script.js"></script>
+=======
+  function toggleMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    const btnIcon = document.querySelector('#mobile-menu-btn i');
+        
+    if (menu.classList.contains('menu-hidden')) {
+        menu.classList.remove('menu-hidden');
+        menu.classList.add('menu-visible');
+        btnIcon.setAttribute('data-lucide', 'x');
+    } else {
+        menu.classList.remove('menu-visible');
+        menu.classList.add('menu-hidden');
+        btnIcon.setAttribute('data-lucide', 'menu');
+    }
+    lucide.createIcons();
+}
+
+
+
+    
+  </script>
+  
+  <script src="script.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('ServiceWorker registered. Scope:', reg.scope))
+        .catch(err => console.warn('SW failed:', err));
+    });
+  }
+
+  let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  // show a small "Install" button or notification in your UI
+  const installBtn = document.createElement('button');
+  installBtn.textContent = 'Install app';
+  installBtn.style.position='fixed';
+  installBtn.style.bottom='16px';
+  installBtn.style.right='16px';
+  document.body.appendChild(installBtn);
+  installBtn.addEventListener('click', async () => {
+    deferredPrompt.prompt();
+    const choice = await deferredPrompt.userChoice;
+    deferredPrompt = null;
+    installBtn.remove();
+  });
+});
+
+</script>
+>>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
   
 </body>
 </html>

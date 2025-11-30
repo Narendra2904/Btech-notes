@@ -171,10 +171,14 @@ const manifest = {
     },
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "CSE(DS)": {
 =======
   "CSD": {
 >>>>>>> bf34413 (Rename folder sem → sem1)
+=======
+  "CSE(DS)": {
+>>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
     1: { // Year 1
       1: [ 
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
@@ -217,8 +221,12 @@ const manifest = {
         { title: 'Remote Sensing & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' },
         { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
 <<<<<<< HEAD
+<<<<<<< HEAD
         { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' },
         
+=======
+        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' }
+>>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
       ],
       2: [ 
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
@@ -228,7 +236,11 @@ const manifest = {
       ]
     },
   },
+<<<<<<< HEAD
   "CSE(Design)": {
+=======
+   "CSE(Design)": {
+>>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
     1: { // Year 1
       1: [ 
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
@@ -266,6 +278,7 @@ const manifest = {
     },
     4: { // Year 4
       1: [ 
+<<<<<<< HEAD
         { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
         { title: 'Compiler Design', file: 'CD.pdf', syllabus: 'CD_Syllabus.pdf' },
         { title: 'Design Drawing and Visualization', file: 'DDV.pdf', syllabus: 'DDV_Syllabus.pdf' },
@@ -275,6 +288,13 @@ const manifest = {
 =======
         { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' }
 >>>>>>> bf34413 (Rename folder sem → sem1)
+=======
+        { title: 'Compiler Design', file: 'CD.pdf', syllabus: 'CD_Syllabus.pdf' },
+        { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
+        { title: 'Electronic Sensors', file: 'ES.pdf', syllabus: 'ES_Syllabus.pdf' },
+        { title: 'Design Drawing and Visualization', file: 'DDV.pdf', syllabus: 'DDV_Syllabus.pdf' },
+        { title: 'Agile Methodology', file: 'AM.pdf', syllabus: 'AM_Syllabus.pdf' }
+>>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
       ],
       2: [ 
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
@@ -531,7 +551,7 @@ function createSubjectFolderDOM(subject) {
       </div>
       <div class="flex items-center gap-2">
         ${sylLink}
-        <a class="text-sm underline open-subject-pdf hidden md:block" target="_blank" rel="noopener noreferrer">Full PDF</a>
+        <a class="text-sm underline open-subject-pdf hidden md:block" target="_blank" rel="noopener noreferrer"></a>
         <button class="toggle-units px-4 py-2 border-2 border-black bg-yellow-300 hover:bg-yellow-400 font-bold text-sm uppercase transition-colors">Open Folder</button>
       </div>
     </div>
@@ -780,7 +800,11 @@ window.handleFeedback = function(e) {
   document.getElementById('feedback-text').value = '';
   alert("Opening your email client to send feedback!");
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
 };
 >>>>>>> bf34413 (Rename folder sem → sem1)
+=======
+};
+>>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
