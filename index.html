@@ -358,6 +358,26 @@
         .catch(err => console.warn('SW failed:', err));
     });
   }
+
+  let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  // show a small "Install" button or notification in your UI
+  const installBtn = document.createElement('button');
+  installBtn.textContent = 'Install app';
+  installBtn.style.position='fixed';
+  installBtn.style.bottom='16px';
+  installBtn.style.right='16px';
+  document.body.appendChild(installBtn);
+  installBtn.addEventListener('click', async () => {
+    deferredPrompt.prompt();
+    const choice = await deferredPrompt.userChoice;
+    deferredPrompt = null;
+    installBtn.remove();
+  });
+});
+
 </script>
   
 </body>
