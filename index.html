@@ -185,7 +185,7 @@
   <footer class="bg-white border-t-4 border-black relative z-10 mt-auto">
     <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col lg:flex-row justify-between gap-12">
       
-      <div class="max-w-lg space-y-6">
+      <div class="max-w-sm space-y-6">
         <div class="flex items-center gap-2">
           <div class="bg-black p-2">
             <i data-lucide="graduation-cap" class="text-white w-6 h-6"></i>
@@ -193,34 +193,58 @@
           <span class="text-3xl font-black uppercase italic tracking-tighter">Back<span class="bg-yellow-400 px-1">.Benchers</span></span>
         </div>
         <p class="text-lg font-medium text-gray-800 border-l-4 border-yellow-400 pl-4">
-          Back.Benchers is the ultimate open-source library for engineers. We provide free B.Tech student notes, verified syllabus copies, and high-quality PDFs without any paywalls.
+          The ultimate open-source library for engineers. Free notes, syllabus copies, and high-quality resources.
         </p>
       </div>
 
-      <div class="flex flex-col gap-4">
-        <h3 class="font-black text-xl uppercase tracking-widest bg-black text-white inline-block px-2 py-1 w-max">Connect With Us</h3>
-        <div class="flex gap-4">
-          <button onclick="openSocialModal('instagram')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-pink-400 hover:bg-black group transition-colors">
-            <i data-lucide="instagram" class="w-7 h-7 text-black group-hover:text-white"></i>
-          </button>
-          <button onclick="openSocialModal('linkedin')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-blue-400 hover:bg-black group transition-colors">
-            <i data-lucide="linkedin" class="w-7 h-7 text-black group-hover:text-white"></i>
-          </button>
-          <button onclick="openSocialModal('github')" class="w-14 h-14 flex items-center justify-center border-2 border-black bg-white hover:bg-black group transition-colors">
-            <i data-lucide="github" class="w-7 h-7 text-black group-hover:text-white"></i>
-          </button>
+      <div class="flex flex-col gap-6">
+        
+        <div>
+            <h3 class="font-black text-xl uppercase tracking-widest bg-black text-white inline-block px-2 py-1 mb-4">Connect</h3>
+            <div class="flex gap-4">
+            <button onclick="openSocialModal('instagram')" class="w-12 h-12 flex items-center justify-center border-2 border-black bg-pink-400 hover:bg-black group transition-colors shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-none">
+                <i data-lucide="instagram" class="w-6 h-6 text-black group-hover:text-white"></i>
+            </button>
+            <button onclick="openSocialModal('linkedin')" class="w-12 h-12 flex items-center justify-center border-2 border-black bg-blue-400 hover:bg-black group transition-colors shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-none">
+                <i data-lucide="linkedin" class="w-6 h-6 text-black group-hover:text-white"></i>
+            </button>
+            <button onclick="openSocialModal('github')" class="w-12 h-12 flex items-center justify-center border-2 border-black bg-white hover:bg-black group transition-colors shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-none">
+                <i data-lucide="github" class="w-6 h-6 text-black group-hover:text-white"></i>
+            </button>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="font-black text-xl uppercase tracking-widest bg-black text-white inline-block px-2 py-1 mb-4">Email Us</h3>
+            <a href="mailto:yenagandula.narendra@gmail.com" class="flex items-center gap-3 border-2 border-black p-3 bg-white hover:bg-yellow-400 transition-colors group neo-shadow w-max">
+                <i data-lucide="mail" class="w-5 h-5 group-hover:rotate-12 transition-transform"></i>
+                <span class="font-bold font-mono text-sm">yenagandula.narendra@gmail.com</span>
+            </a>
         </div>
       </div>
+
+      <div class="max-w-md w-full">
+        <h3 class="font-black text-xl uppercase tracking-widest bg-yellow-400 text-black inline-block px-2 py-1 mb-4 border-2 border-black transform -rotate-1">
+            Report Bug / Feedback
+        </h3>
+        <form id="feedback-form" class="bg-white border-2 border-black p-4 neo-shadow relative" onsubmit="handleFeedback(event)">
+            <textarea id="feedback-text" required class="w-full bg-zinc-100 border-2 border-black p-2 font-mono text-sm focus:outline-none focus:bg-yellow-50 mb-3 h-24 resize-none placeholder-gray-500" placeholder="Missing a subject? Link broken? Tell us here..."></textarea>
+            <button type="submit" class="w-full bg-black text-white font-bold py-2 border-2 border-transparent hover:bg-white hover:text-black hover:border-black transition-all uppercase tracking-widest text-sm flex items-center justify-center gap-2">
+                Send Feedback <i data-lucide="send" class="w-4 h-4"></i>
+            </button>
+        </form>
+      </div>
+
     </div>
 
     <div class="w-full bg-zinc-900 border-t-4 border-black py-8 text-center">
-      <p class="font-mono text-xs md:text-lg text-white leading-loose">
+      <p class="font-mono text-xs md:text-sm text-white leading-loose px-4">
         DESIGNED & DEVELOPED BY <span class="text-yellow-400">NARENDRA YENAGANDULA</span> & <span class="text-cyan-400">MADHAN MYANA</span>
       </p>
     </div>
-
-    <div class="bg-black text-white py-6 text-center border-t-2 border-zinc-800">
-      <div class="font-mono text-sm tracking-widest">&copy; 2025 BACK.BENCHERS RESOURCES. OPEN SOURCE & FREE FOREVER.</div>
+    
+    <div class="bg-black text-white py-4 text-center border-t-2 border-zinc-800">
+      <div class="font-mono text-[10px] tracking-widest opacity-60">&copy; 2025 BACK.BENCHERS RESOURCES. OPEN SOURCE.</div>
     </div>
   </footer>
 
