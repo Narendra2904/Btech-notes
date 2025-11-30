@@ -8,7 +8,10 @@
     "cap:sync": "npx cap sync"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@capacitor/android": "^7.4.4",
+=======
+>>>>>>> 8f2d3c893dae8c147608d33a98c66cc74ec7dfc6
     "@capacitor/core": "7.4.0"
   },
   "devDependencies": {
