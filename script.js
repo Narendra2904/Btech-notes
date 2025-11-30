@@ -9,7 +9,7 @@ const years = [
   { id: 4, label: '4th Year' }
 ];
 
-const branches = ['CSE', 'CSM', 'CSD', 'ECE', 'EEE', 'CIV', 'MECH'];
+const branches = ['CSE', 'CSE(AIML)', 'CSE(DS)','CSE(Design)', 'ECE', 'EEE', 'CIV', 'MECH'];
 
 // --- 2. MANIFEST ---
 const manifest = {
