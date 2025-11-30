@@ -170,7 +170,11 @@ const manifest = {
       ]
     },
   },
+<<<<<<< HEAD
   "CSE(DS)": {
+=======
+  "CSD": {
+>>>>>>> bf34413 (Rename folder sem → sem1)
     1: { // Year 1
       1: [ 
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
@@ -212,6 +216,7 @@ const manifest = {
         { title: 'Web and Social Media analytics', file: 'WSMA.pdf', syllabus: 'WSMA_Syllabus.pdf' },
         { title: 'Remote Sensing & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' },
         { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
+<<<<<<< HEAD
         { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' },
         
       ],
@@ -267,6 +272,9 @@ const manifest = {
         { title: 'Electronic Sensors', file: 'ES.pdf', syllabus: 'ES_Syllabus.pdf' },
         { title: 'Agile Methodology', file: 'AM.pdf', syllabus: 'AM_Syllabus.pdf' },
         
+=======
+        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' }
+>>>>>>> bf34413 (Rename folder sem → sem1)
       ],
       2: [ 
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
@@ -771,4 +779,8 @@ window.handleFeedback = function(e) {
   // UI Feedback (Optional: clear the box)
   document.getElementById('feedback-text').value = '';
   alert("Opening your email client to send feedback!");
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> bf34413 (Rename folder sem → sem1)
