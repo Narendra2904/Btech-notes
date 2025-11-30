@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "rm -rf www && mkdir www && cp -r index.html offline.html manifest.json styles.css script.js icons assets www/ || true",
+    "build": "node scripts/build.js",
     "cap:sync": "npx cap sync"
   },
   "dependencies": {
-    "@capacitor/core": "6.1.2"
+    "@capacitor/core": "6.1.2",
+    "fs-extra": "^11.1.1"
   },
   "devDependencies": {
     "@capacitor/cli": "6.1.2"
