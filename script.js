@@ -705,14 +705,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- SOCIAL MODAL LOGIC (UPDATED WITH ALL LINKS) ---
-  window.openSocialModal = (type) => {
-    const modal = document.getElementById('social-modal');
-    const title = document.getElementById('modal-title');
-    const links = document.getElementById('modal-links');
-    if(!modal) return;
+  //window.openSocialModal = (type) => {
+    //const modal = document.getElementById('social-modal');
+    //const title = document.getElementById('modal-title');
+    //const links = document.getElementById('modal-links');
+    //if(!modal) return;
     
-    modal.classList.remove('hidden');
-    title.textContent = `CONNECT ON ${type.toUpperCase()}`;
+    //modal.classList.remove('hidden');
+    //title.textContent = `CONNECT ON ${type.toUpperCase()}`;
     
     // --- EDIT YOUR LINKS HERE ---
     const socialData = {
