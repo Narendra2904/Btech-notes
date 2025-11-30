@@ -321,46 +321,22 @@
         }
     };
 
-  // <-- remove this whole script block (mobile menu + socialData + openSocialModal)
-  // 1. Initialize Icons
-  lucide.createIcons();
-
-  // 2. Mobile Menu Logic
-  // 2. Mobile Menu Logic (REPLACEMENT)
-function toggleMobileMenu() {
-  const menu = document.getElementById("mobile-menu");
-  const btnIcon = document.querySelector('#mobile-menu-btn i');
-
-  // If menu element missing, bail
-  if (!menu || !btnIcon) return;
-
-  const isHidden = menu.classList.contains("menu-hidden");
-
-  if (isHidden) {
-    menu.classList.remove("menu-hidden");
-    menu.classList.add("menu-visible");
-    btnIcon.setAttribute("data-lucide", "x");
-    // ensure mobile menu receives focus for accessibility
-    menu.setAttribute('aria-hidden', 'false');
-    menu.focus?.();
-  } else {
-    menu.classList.remove("menu-visible");
-    menu.classList.add("menu-hidden");
-    btnIcon.setAttribute("data-lucide", "menu");
-    menu.setAttribute('aria-hidden', 'true');
-  }
-
-  // Re-render lucide icons safely
-  if (window.lucide && typeof window.lucide.createIcons === 'function') {
-    window.lucide.createIcons();
-  }
+  function toggleMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    const btnIcon = document.querySelector('#mobile-menu-btn i');
+        
+    if (menu.classList.contains('menu-hidden')) {
+        menu.classList.remove('menu-hidden');
+        menu.classList.add('menu-visible');
+        btnIcon.setAttribute('data-lucide', 'x');
+    } else {
+        menu.classList.remove('menu-visible');
+        menu.classList.add('menu-hidden');
+        btnIcon.setAttribute('data-lucide', 'menu');
+    }
+    lucide.createIcons();
 }
 
-
-  // 3. Social Modal Logic
-  const socialData = { ... };
-  function openSocialModal(platform) { ... }
-  function closeSocialModal() { ... }
 
 
     
