@@ -107,7 +107,7 @@ const manifest = {
         { title: 'Scripting Languages', file: 'SL.pdf', syllabus: 'SL_Syllabus.pdf' },
         { title: 'Mobile Computing', file: 'MC.pdf', syllabus: 'MC_Syllabus.pdf' },
         { title: 'Deep Learning', file: 'DL.pdf', syllabus: 'DL_Syllabus.pdf' },
-        { title: 'Remote sendong & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' }
+        { title: 'Remote sensing & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' }
       ],
       2: [ 
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
