@@ -712,7 +712,7 @@ document.addEventListener('DOMContentLoaded', () => {
         icon: "instagram",
         color: "bg-pink-400",
         links: [
-          { name: "Madhan Myana", url: "https://instagram.com/madhan_myana" },
+          { name: "Madhan Myana", url: "insta.html" },
           { name: "Narendra Yenagandula", url: "https://instagram.com/narendra_yenagandula" }
         ]
       },
@@ -721,8 +721,8 @@ document.addEventListener('DOMContentLoaded', () => {
         icon: "linkedin",
         color: "bg-blue-400",
         links: [
-          { name: "Madhan Myana", url: "https://linkedin.com/in/madhanmyana" },
-          { name: "Narendra Yenagandula", url: "https://linkedin.com/in/narendrayenagandula" }
+          { name: "Madhan Myana", url: "https://www.linkedin.com/in/madhan-myana-7ab90a335/" },
+          { name: "Narendra Yenagandula", url: "https://www.linkedin.com/in/narendra-yenagandula/" }
         ]
       },
       github: {
