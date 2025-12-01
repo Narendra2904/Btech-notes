@@ -384,7 +384,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   const openNewTabLink = document.getElementById('upload-open-newtab');
 
   function openUploadFormModal() {
-    if (!uploadFormLink || uploadFormLink.includes('YOUR_GOOGLE_FORM')) {
+    if (!uploadFormLink || uploadFormLink.includes('https://forms.gle/4d5tx9yPAxjvVaAaA')) {
       // If not configured, fallback to opening mailto or alert
       alert('Upload form link not set. Replace uploadFormLink in script with your Google Form URL.');
       return;
