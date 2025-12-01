@@ -375,7 +375,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 </div>
 <script>
   // === CONFIG: put your Google Form link here ===
-  const uploadFormLink = 'https://forms.gle/4d5tx9yPAxjvVaAaA';
+  const uploadFormLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdyhwnkesWqKMJAcqa1206lK1QgJv0eFweXwMYt76IyT8s4lw/viewform?usp=dialog';
 
   // Elements
   const uploadBtn = document.getElementById('upload-form-btn');
@@ -384,7 +384,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   const openNewTabLink = document.getElementById('upload-open-newtab');
 
   function openUploadFormModal() {
-    if (!uploadFormLink || uploadFormLink.includes('https://forms.gle/4d5tx9yPAxjvVaAaA')) {
+    if (!uploadFormLink || uploadFormLink.includes('https://docs.google.com/forms/d/e/1FAIpQLSdyhwnkesWqKMJAcqa1206lK1QgJv0eFweXwMYt76IyT8s4lw/viewform?usp=dialog')) {
       // If not configured, fallback to opening mailto or alert
       alert('Upload form link not set. Replace uploadFormLink in script with your Google Form URL.');
       return;
