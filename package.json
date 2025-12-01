@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "ionic": "5.0.0",
-    "@capacitor/android": "6.0.0",
-    "other-package": "1.0.0"
-  }
-}
