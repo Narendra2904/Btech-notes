@@ -84,15 +84,24 @@
       </div>
 
       <div class="hidden md:flex items-center gap-8 font-bold">
-          <a href="#" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Home</a>
-          <a href="movie.html" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Movie Suggestions</a>
-          <a href="#selection-zone" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Resources</a>
-          
-          <div class="flex items-center gap-2 border-2 border-black px-4 py-1 bg-zinc-100 font-mono text-xs shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-              <div class="w-3 h-3 bg-green-500 rounded-full border border-black blink"></div>
-              <span>SYSTEM: ONLINE</span>
-          </div>
-      </div>
+    <a href="#" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Home</a>
+
+    <!-- NEW: View Results link -->
+    <a href="results.html" class="hover:bg-black hover:text-white px-2 py-1 transition-all text-sm">
+        View Results
+    </a>
+    <!-- Change href to your real results URL if you have one -->
+    <!-- Example: href="https://results.jntuh.ac.in/" -->
+
+    <a href="movie.html" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Movie Suggestions</a>
+    <a href="#selection-zone" class="hover:bg-black hover:text-white px-2 py-1 transition-all">Resources</a>
+    
+    <div class="flex items-center gap-2 border-2 border-black px-4 py-1 bg-zinc-100 font-mono text-xs shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+        <div class="w-3 h-3 bg-green-500 rounded-full border border-black blink"></div>
+        <span>SYSTEM: ONLINE</span>
+    </div>
+</div>
+
 
       <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="md:hidden border-2 border-black p-2 hover:bg-yellow-400 transition-colors neo-shadow bg-white">
           <i data-lucide="menu" class="w-6 h-6"></i>
@@ -100,15 +109,23 @@
   </nav>
 
   <div id="mobile-menu" class="fixed top-[80px] left-0 right-0 bg-white border-b-4 border-black z-40 p-6 flex flex-col gap-4 menu-hidden shadow-[0px_10px_20px_rgba(0,0,0,0.2)]">
-      <a href="#" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Home</a>
-      <a href="movie.html" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Movie Suggestions</a>
-      <a href="#selection-zone" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Resources</a>
-      
-      <div class="flex items-center justify-center gap-2 border-2 border-black p-3 bg-zinc-100 font-mono text-sm mt-2">
-          <div class="w-3 h-3 bg-green-500 rounded-full border border-black blink"></div>
-          <span>SYSTEM: ONLINE</span>
-      </div>
-  </div>
+    <a href="#" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Home</a>
+
+    <!-- NEW: View Results link -->
+    <a href="results.html" onclick="toggleMobileMenu()" class="text-lg font-semibold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">
+        View Results
+    </a>
+    <!-- Again, change href to your final results URL -->
+
+    <a href="movie.html" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Movie Suggestions</a>
+    <a href="#selection-zone" onclick="toggleMobileMenu()" class="text-xl font-bold border-2 border-black p-3 hover:bg-yellow-400 text-center transition-all">Resources</a>
+    
+    <div class="flex items-center justify-center gap-2 border-2 border-black p-3 bg-zinc-100 font-mono text-sm mt-2">
+        <div class="w-3 h-3 bg-green-500 rounded-full border border-black blink"></div>
+        <span>SYSTEM: ONLINE</span>
+    </div>
+</div>
+
 
   <header class="pt-12 pb-12 px-6 bg-white flex flex-col items-center text-center relative overflow-hidden border-b-4 border-black">
     <div class="max-w-4xl z-10 relative">
