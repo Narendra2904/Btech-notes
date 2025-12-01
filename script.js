@@ -1,6 +1,4 @@
-
-// script.js - COMPLETE: SEPARATE SYLLABUS + BREADCRUMBS + ALL SOCIAL LINKS
-
+// script.js (cleaned, full)
 // --- 1. CONFIGURATION ---
 const years = [
   { id: 1, label: '1st Year' },
@@ -14,95 +12,95 @@ const branches = ['CSE', 'CSE(AIML)', 'CSE(DS)','CSE(Design)', 'ECE', 'EEE', 'CI
 // --- 2. MANIFEST ---
 const manifest = {
   "CSE": {
-    1: { // Year 1
-      1: [ // Semester 1
+    1: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ // Semester 2
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    2: { // Year 2
-      1: [ // Semester 1
+    2: {
+      1: [
         { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
         { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
-      ], 
-      2: [] 
+      ],
+      2: []
     },
-    3: { // Year 3
-      1: [ 
+    3: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    4: { // Year 4
-      1: [ 
+    4: {
+      1: [
         { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
         { title: 'Software Process and Project Management', file: 'SPPM.pdf', syllabus: 'SPPM_Syllabus.pdf' },
         { title: 'Cryptography amd Network Security', file: 'CNS.pdf', syllabus: 'CNS_Syllabus.pdf' },
         { title: 'Compiler Design', file: 'CD.pdf', syllabus: 'CD_Syllabus.pdf' },
         { title: 'UTILIZATION OF ELECTRIC ENERGY', file: 'UEE.pdf', syllabus: 'UEE_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    },
+    }
   },
   "CSE(AIML)": {
-    1: { // Year 1
-      1: [ 
+    1: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    2: { // Year 2
-      1: [ 
+    2: {
+      1: [
         { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
         { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
-      ], 
-      2: [] 
+      ],
+      2: []
     },
-    3: { // Year 3
-      1: [ 
+    3: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    4: { // Year 4
-      1: [ 
+    4: {
+      1: [
         { title: 'Profession practice, Law & Ethics ', file: 'PPLE.pdf', syllabus: 'PPLE_Syllabus.pdf' },
         { title: 'Nature Inspired Computing', file: 'NIC.pdf', syllabus: 'NIC_Syllabus.pdf' },
         { title: 'Scripting Languages', file: 'SL.pdf', syllabus: 'SL_Syllabus.pdf' },
@@ -110,290 +108,260 @@ const manifest = {
         { title: 'Deep Learning', file: 'DL.pdf', syllabus: 'DL_Syllabus.pdf' },
         { title: 'Remote sensing & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    },
+    }
   },
   "ECE": {
-    1: { // Year 1
-      1: [ 
+    1: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    2: { // Year 2
-      1: [ 
+    2: {
+      1: [
         { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
         { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
-      ], 
-      2: [] 
+      ],
+      2: []
     },
-    3: { // Year 3
-      1: [ 
+    3: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    4: { // Year 4
-      1: [ 
+    4: {
+      1: [
         { title: 'MicroWave and Optical Communications', file: 'MWOC.pdf', syllabus: 'MWOC_Syllabus.pdf' },
         { title: 'Professional Practice, Law & Ethics', file: 'PPLE.pdf', syllabus: 'PPLE_Syllabus.pdf' },
         { title: 'Software Engineering', file: 'SE.pdf', syllabus: 'SE_Syllabus.pdf' },
         { title: 'Radar Systems', file: 'RS.pdf', syllabus: 'RS_Syllabus.pdf' },
         { title: 'Satellite Communication', file: 'SC.pdf', syllabus: 'SC_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    },
+    }
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
   "CSE(DS)": {
-=======
-  "CSD": {
->>>>>>> bf34413 (Rename folder sem → sem1)
-=======
-  "CSE(DS)": {
->>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
-    1: { // Year 1
-      1: [ 
+    1: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    2: { // Year 2
-      1: [ 
+    2: {
+      1: [
         { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
         { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
-      ], 
-      2: [] 
+      ],
+      2: []
     },
-    3: { // Year 3
-      1: [ 
+    3: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    4: { // Year 4
-      1: [ 
+    4: {
+      1: [
         { title: 'Predictive Analytics', file: 'PA.pdf', syllabus: 'PA_Syllabus.pdf' },
         { title: 'Web and Social Media analytics', file: 'WSMA.pdf', syllabus: 'WSMA_Syllabus.pdf' },
         { title: 'Remote Sensing & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' },
         { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
-<<<<<<< HEAD
-<<<<<<< HEAD
-        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' },
-        
-=======
         { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' }
->>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    },
+    }
   },
-<<<<<<< HEAD
   "CSE(Design)": {
-=======
-   "CSE(Design)": {
->>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
-    1: { // Year 1
-      1: [ 
+    1: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    2: { // Year 2
-      1: [ 
+    2: {
+      1: [
         { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
         { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
-      ], 
-      2: [] 
+      ],
+      2: []
     },
-    3: { // Year 3
-      1: [ 
+    3: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    4: { // Year 4
-      1: [ 
-<<<<<<< HEAD
-        { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
-        { title: 'Compiler Design', file: 'CD.pdf', syllabus: 'CD_Syllabus.pdf' },
-        { title: 'Design Drawing and Visualization', file: 'DDV.pdf', syllabus: 'DDV_Syllabus.pdf' },
-        { title: 'Electronic Sensors', file: 'ES.pdf', syllabus: 'ES_Syllabus.pdf' },
-        { title: 'Agile Methodology', file: 'AM.pdf', syllabus: 'AM_Syllabus.pdf' },
-        
-=======
-        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' }
->>>>>>> bf34413 (Rename folder sem → sem1)
-=======
+    4: {
+      1: [
         { title: 'Compiler Design', file: 'CD.pdf', syllabus: 'CD_Syllabus.pdf' },
         { title: 'Cloud Computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
         { title: 'Electronic Sensors', file: 'ES.pdf', syllabus: 'ES_Syllabus.pdf' },
         { title: 'Design Drawing and Visualization', file: 'DDV.pdf', syllabus: 'DDV_Syllabus.pdf' },
         { title: 'Agile Methodology', file: 'AM.pdf', syllabus: 'AM_Syllabus.pdf' }
->>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    },
+    }
   },
   "EEE": {
-    1: { // Year 1
-      1: [ 
+    1: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    2: { // Year 2
-      1: [ 
+    2: {
+      1: [
         { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
         { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
-      ], 
-      2: [] 
+      ],
+      2: []
     },
-    3: { // Year 3
-      1: [ 
+    3: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    4: { // Year 4
-      1: [ 
+    4: {
+      1: [
         { title: 'Power Electric Applications to renewable Energy Systems', file: 'PEA.pdf', syllabus: 'PEA_Syllabus.pdf' },
         { title: 'Fundamentals of Management for Engineers', file: 'FME.pdf', syllabus: 'FME_Syllabus.pdf' },
         { title: 'Software Engineerings', file: 'SE.pdf', syllabus: 'SE_Syllabus.pdf' },
         { title: 'Electric and Hybrid Vehicles', file: 'EHV.pdf', syllabus: 'EHV_Syllabus.pdf' },
         { title: 'HVDC Transmission', file: 'HVDC.pdf', syllabus: 'HVDC_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    },
+    }
   },
   "CIV": {
-    1: { // Year 1
-      1: [ 
+    1: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    2: { // Year 2
-      1: [ 
+    2: {
+      1: [
         { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
         { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
-      ], 
-      2: [] 
+      ],
+      2: []
     },
-    3: { // Year 3
-      1: [ 
+    3: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    4: { // Year 4
-      1: [ 
+    4: {
+      1: [
         { title: 'Quantum Survey and Valuation', file: 'QSV.pdf', syllabus: 'QSV_Syllabus.pdf' },
         { title: 'Project Management', file: 'PM.pdf', syllabus: 'PM_Syllabus.pdf' },
         { title: 'Software Engineering', file: 'SE.pdf', syllabus: 'SE_Syllabus.pdf' },
@@ -401,52 +369,52 @@ const manifest = {
         { title: 'Ground Improvement Techniques', file: 'GIT.pdf', syllabus: 'GIT_Syllabus.pdf' },
         { title: 'Ground Water Hydrology', file: 'GWH.pdf', syllabus: 'GWH_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    },
+    }
   },
   "MECH": {
-    1: { // Year 1
-      1: [ 
+    1: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    2: { // Year 2
-      1: [ 
+    2: {
+      1: [
         { title: 'Discrete Mathematics', file: 'DM.pdf', syllabus: 'DM_Syllabus.pdf' },
         { title: 'Digital Logic Design', file: 'DLD.pdf', syllabus: 'DLD_Syllabus.pdf' }
-      ], 
-      2: [] 
+      ],
+      2: []
     },
-    3: { // Year 3
-      1: [ 
+    3: {
+      1: [
         { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
         { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
-    4: { // Year 4
-      1: [ 
+    4: {
+      1: [
         { title: 'Industrial Management', file: 'IM.pdf', syllabus: 'IM_Syllabus.pdf' },
         { title: 'refrigerator & Air Conditioning', file: 'RAC.pdf', syllabus: 'RAC_Syllabus.pdf' },
         { title: 'Software Engineering', file: 'SE.pdf', syllabus: 'SE_Syllabus.pdf' },
@@ -454,13 +422,13 @@ const manifest = {
         { title: 'Automobile Engineering', file: 'AM.pdf', syllabus: 'AM_Syllabus.pdf' },
         { title: 'Fluid Power System', file: 'FPS.pdf', syllabus: 'FPS_Syllabus.pdf' }
       ],
-      2: [ 
+      2: [
         { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
         { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
         { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
         { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
-    },
+    }
   }
 };
 
@@ -483,13 +451,11 @@ const els = {
 // --- 5. HELPER FUNCTIONS ---
 function esc(s){ return String(s || ''); }
 
-// Build URL: assets/Branch/yearN/semN/filename
 function buildAssetUrl(branch, year, semester, filename){
   const encodedFile = encodeURIComponent(filename);
   return `assets/${branch}/year${year}/sem${semester}/${encodedFile}`;
 }
 
-// Get subjects from manifest safely
 function getSubjectsFromManifest(year, branch, semester){
   if(!branch || !year || !semester) return [];
   const branchObj = manifest[branch];
@@ -499,13 +465,11 @@ function getSubjectsFromManifest(year, branch, semester){
   return yearObj[semester] || [];
 }
 
-// Generates syllabus list based on the subjects provided
 function getSyllabus(year, branch, semester, subjects){
   const base = `assets/${branch}/year${year}/sem${semester}`;
   
   const list = [];
 
-  // 1. Add specific syllabus files from the manifest subjects
   if(subjects && subjects.length > 0){
     subjects.forEach(sub => {
       if(sub.syllabus) {
@@ -518,12 +482,10 @@ function getSyllabus(year, branch, semester, subjects){
     });
   }
 
-  // 2. Fallback: If no subject specific syllabus found, show generic R23
   if(list.length === 0) {
     list.push({ title: `${branch} R23 Syllabus Copy`, date: 'Full Sem', url: `${base}/syllabus-r23.pdf` });
   }
 
-  // 3. Always include Academic Calendar at the bottom
   list.push({ title: 'Academic Calendar', date: 'Common', url: `${base}/academic-calendar.pdf` });
 
   return list;
@@ -535,7 +497,6 @@ function createSubjectFolderDOM(subject) {
   const folder = document.createElement('div');
   folder.className = 'subject-folder group relative bg-white border-2 border-black p-4 shadow-[4px_4px_0] fade-in mb-4';
 
-  // LOGIC: Check if syllabus exists to show a mini link inside the folder header
   const sylLink = subject.syllabus 
     ? `<a href="${buildAssetUrl(state.branch, state.year, state.semester, subject.syllabus)}" target="_blank" class="text-xs font-bold text-pink-600 hover:underline hover:bg-pink-100 px-2 py-1 border-2 border-transparent hover:border-pink-300 transition-all mr-2">SYLLABUS</a>` 
     : '';
@@ -636,6 +597,8 @@ function createSyllabusCard(item){
   `;
 }
 
+// --- 8. RENDER HELPERS ---
+
 function renderYears(){
   if(!els.yearContainer) return;
   els.yearContainer.innerHTML = years.map(y => {
@@ -665,33 +628,31 @@ function renderSemesters(){
   });
 }
 
-// --- 8. ACTION HANDLERS ---
+// --- 9. ACTION HANDLERS ---
 
 window.setYear = function(y){
   state.year = y; state.branch = null; state.semester = null;
   renderYears(); renderBranches();
-  els.branchSection.classList.remove('hidden');
-  els.semSection.classList.add('hidden');
-  els.resourcesSection.classList.add('hidden');
-  els.branchSection.scrollIntoView({ behavior:'smooth', block:'start' });
+  if (els.branchSection) els.branchSection.classList.remove('hidden');
+  if (els.semSection) els.semSection.classList.add('hidden');
+  if (els.resourcesSection) els.resourcesSection.classList.add('hidden');
+  els.branchSection && els.branchSection.scrollIntoView({ behavior:'smooth', block:'start' });
 }
 
 window.setBranch = function(b){
   state.branch = b; state.semester = null;
   renderBranches(); renderSemesters();
-  els.semSection.classList.remove('hidden');
-  els.resourcesSection.classList.add('hidden');
-  els.semSection.scrollIntoView({ behavior:'smooth', block:'center' });
+  if (els.semSection) els.semSection.classList.remove('hidden');
+  if (els.resourcesSection) els.resourcesSection.classList.add('hidden');
+  els.semSection && els.semSection.scrollIntoView({ behavior:'smooth', block:'center' });
 }
 
 window.setSemester = function(s){
   state.semester = s;
   renderSemesters();
 
-  // 1. Get Subjects
   const subjects = getSubjectsFromManifest(state.year, state.branch, state.semester);
   
-  // 2. Render Folders
   if(subjects.length === 0){
     els.notesContainer.innerHTML = `<div class="p-4 border-2 border-black bg-yellow-100 font-bold">No subjects found for ${state.branch} Year ${state.year} Sem ${state.semester}. Check script.js manifest.</div>`;
   } else {
@@ -702,11 +663,9 @@ window.setSemester = function(s){
     });
   }
 
-  // 3. Render Syllabus
   const syllabus = getSyllabus(state.year, state.branch, state.semester, subjects);
   els.sylContainer.innerHTML = syllabus.map(s => createSyllabusCard(s)).join('');
 
-  // 4. Update Breadcrumb
   if (els.breadcrumb) {
     els.breadcrumb.innerHTML = `
       <button onclick="setYear(${state.year})" class="text-blue-800 hover:text-pink-600 hover:underline font-black uppercase transition-colors">YEAR ${state.year}</button> 
@@ -722,9 +681,11 @@ window.setSemester = function(s){
   els.resourcesSection.scrollIntoView({ behavior:'smooth', block:'start' });
 }
 
-// --- 9. INITIALIZATION & SOCIAL MODAL ---
+// --- 10. INITIALIZATION & SOCIAL MODAL ---
+
 document.addEventListener('DOMContentLoaded', () => {
   renderYears();
+  renderBranches();
   
   const semContainer = document.getElementById('semester-container');
   if (semContainer) {
@@ -734,37 +695,55 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // --- SOCIAL MODAL LOGIC (UPDATED WITH ALL LINKS) ---
+  // SOCIAL MODAL LOGIC (keeps modal in index.html)
   window.openSocialModal = (type) => {
     const modal = document.getElementById('social-modal');
     const title = document.getElementById('modal-title');
     const links = document.getElementById('modal-links');
+    const iconContainer = document.getElementById('modal-icon-container');
     if(!modal) return;
     
     modal.classList.remove('hidden');
-    title.textContent = `CONNECT ON ${type.toUpperCase()}`;
-    
-    // --- EDIT YOUR LINKS HERE ---
-    const socialData = {
-      linkedin: [
-        { name: "Madhan Myana", url: "https://www.linkedin.com/in/madhan-myana-7ab90a335/", color: "hover:bg-blue-400" },
-        { name: "Narendra Yenagandula", url: "https://www.linkedin.com/in/narendra-yenagandula/", color: "hover:bg-blue-400" }
-      ],
-      github: [
-        { name: "Madhan Myana", url: "https://github.com/madhanmyana", color: "hover:bg-gray-200" },
-        { name: "Narendra Yenagandula", url: "https://github.com/Narendra2904", color: "hover:bg-gray-200" }
-      ],
-      instagram: [
-        { name: "Madhan Myana", url: "insta.html", color: "hover:bg-pink-400" },
-        { name: "Narendra Yenagandula", url: "https://instagram.com/narendra_yenagandula", color: "hover:bg-pink-400" }
-      ]
-    };
-    
-    const currentLinks = socialData[type] || [];
+    title.textContent = type.toUpperCase();
 
-    links.innerHTML = currentLinks.map(person => `
-      <a href="${person.url}" target="_blank" class="block border-2 border-black p-4 font-bold ${person.color} flex justify-between transition-colors mb-4">
-        <span>${person.name}</span> <i data-lucide="external-link" class="w-4 h-4"></i>
+    const socialData = {
+      instagram: {
+        title: "Instagram",
+        icon: "instagram",
+        color: "bg-pink-400",
+        links: [
+          { name: "Madhan Myana", url: "https://instagram.com/madhan_myana" },
+          { name: "Narendra Yenagandula", url: "https://instagram.com/narendra_yenagandula" }
+        ]
+      },
+      linkedin: {
+        title: "LinkedIn",
+        icon: "linkedin",
+        color: "bg-blue-400",
+        links: [
+          { name: "Madhan Myana", url: "https://linkedin.com/in/madhanmyana" },
+          { name: "Narendra Yenagandula", url: "https://linkedin.com/in/narendrayenagandula" }
+        ]
+      },
+      github: {
+        title: "GitHub",
+        icon: "github",
+        color: "bg-gray-200",
+        links: [
+          { name: "Madhan Myana", url: "https://github.com/madhanmyana" },
+          { name: "Narendra Yenagandula", url: "https://github.com/Narendra2904" }
+        ]
+      }
+    };
+
+    const data = socialData[type] || socialData['linkedin'];
+    iconContainer.className = `inline-flex p-3 border-2 border-black mb-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] ${data.color}`;
+    iconContainer.innerHTML = `<i data-lucide="${data.icon}" class="w-8 h-8 text-black"></i>`;
+    title.innerText = data.title;
+
+    links.innerHTML = data.links.map(link => `
+      <a href="${link.url}" target="_blank" class="block border-2 border-black p-4 font-bold hover:bg-black hover:text-white transition-colors mb-4">
+        <span>${link.name}</span> <span class="float-right">→</span>
       </a>
     `).join('');
 
@@ -772,14 +751,14 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   window.closeSocialModal = () => {
-    document.getElementById('social-modal').classList.add('hidden');
+    const modal = document.getElementById('social-modal');
+    if (modal) modal.classList.add('hidden');
   };
 
   if (window.lucide) window.lucide.createIcons();
 });
-// ... existing code ...
 
-// --- 10. FEEDBACK FORM HANDLER ---
+// --- 11. FEEDBACK FORM HANDLER ---
 window.handleFeedback = function(e) {
   e.preventDefault();
   const text = document.getElementById('feedback-text').value;
@@ -787,24 +766,11 @@ window.handleFeedback = function(e) {
   if(!text) return;
 
   const subject = "Website Feedback: Back.Benchers";
-  // Replace this email with the primary developer email
   const emailTo = "yenagandula.narendra@gmail.com"; 
   
-  // Create mailto link
   const mailtoLink = `mailto:${emailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
-  
-  // Open email client
   window.location.href = mailtoLink;
   
-  // UI Feedback (Optional: clear the box)
   document.getElementById('feedback-text').value = '';
   alert("Opening your email client to send feedback!");
-<<<<<<< HEAD
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> bf34413 (Rename folder sem → sem1)
-=======
-};
->>>>>>> e127e7068f8679e3972afd0b912de9e534a44905
