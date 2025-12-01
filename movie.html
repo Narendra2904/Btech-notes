@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movie Suggestions | Back.Benchers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="cropped.jpg" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="min-h-screen bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 text-zinc-50">
+
+  <!-- Top Bar -->
+  <header class="border-b border-zinc-800/80 bg-black/60 backdrop-blur sticky top-0 z-20">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 py-3 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <div class="bg-yellow-400 p-2 border border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]">
+          <i data-lucide="popcorn" class="w-5 h-5 text-black"></i>
+        </div>
+        <div class="leading-tight">
+          <div class="text-xs uppercase tracking-[0.3em] text-zinc-400">Back.Benchers</div>
+          <div class="font-black text-sm md:text-base tracking-tight">
+            <span class="text-yellow-300">Movie</span> Suggestions
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2 text-xs md:text-sm">
+        <button
+          onclick="window.location.href='index.html#selection-zone'"
+          class="hidden sm:inline-flex items-center gap-1 px-3 py-1 border border-zinc-700 rounded-full text-zinc-200 hover:bg-yellow-300 hover:text-black hover:border-yellow-300 transition-all"
+        >
+          <i data-lucide="book-open" class="w-3 h-3"></i>
+          Back to Notes
+        </button>
+        <button
+          onclick="window.location.href='index.html'"
+          class="inline-flex sm:hidden items-center gap-1 px-3 py-1 border border-zinc-700 rounded-full text-zinc-200 hover:bg-yellow-300 hover:text-black hover:border-yellow-300 transition-all"
+        >
+          Home
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 md:px-8 py-6 md:py-10 space-y-8 md:space-y-10">
+
+    <!-- Hero Section -->
+    <section class="grid md:grid-cols-[1.4fr,1fr] gap-6 md:gap-10 items-center">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 border border-yellow-400 text-yellow-300 rounded-full text-[11px] font-mono mb-3">
+          <div class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
+          <span>MOOD ENGINE ONLINE</span>
+        </div>
+
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-black leading-tight mb-4">
+          Exam stress <span class="text-yellow-300">high</span> aithe,<br />
+          cinema dose compulsory. 🎬
+        </h1>
+
+        <p class="text-sm md:text-base text-zinc-300 mb-4 md:mb-5 leading-relaxed">
+          Oka sari admit cheseyandi… questions ardham kakapoyina parvaledu,<br class="hidden md:block" />
+          <span class="font-semibold text-yellow-200">OTT subscription ekkada undho matram manaki clear ga telusu. 😌</span>
+        </p>
+
+        <p class="text-xs md:text-sm text-zinc-400 mb-4 md:mb-6">
+          <b>Disclaimer:</b> Ivi timepass + vibe kosam suggest chesina movies.<br class="hidden md:block" />
+          Exam mundu <span class="line-through">binge</span> oka movie saripodu… lekapotey DSP kuda save cheyyadu bro/sis.
+        </p>
+
+        <!-- Mood tags -->
+        <div class="flex flex-wrap gap-2 text-[11px] md:text-xs">
+          <span class="px-3 py-1 rounded-full border border-zinc-700 bg-zinc-900/80">🔥 Exam Pressure Relief</span>
+          <span class="px-3 py-1 rounded-full border border-zinc-700 bg-zinc-900/80">😂 Full Timepass</span>
+          <span class="px-3 py-1 rounded-full border border-zinc-700 bg-zinc-900/80">💪 Motivation Before Placements</span>
+          <span class="px-3 py-1 rounded-full border border-zinc-700 bg-zinc-900/80">💔 Sad / Emotional</span>
+          <span class="px-3 py-1 rounded-full border border-zinc-700 bg-zinc-900/80">👨‍👩‍👧 Watch with Friends</span>
+        </div>
+      </div>
+
+      <!-- Side fun card -->
+      <div class="border border-yellow-400/60 bg-gradient-to-br from-zinc-900 to-zinc-800 rounded-2xl p-4 md:p-5 shadow-[6px_6px_0px_rgba(250,204,21,0.8)] space-y-3">
+        <div class="flex items-center gap-2">
+          <div class="p-2 bg-yellow-300 border border-black rounded-lg">
+            <i data-lucide="sparkles" class="w-4 h-4 text-black"></i>
+          </div>
+          <div class="text-xs font-mono text-zinc-300">
+            RANDOM PICK FOR YOU
+          </div>
+        </div>
+        <p class="text-sm md:text-base font-semibold text-yellow-100">
+          If exam prep == 0 lines of code today,<br />
+          recommendation: <span class="text-yellow-300">"3 Idiots"</span> or <span class="text-yellow-300">"Jathi Ratnalu"</span>
+        </p>
+        <p class="text-[11px] text-zinc-400">
+          Logic: Brain burnout aithe, first laugh – then laast minute reading. Classic engineering strategy. 😎
+        </p>
+      </div>
+    </section>
+
+    <!-- Sections: Chill, Laugh, Motivational, Sad -->
+    <section class="space-y-8 md:space-y-10">
+
+      <!-- Chill / Feel Good -->
+      <div>
+        <div class="flex items-center justify-between gap-2 mb-3 md:mb-4">
+          <div>
+            <h2 class="text-xl md:text-2xl font-black flex items-center gap-2">
+              <span class="text-yellow-300">
+                <i data-lucide="smile-plus" class="w-5 h-5 inline-block"></i>
+              </span>
+              Chill & Feel-Good
+            </h2>
+            <p class="text-xs md:text-sm text-zinc-400">
+              “Tomorrow exam undi… but inka mood e cinema mood lo undi” type queue.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+          <!-- Jathi Ratnalu -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-yellow-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Telugu · Comedy</div>
+              <h3 class="font-bold text-lg">Jathi Ratnalu</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Brain load thaggali anipiste, ee cinema perfect. Logic kosam kaadu, laughs kosam.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-green-400 font-semibold">Stress Reset</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Friends Squad</span>
+                <a href="https://www.primevideo.com/detail/Jathi-Ratnalu/0TNM1FJ0XH8IYF5ONO4X9UB4ZV"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- 3 Idiots -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-yellow-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Hindi · Feel-good</div>
+              <h3 class="font-bold text-lg">3 Idiots</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Engineering life syllabus ki official reference movie. Laugh + light motivation combo.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-green-400 font-semibold">Relatable AF</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Solo / Friends</span>
+                <a href="https://www.primevideo.com/detail/3-Idiots/0PDNQ1X48D8BCOZ2H4L2KJZK9X"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Interstellar -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-yellow-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">English · Sci-Fi</div>
+              <h3 class="font-bold text-lg">Interstellar</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Space, time, love, science – brain trip + emotional damage combo. Exam stress chinnadi anipinche level scale.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-green-400 font-semibold">Mind Blown</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Night · Headphones</span>
+                <a href="https://www.primevideo.com/detail/Interstellar/0L8P6S4R3L0VQNL6Y1ZJWN0Y6E"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- ZNMD -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-yellow-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Hindi · Feel-good</div>
+              <h3 class="font-bold text-lg">Zindagi Na Milegi Dobara</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Life, friendship, travel – brain refresh avvalante perfect combo. Exam gurinchi temporarily marchipovachu.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-green-400 font-semibold">Fresh Start</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Friends / Solo</span>
+                <a href="https://www.netflix.com/in/title/70202336"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-red-500 text-red-300 hover:bg-red-500 hover:text-white transition-colors">
+                  Netflix
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Oh My Friend -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-yellow-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Telugu · Feel-good</div>
+              <h3 class="font-bold text-lg">Oh My Friend</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Soft vibe, music, friendship – silent ga coffee tho chudali anipinche style movie.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-green-400 font-semibold">Chill Evening</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Relax Mode</span>
+                <a href="https://www.aha.video/movie/oh-my-friend"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-pink-400 text-pink-300 hover:bg-pink-400 hover:text-black transition-colors">
+                  aha
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Kota Factory -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-yellow-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Series · Hindi/English</div>
+              <h3 class="font-bold text-lg">Kota Factory</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Coaching life, pressure, dreams – anni realistic ga chupistundi. Jeethu bhaiya motivation, thodu tears.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-green-400 font-semibold">Relatable + Deep</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Binge Carefully</span>
+                <a href="https://www.netflix.com/in/title/81249783"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-red-500 text-red-300 hover:bg-red-500 hover:text-white transition-colors">
+                  Netflix
+                </a>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+
+      <!-- Full Timepass / Chaos -->
+      <div>
+        <div class="flex items-center justify-between gap-2 mb-3 md:mb-4">
+          <div>
+            <h2 class="text-xl md:text-2xl font-black flex items-center gap-2">
+              <span class="text-pink-300">
+                <i data-lucide="clapperboard" class="w-5 h-5 inline-block"></i>
+              </span>
+              Full Timepass & Chaos
+            </h2>
+            <p class="text-xs md:text-sm text-zinc-400">
+              “Marks emi raani situation” lo compulsory ga ban chese watch-list. 😆
+            </p>
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+          <!-- ENE -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-pink-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Telugu · Comedy</div>
+              <h3 class="font-bold text-lg">Ee Nagaraniki Emaindi</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Friends + road trip + low-key life confusion = perfect engineering mood.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-pink-300 font-semibold">Late Night Vibe</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Gang Watch</span>
+                <a href="https://www.primevideo.com/detail/Ee-Nagaraniki-Emaindi/0HG5FNGB0BB7GKYQPRDWO9WDJX"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Doctor -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-pink-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Tamil · Mass Fun</div>
+              <h3 class="font-bold text-lg">Doctor</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Straight face comedy + weird situations. Brain off, laughter on mode.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-pink-300 font-semibold">Brain Off</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Anytime</span>
+                <a href="https://www.netflix.com/in/title/81337210"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-red-500 text-red-300 hover:bg-red-500 hover:text-white transition-colors">
+                  Netflix
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Guardians -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-pink-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">English · Sci-Fi</div>
+              <h3 class="font-bold text-lg">Guardians of the Galaxy</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Music, space, stupidity, heart – anni mix ayi perfect distraction package.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-pink-300 font-semibold">Comic Vibes</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Marvel Fans</span>
+                <a href="https://www.hotstar.com/in/movies/guardians-of-the-galaxy/1770016084"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-sky-400 text-sky-300 hover:bg-sky-400 hover:text-black transition-colors">
+                  Hotstar
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Welcome -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-pink-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Hindi · Comedy</div>
+              <h3 class="font-bold text-lg">Welcome</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Pure chaos, non-stop confusion. Logic holiday ki vellindi, meme material matram full ga undi.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-pink-300 font-semibold">Full Timepass</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Family/Friends</span>
+                <a href="https://www.hotstar.com/in/movies/welcome/1971000414"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-sky-400 text-sky-300 hover:bg-sky-400 hover:text-black transition-colors">
+                  Hotstar
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Deadpool -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-pink-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">English · Superhero</div>
+              <h3 class="font-bold text-lg">Deadpool</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Adult humour, fourth wall break, zero seriousness. Exam failure gurinchi jokes ready avutayi.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-pink-300 font-semibold">Unfiltered Fun</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Not For Kids</span>
+                <a href="https://www.hotstar.com/in/movies/deadpool/1770003257"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-sky-400 text-sky-300 hover:bg-sky-400 hover:text-black transition-colors">
+                  Hotstar
+                </a>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+
+      <!-- Motivation / Pre-placement -->
+      <div>
+        <div class="flex items-center justify-between gap-2 mb-3 md:mb-4">
+          <div>
+            <h2 class="text-xl md:text-2xl font-black flex items-center gap-2">
+              <span class="text-emerald-300">
+                <i data-lucide="trending-up" class="w-5 h-5 inline-block"></i>
+              </span>
+              Motivation & “Life What Next?”
+            </h2>
+            <p class="text-xs md:text-sm text-zinc-400">
+              Placement drive mundu brain reset kosam – slight motivation, full clarity (konchem).
+            </p>
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+          <!-- Pursuit of Happyness -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">English · Drama</div>
+              <h3 class="font-bold text-lg">The Pursuit of Happyness</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                “Life lo konni sems flunk ayina parvaledu” ani soft ga cheppedi type movie.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-emerald-300 font-semibold">Serious but Hopeful</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Solo Watch</span>
+                <a href="https://www.mxplayer.in/movie/watch-the-pursuit-of-happyness-movie-online-99ec9fd736ce140bf4135a7ec21561c5"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-emerald-400 text-emerald-300 hover:bg-emerald-400 hover:text-black transition-colors">
+                  MX Player
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Mahaan -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Tamil · Crime Drama</div>
+              <h3 class="font-bold text-lg">Mahaan</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Choices, regrets, rebel life – mass + depth mix. Rules break chesthe consequences enti ane angle lo strong ga hit chestundi.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-emerald-300 font-semibold">Rebel Vibe</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Night · Solo</span>
+                <a href="https://www.primevideo.com/detail/Mahaan-Tamil/0RS62LESB81SLTBRZPZQET0HFC"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Jersey -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Telugu · Sports Drama</div>
+              <h3 class="font-bold text-lg">Jersey</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Hard work, late success, second chances – oka manchi emotional reminder.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-emerald-300 font-semibold">Emotional Boost</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Solo / Night</span>
+                <a href="https://www.primevideo.com/detail/Jersey/0N52IQ49I9LW3J99KD817Y79AK"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Soorarai Pottru -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Tamil · Biographical</div>
+              <h3 class="font-bold text-lg">Soorarai Pottru</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Zero nundi start ayyina dream ni sky varaku teeskeladam – placements, startups gurinchi think cheyyadaniki super.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-emerald-300 font-semibold">High Motivation</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Serious Watch</span>
+                <a href="https://www.primevideo.com/detail/Soorarai-Pottru-Tamil/0RIGXSH2D86B5V2RNHQOZVRGAD"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Raanjhanaa -->
+          <article class="border border-zinc-800 bg-zinc-900/70 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-400/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Hindi · Romantic Drama</div>
+              <h3 class="font-bold text-lg">Raanjhanaa</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Love, obsession, politics – messy but real. “Heart vs brain” fight ela untundo strong ga chupisthundi.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-emerald-300 font-semibold">Love & Pain</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">Alone / Late Night</span>
+                <a href="https://www.primevideo.com/detail/Raanjhanaa/0GQRSO9CCIUJ3POCCYGO8VR9C4"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+
+      <!-- Sad & Emotional / Heartbreak -->
+      <div>
+        <div class="flex items-center justify-between gap-2 mb-3 md:mb-4">
+          <div>
+            <h2 class="text-xl md:text-2xl font-black flex items-center gap-2">
+              <span class="text-sky-300">
+                <i data-lucide="cloud-rain" class="w-5 h-5 inline-block"></i>
+              </span>
+              Sad & Emotional / Heartbreak Mode
+            </h2>
+            <p class="text-xs md:text-sm text-zinc-400">
+              “Heart heavy ga undi… konchem cry ayyi calm avvali” anipinchina rojulu kosam. 💔
+            </p>
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+          <!-- Saptha Sagaralu Daati Side A -->
+          <article class="border border-zinc-800 bg-zinc-900/80 rounded-xl p-4 flex flex-col justify-between hover:border-sky-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Kannada · Romantic Drama</div>
+              <h3 class="font-bold text-lg">Saptha Sagaralu Daati - Side A</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Slow, soft, deep love story. BGM + visuals = full pain + poetry combo. Heart calm ayye but heavy ayyye type.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-sky-300 font-semibold">Soft Pain</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-900 border border-zinc-700">Night · Headphones</span>
+                <a href="https://www.primevideo.com/detail/%E0%B0%B8%E0%B0%AA%E0%B1%8D%E0%B0%A4-%E0%B0%B8%E0%B0%BE%E0%B0%97%E0%B0%B0%E0%B0%BE%E0%B0%B2%E0%B1%81-%E0%B0%A6%E0%B0%BE%E0%B0%9F%E0%B0%BF---%E0%B0%B5%E0%B1%88%E0%B0%AA%E0%B1%81-A/0I6L3XGBCC78V9SIUZUOIKYO59"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Saptha Sagaralu Daati Side B -->
+          <article class="border border-zinc-800 bg-zinc-900/80 rounded-xl p-4 flex flex-col justify-between hover:border-sky-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Kannada · Romantic Drama</div>
+              <h3 class="font-bold text-lg">Saptha Sagaralu Daati - Side B</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Side A ayyaka already damage aithe, Side B full ga complete chestundi. Closure, pain, maturity – anni mix.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-sky-300 font-semibold">Heavy Emotional</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-900 border border-zinc-700">Solo Only</span>
+                <a href="https://www.primevideo.com/detail/Sapta-Sagaradaache-Ello---Side-B/0SKA4MPHCDG75B9UNUBH5AYA6H"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-yellow-400 text-yellow-300 hover:bg-yellow-300 hover:text-black transition-colors">
+                  Prime
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- 7/G Brindavan Colony -->
+          <article class="border border-zinc-800 bg-zinc-900/80 rounded-xl p-4 flex flex-col justify-between hover:border-sky-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Telugu · Romantic Drama</div>
+              <h3 class="font-bold text-lg">7/G Brindavan Colony</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Raw, messy, real love + youth phases. Happy kaadu, honest ga feel avvalante perfect pick.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-sky-300 font-semibold">Raw Pain</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-900 border border-zinc-700">Alone Mode</span>
+                <a href="https://www.sunnxt.com/telugu-movie-7g-brindavan-colony-2004/detail/9898"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-orange-400 text-orange-300 hover:bg-orange-400 hover:text-black transition-colors">
+                  Sun NXT
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Fault in Our Stars -->
+          <article class="border border-zinc-800 bg-zinc-900/80 rounded-xl p-4 flex flex-col justify-between hover:border-sky-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">English · Romance</div>
+              <h3 class="font-bold text-lg">The Fault in Our Stars</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Light start, tear flood ending. Love, illness, loss – full crying session guarantee.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-sky-300 font-semibold">Cry Therapy</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-900 border border-zinc-700">Tissues Ready</span>
+                <a href="https://www.hotstar.com/in/movies/the-fault-in-our-stars/1770016145"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-sky-400 text-sky-300 hover:bg-sky-400 hover:text-black transition-colors">
+                  Hotstar
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Premam -->
+          <article class="border border-zinc-800 bg-zinc-900/80 rounded-xl p-4 flex flex-col justify-between hover:border-sky-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">Malayalam/Telugu · Romance</div>
+              <h3 class="font-bold text-lg">Premam</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                Feel-good + small heartbreak moments. Pain undi, but music & vibe balance chestayi – soft emo mood.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-sky-300 font-semibold">Bittersweet</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-900 border border-zinc-700">Friends / Solo</span>
+                <a href="https://www.airtelxstream.in/movies/premam/HOTSTAR_DTH_MOVIE_1566"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-emerald-400 text-emerald-300 hover:bg-emerald-400 hover:text-black transition-colors">
+                  Xstream
+                </a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Eternal Sunshine -->
+          <article class="border border-zinc-800 bg-zinc-900/80 rounded-xl p-4 flex flex-col justify-between hover:border-sky-300/70 hover:-translate-y-1 transition-all">
+            <header class="mb-3">
+              <div class="text-[11px] uppercase tracking-wide text-zinc-500 mb-1">English · Sci-Fi Romance</div>
+              <h3 class="font-bold text-lg">Eternal Sunshine of the Spotless Mind</h3>
+              <p class="text-xs text-zinc-400 mt-1">
+                “Memories delete ayithe pain pogottava?” ane deep question. Konchem slow, but mind + heart both hit ayye type.
+              </p>
+            </header>
+            <footer class="flex items-center justify-between text-[11px] mt-2 gap-2">
+              <span class="text-zinc-400">Mood:
+                <span class="text-sky-300 font-semibold">Existential Sad</span>
+              </span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-full bg-zinc-900 border border-zinc-700">Late Night</span>
+                <a href="https://in.bookmyshow.com/movies/eternal-sunshine-of-the-spotless-mind/ET00065656"
+                   target="_blank"
+                   class="px-2 py-0.5 rounded-full border border-fuchsia-400 text-fuchsia-300 hover:bg-fuchsia-400 hover:text-black transition-colors">
+                  Rent / BMS
+                </a>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tiny disclaimer -->
+    <section class="border border-zinc-800 rounded-xl p-3 md:p-4 bg-zinc-900/70 text-[11px] md:text-xs text-zinc-400 font-mono">
+      NOTE: OTT links change avvachu – kani chill, Google shortcut undi kada.  
+      Back.Benchers team only suggestion istundi, exam time lo full-day binge cheyyadam recommend cheyyadu… officially. 😅
+    </section>
+  </main>
+
+  <footer class="border-t border-zinc-800 text-[11px] md:text-xs text-zinc-500 py-4 text-center">
+    BACK.BENCHERS · CINEMA MODE · “ONE MORE EPISODE THEN I’LL STUDY” GENERATION REPRESENTATION
+  </footer>
+
+  <script>
+    if (window.lucide) lucide.createIcons();
+  </script>
+</body>
+</html>
