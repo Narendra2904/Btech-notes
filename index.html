@@ -230,6 +230,24 @@
             </a>
         </div>
       </div>
+<!-- Upload Notes CTA -->
+<div>
+  <h3 class="font-black text-xl uppercase tracking-widest bg-black text-white inline-block px-2 py-1 mb-4">Upload Notes</h3>
+
+  <p class="text-sm text-gray-700 mb-3 max-w-xs">
+    Have notes to share? Use our Google Form to upload or share Drive links — we’ll review & publish with credit.
+  </p>
+
+  <button id="upload-form-btn"
+     class="inline-flex items-center gap-2 border-2 border-black px-4 py-2 bg-yellow-400 hover:bg-black hover:text-white font-bold transition-colors">
+    <i data-lucide="upload-cloud" class="w-5 h-5"></i>
+    Upload Notes
+  </button>
+
+  <div class="text-[11px] text-gray-500 mt-2 font-mono">
+    Tip: For large files, include a Drive/OneDrive link in the form.
+  </div>
+</div>
 
       <div class="max-w-md w-full">
         <h3 class="font-black text-xl uppercase tracking-widest bg-yellow-400 text-black inline-block px-2 py-1 mb-4 border-2 border-black transform -rotate-1">
@@ -324,6 +342,93 @@ window.addEventListener('beforeinstallprompt', (e) => {
   });
 });
 </script>
-  
+  <!-- Upload Form Modal (embed + fallback) -->
+<div id="upload-form-modal" class="fixed inset-0 z-[120] hidden items-center justify-center">
+  <div class="absolute inset-0 bg-black/60" onclick="closeUploadFormModal()"></div>
+
+  <div class="relative bg-white border-4 border-black p-4 max-w-3xl w-full m-4 shadow-[12px_12px_0_rgba(0,0,0,1)]">
+    <button onclick="closeUploadFormModal()" class="absolute top-3 right-3 border-2 border-black bg-white p-1 hover:bg-red-500 hover:text-white">
+      <i data-lucide="x" class="w-5 h-5"></i>
+    </button>
+
+    <div class="text-center mb-3">
+      <div class="inline-flex p-2 border-2 border-black mb-2 bg-pink-200">
+        <i data-lucide="upload-cloud" class="w-6 h-6"></i>
+      </div>
+      <h3 class="text-2xl font-black uppercase italic">Upload Notes</h3>
+      <p class="text-sm text-gray-600 font-mono mt-1">Embed form below — or open in a new tab if needed.</p>
+    </div>
+
+    <div id="upload-iframe-wrap" class="w-full h-[70vh] border-2 border-black overflow-hidden mb-3">
+      <iframe id="upload-form-iframe" src="" title="Upload Notes Form" class="w-full h-full" frameborder="0"></iframe>
+    </div>
+
+    <div class="flex gap-3 justify-center">
+      <a id="upload-open-newtab" href="#" target="_blank" class="px-4 py-2 border-2 border-black font-bold inline-flex items-center gap-2 hover:bg-black hover:text-white transition-colors">
+        <i data-lucide="external-link" class="w-4 h-4"></i> Open Form in New Tab
+      </a>
+      <button onclick="closeUploadFormModal()" class="px-4 py-2 border-2 border-black bg-yellow-400 hover:bg-black hover:text-white font-bold transition-colors">
+        Close
+      </button>
+    </div>
+
+    <div class="text-xs text-gray-500 font-mono mt-3 text-center">
+      If the form fails to embed, use "Open Form in New Tab".
+    </div>
+  </div>
+</div>
+<script>
+  // === CONFIG: put your Google Form link here ===
+  const uploadFormLink = 'https://forms.gle/YOUR_GOOGLE_FORM_SHORTLINK_OR_FULL_URL';
+
+  // Elements
+  const uploadBtn = document.getElementById('upload-form-btn');
+  const modal = document.getElementById('upload-form-modal');
+  const iframe = document.getElementById('upload-form-iframe');
+  const openNewTabLink = document.getElementById('upload-open-newtab');
+
+  function openUploadFormModal() {
+    if (!uploadFormLink || uploadFormLink.includes('YOUR_GOOGLE_FORM')) {
+      // If not configured, fallback to opening mailto or alert
+      alert('Upload form link not set. Replace uploadFormLink in script with your Google Form URL.');
+      return;
+    }
+
+    // set iframe src and fallback link
+    iframe.src = uploadFormLink;
+    openNewTabLink.href = uploadFormLink;
+
+    // show modal
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+
+    // recreate lucide icons (so icons inside modal render)
+    if (window.lucide && typeof window.lucide.createIcons === 'function') window.lucide.createIcons();
+  }
+
+  function closeUploadFormModal() {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+
+    // Clear iframe src to stop background activity
+    try { iframe.src = 'about:blank'; } catch(e) {}
+  }
+
+  // Attach handler
+  if (uploadBtn) uploadBtn.addEventListener('click', openUploadFormModal);
+  // also allow ESC to close
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeUploadFormModal(); });
+
+  // Optional: detect mobile small screens and open in new tab by default
+  const isSmall = window.matchMedia && window.matchMedia('(max-width:640px)').matches;
+  if (isSmall && uploadBtn) {
+    uploadBtn.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      // prefer new tab on small screens for user convenience
+      window.open(uploadFormLink, '_blank');
+    }, { once: true });
+  }
+</script>
+
 </body>
 </html>
