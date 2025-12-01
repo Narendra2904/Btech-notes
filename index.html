@@ -232,8 +232,7 @@
       </div>
 <!-- Upload Notes CTA -->
 <div>
-  <
-
+  
   <button id="upload-form-btn"
      class="inline-flex items-center gap-2 border-2 border-black px-4 py-2 bg-yellow-400 hover:bg-black hover:text-white font-bold transition-colors">
     <i data-lucide="upload-cloud" class="w-5 h-5"></i>
@@ -244,6 +243,7 @@
     Tip: For large files, include a Drive/OneDrive link in the form.
   </div>
 </div>
+
 
       <div class="max-w-md w-full">
         <h3 class="font-black text-xl uppercase tracking-widest bg-yellow-400 text-black inline-block px-2 py-1 mb-4 border-2 border-black transform -rotate-1">
@@ -373,9 +373,11 @@ window.addEventListener('beforeinstallprompt', (e) => {
     </div>
   </div>
 </div>
+
 <script>
-  // === CONFIG: put your Google Form link here ===
-  const uploadFormLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdyhwnkesWqKMJAcqa1206lK1QgJv0eFweXwMYt76IyT8s4lw/viewform?usp=dialog';
+ 
+  // --- FINAL: your Google Form embed URL (converted to embedded view)
+  const uploadFormLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdyhwnkesWqKMJAcqa1206lK1QgJv0eFweXwMYt76IyT8s4lw/viewform?embedded=true';
 
   // Elements
   const uploadBtn = document.getElementById('upload-form-btn');
@@ -383,44 +385,52 @@ window.addEventListener('beforeinstallprompt', (e) => {
   const iframe = document.getElementById('upload-form-iframe');
   const openNewTabLink = document.getElementById('upload-open-newtab');
 
+  // Debug console lines (helps confirm the live page is using this script)
+  console.log('[UploadForm] uploadFormLink =', uploadFormLink);
+  console.log('[UploadForm] uploadBtn present?', !!uploadBtn, 'modal?', !!modal, 'iframe?', !!iframe);
+
   function openUploadFormModal() {
-    if (!uploadFormLink || uploadFormLink.includes('https://docs.google.com/forms/d/e/1FAIpQLSdyhwnkesWqKMJAcqa1206lK1QgJv0eFweXwMYt76IyT8s4lw/viewform?usp=dialog')) {
-      // If not configured, fallback to opening mailto or alert
-      alert('Upload form link not set. Replace uploadFormLink in script with your Google Form URL.');
+    if (!uploadFormLink) {
+      alert('Upload form link not set. Contact site admin.');
       return;
     }
 
-    // set iframe src and fallback link
-    iframe.src = uploadFormLink;
-    openNewTabLink.href = uploadFormLink;
+    // If a short forms.gle link somehow used, open new tab instead (embedding won't work)
+    if (uploadFormLink.includes('forms.gle')) {
+      console.warn('[UploadForm] forms.gle shortlink detected — opening new tab.');
+      window.open(uploadFormLink, '_blank');
+      return;
+    }
 
-    // show modal
+    // Try to set iframe src
+    try {
+      iframe.src = uploadFormLink;
+      openNewTabLink.href = uploadFormLink.replace('?embedded=true','');
+    } catch (err) {
+      console.error('[UploadForm] failed to set iframe src', err);
+      window.open(uploadFormLink, '_blank');
+      return;
+    }
+
     modal.classList.remove('hidden');
     modal.classList.add('flex');
 
-    // recreate lucide icons (so icons inside modal render)
     if (window.lucide && typeof window.lucide.createIcons === 'function') window.lucide.createIcons();
   }
 
   function closeUploadFormModal() {
     modal.classList.add('hidden');
     modal.classList.remove('flex');
-
-    // Clear iframe src to stop background activity
     try { iframe.src = 'about:blank'; } catch(e) {}
   }
 
-  // Attach handler
   if (uploadBtn) uploadBtn.addEventListener('click', openUploadFormModal);
-  // also allow ESC to close
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeUploadFormModal(); });
 
-  // Optional: detect mobile small screens and open in new tab by default
-  const isSmall = window.matchMedia && window.matchMedia('(max-width:640px)').matches;
-  if (isSmall && uploadBtn) {
-    uploadBtn.addEventListener('click', (ev) => {
+  // Mobile convenience: prefer new tab on small screens
+  if (window.matchMedia && window.matchMedia('(max-width:640px)').matches) {
+    uploadBtn && uploadBtn.addEventListener('click', (ev) => {
       ev.preventDefault();
-      // prefer new tab on small screens for user convenience
       window.open(uploadFormLink, '_blank');
     }, { once: true });
   }
