@@ -1,3 +1,4 @@
+// script.js (cleaned, full)
 // --- 1. CONFIGURATION ---
 const years = [
   { id: 1, label: '1st Year' },
@@ -496,12 +497,8 @@ function createSubjectFolderDOM(subject) {
   const folder = document.createElement('div');
   folder.className = 'subject-folder group relative bg-white border-2 border-black p-4 shadow-[4px_4px_0] fade-in mb-4';
 
-  const sylUrl = subject.syllabus
-    ? buildAssetUrl(state.branch, state.year, state.semester, subject.syllabus)
-    : null;
-
   const sylLink = subject.syllabus 
-    ? `<a href="${sylUrl}" download="${esc(subject.syllabus)}" class="text-xs font-bold text-pink-600 hover:underline hover:bg-pink-100 px-2 py-1 border-2 border-transparent hover:border-pink-300 transition-all mr-2">SYLLABUS</a>` 
+    ? `<a href="${buildAssetUrl(state.branch, state.year, state.semester, subject.syllabus)}" target="_blank" class="text-xs font-bold text-pink-600 hover:underline hover:bg-pink-100 px-2 py-1 border-2 border-transparent hover:border-pink-300 transition-all mr-2">SYLLABUS</a>` 
     : '';
 
   folder.innerHTML = `
@@ -515,7 +512,7 @@ function createSubjectFolderDOM(subject) {
       </div>
       <div class="flex items-center gap-2">
         ${sylLink}
-        <a class="text-sm underline open-subject-pdf hidden md:block">Download Subject PDF</a>
+        <a class="text-sm underline open-subject-pdf hidden md:block" target="_blank" rel="noopener noreferrer"></a>
         <button class="toggle-units px-4 py-2 border-2 border-black bg-yellow-300 hover:bg-yellow-400 font-bold text-sm uppercase transition-colors">Open Folder</button>
       </div>
     </div>
@@ -523,9 +520,7 @@ function createSubjectFolderDOM(subject) {
   `;
 
   const openLink = folder.querySelector('.open-subject-pdf');
-  const mainPdfUrl = buildAssetUrl(state.branch, state.year, state.semester, subject.file);
-  openLink.href = mainPdfUrl;
-  openLink.setAttribute('download', subject.file);
+  openLink.href = buildAssetUrl(state.branch, state.year, state.semester, subject.file);
 
   const toggleBtn = folder.querySelector('.toggle-units');
   const unitsArea = folder.querySelector('.units-area');
@@ -559,14 +554,13 @@ function getUnitsForSubject(subjectFile) {
   return units;
 }
 
-// 🔽 UPDATED: all unit PDFs use download attribute
 function renderUnitsHTML(units) {
   return `
     <div class="unit-grid grid grid-cols-1 sm:grid-cols-2 gap-3">
       ${units.map(u => {
         const url = buildAssetUrl(state.branch, state.year, state.semester, u.filename);
         return `
-          <a href="${url}" download="${esc(u.filename)}" class="block no-underline group/unit">
+          <a href="${url}" target="_blank" rel="noopener noreferrer" class="block no-underline group/unit">
             <div class="bg-zinc-50 border-2 border-black p-3 hover:bg-yellow-100 transition-colors flex items-center gap-3">
               <div class="p-2 bg-white border-2 border-black text-pink-500 group-hover/unit:text-black transition-colors">
                 <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -585,13 +579,9 @@ function renderUnitsHTML(units) {
 
 // --- 7. OTHER RENDERERS ---
 
-// 🔽 UPDATED: syllabus links also download instead of open
 function createSyllabusCard(item){
-  const url = encodeURI(item.url);
-  const fileName = url.split('/').pop() || 'syllabus.pdf';
-
   return `
-    <a href="${url}" download="${esc(fileName)}" class="group block no-underline">
+    <a href="${encodeURI(item.url)}" target="_blank" class="group block no-underline">
       <div class="relative bg-white border-2 border-black p-5 shadow-[4px_4px_0] hover:shadow-[8px_8px_0] transition-all mb-4">
         <div class="flex items-start gap-4">
           <div class="p-3 border-2 border-black bg-pink-300">
