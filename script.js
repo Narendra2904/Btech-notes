@@ -163,16 +163,21 @@ const manifest = {
     },
     3: {
       1: [
-        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
-        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
-        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
-        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+        { title: 'Business Economics and financial Analysis', file: 'BEFA.pdf', syllabus: 'BEFA_Syllabus.pdf' },
+        { title: 'Computer Organization and Operating Systems', file: 'COOS.pdf', syllabus: 'COOS_Syllabus.pdf' },
+        { title: 'Control Systems', file: 'CS.pdf', syllabus: 'CS_Syllabus.pdf' },
+        { title: 'Data Communication and Computer Networks', file: 'DCCN.pdf', syllabus: 'DCCN_Syllabus.pdf' },
+        { title: 'Electronic Measuring Instruments', file: 'EMI.pdf', syllabus: 'EMI_Syllabus.pdf' },
+        { title: 'IOT Architectures and Protocols', file: 'IAP.pdf', syllabus: 'IAP_Syllabus.pdf' },
+        { title: 'MicroControllers', file: 'MC.pdf', syllabus: 'MC_Syllabus.pdf' }
       ],
       2: [
-        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
-        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
-        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
-        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+        { title: 'Antennas and wave Propogation', file: 'AWP.pdf', syllabus: 'AWP_Syllabus.pdf' },
+        { title: 'Digital Image Processing', file: 'DIP.pdf', syllabus: 'DIP_Syllabus.pdf' },
+        { title: 'Digital Signal Processing', file: 'DSP.pdf', syllabus: 'DSP_Syllabus.pdf' },
+        { title: 'Embedded System Design', file: 'ESD.pdf', syllabus: 'ESD_Syllabus.pdf' },
+        { title: 'Mobile Communication and Networks', file: 'MCN.pdf', syllabus: 'MCN_Syllabus.pdf' },
+        { title: 'VLSO Design', file: 'VLSI.pdf', syllabus: 'VLSI_Syllabus.pdf' }
       ]
     },
     4: {
@@ -267,16 +272,28 @@ const manifest = {
     },
     3: {
       1: [
-        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
-        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
-        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
-        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+        { title: 'Computer Graphics', file: 'CG.pdf', syllabus: 'CG_Syllabus.pdf' },
+        { title: 'Computer Networks', file: 'CN.pdf', syllabus: 'CN_Syllabus.pdf' },
+        { title: 'Data Analytics', file: 'DA.pdf', syllabus: 'DA_Syllabus.pdf' },
+        { title: 'Distributed Databases', file: 'DDB.pdf', syllabus: 'DDB_Syllabus.pdf' },
+        { title: 'Design Thinking', file: 'DT.pdf', syllabus: 'DT_Syllabus.pdf' },
+        { title: 'Embedded Systems', file: 'ES.pdf', syllabus: 'ES_Syllabus.pdf' },
+        { title: 'Image Processing', file: 'IP.pdf', syllabus: 'IP_Syllabus.pdf' },
+        { title: 'information retrieval Systems', file: 'IRS.pdf', syllabus: 'IRS_Syllabus.pdf' },
+        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' },
+        { title: 'System Management', file: 'SM.pdf', syllabus: 'SM_Syllabus.pdf' },
+        { title: 'Quantum Computing', file: 'QC.pdf', syllabus: 'QC_Syllabus.pdf' }
       ],
       2: [
-        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
-        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
-        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
-        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+        { title: 'Advanced Communication Architecture', file: 'ACA.pdf', syllabus: 'ACA_Syllabus.pdf' },
+        { title: 'Intro to Engineering Design', file: 'IED.pdf', syllabus: 'IED_Syllabus.pdf' },
+        { title: 'Formal Language and Automata Theory', file: 'FLAT.pdf', syllabus: 'FLAT_Syllabus.pdf' },
+        { title: 'Full Stack Development', file: 'FSD.pdf', syllabus: 'FSD_Syllabus.pdf' },
+        { title: 'Internet of things', file: 'IOT.pdf', syllabus: 'IOT_Syllabus.pdf' },
+        { title: 'Mobile Application Development', file: 'MAD.pdf', syllabus: 'MAD_Syllabus.pdf' },
+        { title: 'Machine Learning', file: 'ML.pdf', syllabus: 'ML_Syllabus.pdf' },
+        { title: 'Scripting Languages', file: 'SL.pdf', syllabus: 'SL_Syllabus.pdf' },
+        { title: 'Software Testing Methodologies', file: 'STM.pdf', syllabus: 'STM_Syllabus.pdf' }
       ]
     },
     4: {
@@ -319,16 +336,26 @@ const manifest = {
     },
     3: {
       1: [
-        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
-        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
-        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
-        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
+        { title: 'Business Economics and financial Analysis', file: 'BEFA.pdf', syllabus: 'BEFA_Syllabus.pdf' },
+        { title: 'Computer Aided Electrical Machine Design', file: 'CAEMD.pdf', syllabus: 'CAEMD_Syllabus.pdf' },
+        { title: 'Control Systems', file: 'CS.pdf', syllabus: 'CS_Syllabus.pdf' },
+        { title: 'High Voltage Engineering', file: 'HVE.pdf', syllabus: 'HVE_Syllabus.pdf' },
+        { title: 'IOT Applications in EE', file: 'IOTA.pdf', syllabus: 'IOTA_Syllabus.pdf' },
+        { title: 'Micro Processors and Micro Controllers', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Power Electronics', file: 'PE.pdf', syllabus: 'PE_Syllabus.pdf' }
+
       ],
       2: [
-        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
-        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
-        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
-        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+        { title: 'Digital Signal Processing', file: 'DSP.pdf', syllabus: 'DSP_Syllabus.pdf' },
+        { title: 'Fundamental of Electric Vehicles', file: 'FEV.pdf', syllabus: 'FEV_Syllabus.pdf' },
+        { title: 'Cyber Physical Systems', file: 'CPS.pdf', syllabus: 'CPS_Syllabus.pdf' },
+        { title: 'Power Semiconductor Drives', file: 'PSD.pdf', syllabus: 'PSD_Syllabus.pdf' },
+        { title: 'Power System opration and control', file: 'PSOC.pdf', syllabus: 'PSOC_Syllabus.pdf' },
+        { title: 'Power System Protection', file: 'PSP.pdf', syllabus: 'PSP_Syllabus.pdf' },
+        { title: 'Renewable Energy Resources', file: 'RES.pdf', syllabus: 'RES_Syllabus.pdf' },
+        { title: 'Wind and Solar Energy Systems', file: 'WSES.pdf', syllabus: 'WSES_Syllabus.pdf' }
+
+        
       ]
     },
     4: {
@@ -371,17 +398,24 @@ const manifest = {
     },
     3: {
       1: [
-        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
-        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
-        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
-        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
-      ],
-      2: [
-        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
-        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
-        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
-        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
-      ]
+        { title: 'Geotechnical Engineering', file: 'GE.pdf', syllabus: 'GE_Syllabus.pdf' },
+        { title: 'Business Economics & Financial Analysis', file: 'BEFA - Unit 1.pdf', syllabus: 'BEFA_Syllabus.pdf' },
+        { title: 'Hydrology & Water Resources Eng.', file: 'HWRE - Unit 1.pdf', syllabus: 'HWRE_Syllabus.pdf' },
+        { title: 'Transportation Engineering', file: 'TE - Unit 1.pdf', syllabus: 'TE_Syllabus.pdf' },
+        { title: 'Structural Analysis', file: 'SA.pdf', syllabus: 'SA_Syllabus.pdf' },
+        { title: 'Structural Engineering I', file: 'SE1.pdf', syllabus: 'SE1_Syllabus.pdf' }
+],
+     2: [
+        { title: 'Environmental Engineering', file: 'EE - Unit 1.pdf', syllabus: 'EE_Syllabus.pdf' },
+        { title: 'Foundation Engineering', file: 'FE - Unit 1.pdf', syllabus: 'FE_Syllabus.pdf' },
+        { title: 'Structural Engineering II', file: 'SE2.pdf', syllabus: 'SE2_Syllabus.pdf' },
+        { title: 'Disaster Preparedness & Planning Mgmt', file: 'DPPM.pdf', syllabus: 'DPPM_Syllabus.pdf' },
+        { title: 'Geomatic Applications in CIVIL Engn', file: 'GA.pdf', syllabus: 'GA_Syllabus.pdf' },     
+        { title: 'Bridge Management System', file: 'BMS.pdf', syllabus: 'BMS_Syllabus.pdf' },
+        { title: 'Environmental Impact Assessment', file: 'EIA.pdf', syllabus: 'EIA_Syllabus.pdf' },
+        { title: 'Green Building Technologies', file: 'GBT.pdf', syllabus: 'GBT_Syllabus.pdf' },
+        { title: 'Smart Cities Planning & Mgmt', file: 'SCPM.pdf', syllabus: 'SCPM_Syllabus.pdf' }
+],
     },
     4: {
       1: [
@@ -424,17 +458,24 @@ const manifest = {
     },
     3: {
       1: [
-        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
-        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
-        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
-        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
-      ],
+  { title: 'Dynamics of Machinery', file: 'DOM - Unit 1.pdf', syllabus: 'DOM_Syllabus.pdf' },
+  { title: 'CAD/CAM', file: 'CADCAM - Unit 1.pdf', syllabus: 'CADCAM_Syllabus.pdf' },
+  { title: 'Business Economics & Financial Analysis', file: 'BEFA - Unit 1.pdf', syllabus: 'BEFA_Syllabus.pdf' },
+  { title: 'Finite Element Methods', file: 'Finite Element Methods.pdf', syllabus: 'FE_Syllabus.pdf' },
+  { title: 'Metrology & Machine Tools', file: 'MMT.pdf', syllabus: 'MMT_Syllabus.pdf' },
+  { title: 'Design of Machine Elements', file: 'DOME.pdf', syllabus: 'DOME_Syllabus.pdf' },
+  { title: 'Steam Power and Jet Propulsion', file: 'SJTP.pdf', syllabus: 'STJP_Syllabus.pdf' }
+],
       2: [
-        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
-        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
-        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
-        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
-      ]
+      { title: 'Heat Transfer', file: 'Heat-Transfer.pdf', syllabus: 'HT_Syllabus.pdf' },
+      { title: 'Operational Research', file: 'OR.pdf', syllabus: 'OR_Syllabus.pdf' },
+      { title: 'Production Planning & Control', file: 'PPC.pdf', syllabus: 'PPC_Syllabus.pdf' },
+      { title: 'Renewable Energy Sources', file: 'RES.pdf', syllabus: 'RES_Syllabus.pdf' },
+      { title: 'Unconventional Machining Process', file: 'UMP.pdf', syllabus: 'UMP_Syllabus.pdf' },
+      { title: 'Basic Mechanical Engineering', file: 'BME.pdf', syllabus: 'BME_Syllabus.pdf' },
+      { title: 'Modern Practice in Architecture', file: 'MPA.pdf', syllabus: 'MPA_Syllabus.pdf' },
+      { title: 'Machine Design', file: 'MD.pdf', syllabus: 'MD_Syllabus.pdf' }
+    ]
     },
     4: {
       1: [
