@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Back.Benchers – Movie Suggestions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    /* ====== BASE STYLES ====== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: radial-gradient(circle at top, #202329 0, #020308 55%, #000 100%);
+      color: #f5f5f5;
+      min-height: 100vh;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 16px 16px 40px;
+    }
+
+    /* ====== HEADER / NAVBAR ====== */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      border-radius: 14px;
+      border: 1px solid #2b2b2f;
+      background: rgba(10, 10, 14, 0.85);
+      backdrop-filter: blur(14px);
+      margin-bottom: 20px;
+      position: sticky;
+      top: 8px;
+      z-index: 20;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.86rem;
+    }
+
+    .brand-logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: #ffcd3c;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      color: #111;
+      box-shadow: 0 0 0 1px #111, 0 0 18px rgba(255, 205, 60, 0.35);
+      font-size: 16px;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-pill {
+      font-size: 0.78rem;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid #2c3037;
+      background: #111319;
+      color: #d0d0dc;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .nav-pill span.dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #37d98b;
+    }
+
+    .back-btn {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid #2e323a;
+      background: transparent;
+      color: #d7d7e0;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: 0.2s ease;
+    }
+
+    .back-btn:hover {
+      background: #191c24;
+      transform: translateY(-1px);
+    }
+
+    /* ====== PAGE INTRO ====== */
+    .intro {
+      margin: 26px 2px 10px;
+    }
+
+    .intro-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: #9a9ab0;
+      margin-bottom: 6px;
+    }
+
+    .intro-title {
+      font-size: clamp(1.9rem, 3vw, 2.3rem);
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      margin-bottom: 6px;
+    }
+
+    .intro-sub {
+      font-size: 0.9rem;
+      color: #b5b5c6;
+      max-width: 620px;
+    }
+
+    .intro-sub span.highlight {
+      color: #ffcd3c;
+    }
+
+    /* ====== FILTER CHIPS ====== */
+    .filters {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      font-size: 0.78rem;
+      padding: 5px 11px;
+      border-radius: 999px;
+      border: 1px solid #30333b;
+      color: #c9c9d6;
+      background: #111319;
+      opacity: 0.9;
+    }
+
+    .chip--primary {
+      border-color: #ffcd3c;
+      background: radial-gradient(circle at top left, #4b3a12, #15100a 65%, #050508);
+      color: #ffe9a4;
+    }
+
+    /* ====== CATEGORY SECTION ====== */
+    .category {
+      margin-top: 34px;
+    }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .category-title {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .category-badge {
+      font-size: 0.8rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #ffcd3c;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .category-badge span.icon {
+      font-size: 1rem;
+    }
+
+    .category-name {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+
+    .category-caption {
+      font-size: 0.85rem;
+      color: #9d9db0;
+    }
+
+    .category-note {
+      font-size: 0.8rem;
+      color: #6b6b7a;
+      text-align: right;
+    }
+
+    /* ====== MOVIE GRID & CARDS ====== */
+    .movie-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+
+    .movie-card {
+      background: radial-gradient(circle at top left, #2b2e3a 0, #13151f 40%, #05060b 100%);
+      border-radius: 16px;
+      border: 1px solid rgba(75, 79, 99, 0.7);
+      padding: 14px 14px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 20px 38px rgba(0, 0, 0, 0.65);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.2s ease;
+    }
+
+    .movie-card::before {
+      content: "";
+      position: absolute;
+      inset: -60%;
+      background: radial-gradient(circle at 12% 0, rgba(255, 205, 60, 0.16), transparent 47%),
+        radial-gradient(circle at 120% 60%, rgba(105, 174, 255, 0.18), transparent 52%);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .movie-card:hover::before {
+      opacity: 1;
+    }
+
+    .movie-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255, 205, 60, 0.8);
+      box-shadow: 0 26px 50px rgba(0, 0, 0, 0.9);
+    }
+
+    .movie-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .movie-heading {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .movie-title {
+      font-weight: 600;
+      font-size: 1.05rem;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .movie-meta {
+      font-size: 0.78rem;
+      color: #bbbbc9;
+    }
+
+    .movie-rating-pill {
+      font-size: 0.75rem;
+      padding: 3px 7px;
+      border-radius: 999px;
+      border: 1px solid #404355;
+      color: #e6e6f0;
+      background: rgba(12, 16, 26, 0.9);
+      white-space: nowrap;
+    }
+
+    .movie-desc {
+      font-size: 0.84rem;
+      color: #d2d2df;
+      line-height: 1.4;
+      margin-top: 3px;
+    }
+
+    .movie-desc small {
+      color: #8a8aa2;
+      font-size: 0.78rem;
+    }
+
+    .mood-row {
+      margin-top: 6px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      align-items: center;
+      font-size: 0.78rem;
+    }
+
+    .mood-label {
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: rgba(75, 222, 151, 0.16);
+      border: 1px solid rgba(75, 222, 151, 0.85);
+      color: #c9ffe0;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .mood-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .tag {
+      font-size: 0.74rem;
+      border-radius: 999px;
+      border: 1px solid #3e4250;
+      padding: 3px 8px;
+      color: #cfcfe0;
+      background: rgba(9, 11, 19, 0.9);
+    }
+
+    .tag--platform {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      border-color: #1769ff;
+      background: radial-gradient(circle at 0 0, rgba(96, 165, 255, 0.45), #050814 70%);
+      color: #e5f0ff;
+    }
+
+    .tag--platform::before {
+      content: "•";
+      font-size: 1rem;
+    }
+
+    .tag--red {
+      border-color: #ff4b6b;
+      color: #ffd7e0;
+    }
+
+    /* ====== FOOTNOTE ====== */
+    .footnote {
+      margin-top: 22px;
+      font-size: 0.75rem;
+      color: #78788b;
+    }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 720px) {
+      .navbar {
+        padding: 8px 10px;
+      }
+
+      .nav-actions {
+        gap: 6px;
+      }
+
+      .category-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .category-note {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- ====== NAVBAR ====== -->
+    <header class="navbar">
+      <div class="brand">
+        <div class="brand-logo">📚</div>
+        <div>
+          <div>BACK.BENCHERS</div>
+          <div style="font-size: 0.7rem; color:#9e9eb2; font-weight:400;">
+            Movie Suggestions
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <div class="nav-pill">
+          <span class="dot"></span>
+          <span>Exam break watch-list</span>
+        </div>
+        <a href="index.html">
+          <button class="back-btn">
+            ⬅ Back to Notes
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <!-- ====== INTRO ====== -->
+    <section class="intro">
+      <div class="intro-label">curated for engineering life</div>
+      <h1 class="intro-title">Bunk-proof Movie Playlist</h1>
+      <p class="intro-sub">
+        Light-hearted chaos, comfort watches, <span class="highlight">no heavy lectures</span>.
+        Mix of Telugu, Hindi, Tamil & English movies – all arranged in neat cards so
+        things don’t look mixed or cluttered.
+      </p>
+
+      <!-- Visual chips (static) -->
+      <div class="filters">
+        <div class="chip chip--primary">Full Timepass</div>
+        <div class="chip">Chill Evening</div>
+        <div class="chip">Friends / Gang Watch</div>
+        <div class="chip">Solo Binge</div>
+        <div class="chip">Sad / Emotional</div>
+        <div class="chip">Motivation</div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CATEGORY 1 – FULL TIMEPASS & CHAOS
+         ========================================================= -->
+    <section class="category" id="full-timepass">
+      <div class="category-header">
+        <div class="category-title">
+          <div class="category-badge">
+            <span class="icon">🍿</span> FULL TIMEPASS & CHAOS
+          </div>
+          <div class="category-name">Zero-brain-mode watch list</div>
+          <p class="category-caption">
+            “Marks emi raani situation” lo compulsory ga ban chese movies.
+            Pure memes, confusion, and group screaming.
+          </p>
+        </div>
+        <p class="category-note">
+          *Pick randomly. Annitlo timepass guarantee.
+        </p>
+      </div>
+
+      <div class="movie-grid">
+        <!-- Ee Nagaraniki Emaindi (Prime Video) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.primevideo.com/detail/Ee-Nagaraniki-Emaindi/0HG5FNGB0BB7GKYQPRDWO9WDJX" target="_blank">
+                  Ee Nagaraniki Emaindi
+                </a>
+              </h3>
+              <div class="movie-meta">Telugu · Comedy</div>
+            </div>
+            <span class="movie-rating-pill">Friends / Road-trip vibes</span>
+          </div>
+
+          <p class="movie-desc">
+            Friends + road trip + low-key life confusion = perfect engineering mood.
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span> Late Night Vibe
+            </span>
+            <span style="font-size:0.76rem; color:#9c9cb5;">
+              Best with full gang + snacks.
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Gang Watch</span>
+            <span class="tag tag--platform">Prime Video</span>
+          </div>
+        </article>
+
+        <!-- Doctor (Netflix) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.netflix.com/title/81337210" target="_blank">
+                  Doctor
+                </a>
+              </h3>
+              <div class="movie-meta">Tamil · Comedy / Thriller</div>
+            </div>
+            <span class="movie-rating-pill">Deadpan comedy</span>
+          </div>
+
+          <p class="movie-desc">
+            Straight-face comedy in the weirdest situations. Brain off, laughter on.
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span> Brain Off Mode
+            </span>
+            <span style="font-size:0.76rem; color:#9c9cb5;">
+              Works even if you’re half asleep.
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Anytime Watch</span>
+            <span class="tag tag--platform">Netflix</span>
+          </div>
+        </article>
+
+        <!-- Guardians of the Galaxy (JioHotstar / Disney+) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.hotstar.com/in/movies/guardians-of-the-galaxy/1260018294" target="_blank">
+                  Guardians of the Galaxy
+                </a>
+              </h3>
+              <div class="movie-meta">English · Marvel · Sci-Fi</div>
+            </div>
+            <span class="movie-rating-pill">Comfort Marvel</span>
+          </div>
+
+          <p class="movie-desc">
+            Music, space, stupidity, heart – anni mix ayi perfect distraction package.
+            <br><small>Telugu dub / multi-audio JioHotstar lo untundi – audio track lo Telugu select cheyyi.</small>
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span> Comic Vibes
+            </span>
+            <span style="font-size:0.76rem; color:#9c9cb5;">
+              Great after long coding sessions.
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Marvel Fans</span>
+            <span class="tag tag--platform">JioHotstar</span>
+          </div>
+        </article>
+
+        <!-- Welcome (JioHotstar) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.hotstar.com/in/movies/welcome/1971000414" target="_blank">
+                  Welcome
+                </a>
+              </h3>
+              <div class="movie-meta">Hindi · Comedy</div>
+            </div>
+            <span class="movie-rating-pill">Classic chaos</span>
+          </div>
+
+          <p class="movie-desc">
+            Pure chaos, non-stop confusion. Logic holiday ki vellindi,
+            meme material matram full ga undi.
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span> Full Timepass
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Family / Friends</span>
+            <span class="tag tag--platform">JioHotstar</span>
+          </div>
+        </article>
+
+        <!-- Deadpool (18+ JioHotstar) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.hotstar.com/in/movies/deadpool/1770003257" target="_blank">
+                  Deadpool
+                </a>
+              </h3>
+              <div class="movie-meta">English · Superhero · 18+</div>
+            </div>
+            <span class="movie-rating-pill">Meta + mad humour</span>
+          </div>
+
+          <p class="movie-desc">
+            Adult humour, 4th-wall break, zero seriousness. Exam failure gurinchi jokes ready avuthayi.
+            <br><small>Telugu audio options JioHotstar lo check cheyyi (multi-language track untundi normally).</small>
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span> Unfiltered Fun
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Solo / Close Friends</span>
+            <span class="tag tag--platform">JioHotstar</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CATEGORY 2 – CHILL & FEEL GOOD / SPACE OUT
+         ========================================================= -->
+    <section class="category" id="chill-feel-good">
+      <div class="category-header">
+        <div class="category-title">
+          <div class="category-badge">
+            <span class="icon">🌙</span> CHILL & FEEL GOOD
+          </div>
+          <div class="category-name">Soft background + deep vibes</div>
+          <p class="category-caption">
+            Long night, window open, earphones lo BGM – slow but satisfying movies.
+          </p>
+        </div>
+        <p class="category-note">
+          *Phone side ki pettu, visuals enjoy cheyyali type.
+        </p>
+      </div>
+
+      <div class="movie-grid">
+        <!-- Interstellar (Prime Video) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.primevideo.com/detail/Interstellar/0PUNMGZEWOMYFKR1XIGOLTL2YM" target="_blank">
+                  Interstellar
+                </a>
+              </h3>
+              <div class="movie-meta">English · Sci-Fi · Emotional</div>
+            </div>
+            <span class="movie-rating-pill">Space + Dad feels</span>
+          </div>
+
+          <p class="movie-desc">
+            Time, space, love, relativity – brain half fry ayina, heart full ga fill ayyedi movie.
+            <br><small>Telugu dub lekapoyina, subtitles tho chuste saripothundi. Headphones + dark room = max impact.</small>
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span> Chill Evening
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Solo Watch</span>
+            <span class="tag tag--platform">Prime Video</span>
+          </div>
+        </article>
+
+        <!-- Raanjhanaa (ZEE5) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.zee5.com/movies/details/raanjhanaa/0-0-345651" target="_blank">
+                  Raanjhanaa
+                </a>
+              </h3>
+              <div class="movie-meta">Hindi · Romance / Drama</div>
+            </div>
+            <span class="movie-rating-pill">Small town feels</span>
+          </div>
+
+          <p class="movie-desc">
+            Intense love story + strong music. End lo heart little heavy avthundi, but satisfying.
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span> Emotional Ride
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">AR Rahman BGM</span>
+            <span class="tag tag--platform">ZEE5</span>
+          </div>
+        </article>
+
+        <!-- Saptha Sagaralu Daati (Telugu, Prime Video) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.primevideo.com/-/te/detail/%E0%B0%B8%E0%B0%AA%E0%B1%8D%E0%B0%A4-%E0%B0%B8%E0%B0%BE%E0%B0%97%E0%B0%B0%E0%B0%BE%E0%B0%B2%E0%B1%81-%E0%B0%A6%E0%B0%BE%E0%B0%9F%E0%B0%BF---%E0%B0%B5%E0%B1%88%E0%B0%AA%E0%B1%81-A/0I6L3XGBCC78V9SIUZUOIKYO59" target="_blank">
+                  Saptha Sagaralu Daati (Side A/B)
+                </a>
+              </h3>
+              <div class="movie-meta">Kannada / Telugu · Romantic Drama</div>
+            </div>
+            <span class="movie-rating-pill">Slow burn</span>
+          </div>
+
+          <p class="movie-desc">
+            Slow, deep, raw emotions. Sad mood lo kuda peaceful ga feel avvalante perfect choice.
+            <br><small>Telugu dubbed version “సప్త సాగరాలు దాటి” Prime Video lo direct ga available.</small>
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span> Sad but Aesthetic
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Headphones Recommended</span>
+            <span class="tag tag--platform">Prime Video</span>
+          </div>
+        </article>
+
+        <!-- Bommarillu (Eros Now / JioCinema / Zee5 via JustWatch) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.justwatch.com/in/movie/bommarillu" target="_blank">
+                  Bommarillu
+                </a>
+              </h3>
+              <div class="movie-meta">Telugu · Feel-good Romance</div>
+            </div>
+            <span class="movie-rating-pill">Comfort rewatch</span>
+          </div>
+
+          <p class="movie-desc">
+            Family + romance + soft comedy. College stress ninchi small break kavali anthe open chesi watch cheyyachu.
+            <br><small>Streaming info (Eros Now / JioCinema / Zee5) JustWatch page lo direct ga untundi.</small>
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span>Comfort Movie
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Family Friendly</span>
+            <span class="tag tag--platform">Eros Now · JioCinema · Zee5</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CATEGORY 3 – MOTIVATION & CAMPUS / RELATABLE
+         ========================================================= -->
+    <section class="category" id="motivation-campus">
+      <div class="category-header">
+        <div class="category-title">
+          <div class="category-badge">
+            <span class="icon">📈</span> MOTIVATION & CAMPUS
+          </div>
+          <div class="category-name">Marks, failure, friendship – anni mix</div>
+          <p class="category-caption">
+            Semester tension, backlogs, placements – engineering life ni reflect chese movies.
+          </p>
+        </div>
+        <p class="category-note">
+          *Exam mundu / backlog taruvata watch chesthe ekstra impact.
+        </p>
+      </div>
+
+      <div class="movie-grid">
+        <!-- 3 Idiots (Prime Video) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.primevideo.com/detail/3-Idiots/0IMQLIS5J8EC6OLJBZAIAWY0XF" target="_blank">
+                  3 Idiots
+                </a>
+              </h3>
+              <div class="movie-meta">Hindi · Comedy / Drama</div>
+            </div>
+            <span class="movie-rating-pill">Engineering classic</span>
+          </div>
+
+          <p class="movie-desc">
+            Pressure, parental expectations, passion – anni neat ga cover chesina must-watch.
+            <br><small>Telugu dub “3 Rascals” sometimes TV / OTT lo untundi, kani original Hindi version Prime lo stable ga untundi.</small>
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span>Relatable + Motivating
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Gang Watch</span>
+            <span class="tag tag--platform">Prime Video</span>
+          </div>
+        </article>
+
+        <!-- Chhichhore (JioHotstar) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.hotstar.com/in/movies/chhichhore/1260012713" target="_blank">
+                  Chhichhore
+                </a>
+              </h3>
+              <div class="movie-meta">Hindi · College / Emotional</div>
+            </div>
+            <span class="movie-rating-pill">Failure & hope</span>
+          </div>
+
+          <p class="movie-desc">
+            Hostel life comedy tho start ayi, end lo emotional punch istundi.
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span>Motivational Feels
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Hostel Vibes</span>
+            <span class="tag tag--platform">JioHotstar</span>
+          </div>
+        </article>
+
+        <!-- Jathi Ratnalu (Prime + MX Player) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.primevideo.com/detail/Jathi-Ratnalu/0IE9LYXISHJPLP51IPFBVTVM53" target="_blank">
+                  Jathi Ratnalu
+                </a>
+              </h3>
+              <div class="movie-meta">Telugu · Comedy</div>
+            </div>
+            <span class="movie-rating-pill">Pure nonsense fun</span>
+          </div>
+
+          <p class="movie-desc">
+            Logic pakkana pettu, lines matram meme pages ki food. 
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span>Stress Buster
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Gang Watch</span>
+            <span class="tag tag--platform">Prime Video · MX Player</span>
+          </div>
+        </article>
+
+        <!-- Mahaan (Prime Video) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.primevideo.com/detail/Mahaan-Tamil/0RS62LESB81SLTBRZPZQET0HFC" target="_blank">
+                  Mahaan
+                </a>
+              </h3>
+              <div class="movie-meta">Tamil · Action / Drama</div>
+            </div>
+            <span class="movie-rating-pill">Mid-life chaos</span>
+          </div>
+
+          <p class="movie-desc">
+            One decision life ni ela flip chestundo intense ga chupisthadi.
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span>Serious Mood
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Solo Watch</span>
+            <span class="tag tag--platform">Prime Video</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CATEGORY 4 – SAD / HEART HEAVY BUT GOOD
+         ========================================================= -->
+    <section class="category" id="sad-heart">
+      <div class="category-header">
+        <div class="category-title">
+          <div class="category-badge">
+            <span class="icon">💧</span> SAD / HEART HEAVY
+          </div>
+          <div class="category-name">“Feel kavalante” dedicated list</div>
+          <p class="category-caption">
+            Breakup, failure, or just heavy mood – pain but satisfying movies.
+          </p>
+        </div>
+        <p class="category-note">
+          *Headphones mandatory. Room lights low.
+        </p>
+      </div>
+
+      <div class="movie-grid">
+        <!-- Premam (Malayalam – JioHotstar) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.hotstar.com/in/movies/premam/1000091195" target="_blank">
+                  Premam (Malayalam)
+                </a>
+              </h3>
+              <div class="movie-meta">Malayalam / Telugu · Romance</div>
+            </div>
+            <span class="movie-rating-pill">Growth + heartbreak</span>
+          </div>
+
+          <p class="movie-desc">
+            Life lo different phases lo love ela untundo simple ga, beautiful ga chupisthadi.
+            <br><small>Original Malayalam version JioHotstar lo; Telugu remake “Premam” separate ga Prime / TV lo vastundi.</small>
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span>Soft Sad
+            </span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Music Vibes</span>
+            <span class="tag tag--platform">JioHotstar</span>
+          </div>
+        </article>
+
+        <!-- Sita Ramam (Prime Video / MX Player) -->
+        <article class="movie-card">
+          <div class="movie-top">
+            <div class="movie-heading">
+              <h3 class="movie-title">
+                <a href="https://www.primevideo.com/detail/Sita-Ramam/0FG8MKG3QAPT42E0R312IBQEP9" target="_blank">
+                  Sita Ramam
+                </a>
+              </h3>
+              <div class="movie-meta">Telugu · Period Romance</div>
+            </div>
+            <span class="movie-rating-pill">Poetic love</span>
+          </div>
+
+          <p class="movie-desc">
+            Visuals + music + emotions – full package. Konchem slow, but strong payoff.
+            <br><small>Prime Video lo mainga Telugu; MX Player lo kuda free ga ad-based version untundi.</small>
+          </p>
+
+          <div class="mood-row">
+            <span class="mood-label">
+              <span class="mood-dot"></span>Heart Heavy</span>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Solo Night Watch</span>
+            <span class="tag tag--platform">Prime Video · MX Player</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====== FOOTNOTE ====== -->
+    <p class="footnote">
+      OTT platform links are based on current availability in India – sometimes movies move between apps.
+      If any link breaks later, just search the title + “JustWatch” to see the latest OTT.
+      Telugu versions / audio kosam OTT app lo audio or subtitle options check cheyyi.
+    </p>
+
+  </div>
+</body>
+</html>
