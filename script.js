@@ -35,28 +35,16 @@ const manifest = {
     },
     3: {
       1: [
-        { title: 'Advanced Communication Architecture', file: 'ACA.pdf', syllabus: 'ACA_Syllabus.pdf' },
-        { title: 'Computer Graphics', file: 'CG.pdf', syllabus: 'CG_Syllabus.pdf' },
-        { title: 'Computer Networks', file: 'CN.pdf', syllabus: 'CN_Syllabus.pdf' },
-        { title: 'Data Analytics', file: 'DA.pdf', syllabus: 'DA_Syllabus.pdf' },
-        { title: 'Design and analysis of Algorithms', file: 'DAA.pdf', syllabus: 'DAA_Syllabus.pdf' },
-        { title: 'Distributed Databases', file: 'DDB.pdf', syllabus: 'DDB_Syllabus.pdf' },
-        { title: 'DevOps', file: 'DEV.pdf', syllabus: 'DEV_Syllabus.pdf' },
-        { title: 'Image Processing', file: 'IP.pdf', syllabus: 'IP_Syllabus.pdf' },
-        { title: 'information retrieval Systems', file: 'IRS.pdf', syllabus: 'IRS_Syllabus.pdf' },
-        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' },
-        { title: 'Principles of Programming Languages', file: 'PPL.pdf', syllabus: 'PPL_Syllabus.pdf' },
-        { title: 'Quantum Computing', file: 'QC.pdf', syllabus: 'QC_Syllabus.pdf' }
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
       2: [
-        { title: 'Artificial Intelligence', file: 'AI.pdf', syllabus: 'AI_Syllabus.pdf' },
-        { title: 'Formal Language and Automata Theory', file: 'FLAT.pdf', syllabus: 'FLAT_Syllabus.pdf' },
-        { title: 'Full Stack Development', file: 'FSD.pdf', syllabus: 'FSD_Syllabus.pdf' },
-        { title: 'Internet of things', file: 'IOT.pdf', syllabus: 'IOT_Syllabus.pdf' },
-        { title: 'Mobile Application Development', file: 'MAD.pdf', syllabus: 'MAD_Syllabus.pdf' },
-        { title: 'MAchine Learning', file: 'ML.pdf', syllabus: 'ML_Syllabus.pdf' },
-        { title: 'Scripting Languages', file: 'SL.pdf', syllabus: 'SL_Syllabus.pdf' },
-        { title: 'Software Testing Methodologies', file: 'STM.pdf', syllabus: 'STM_Syllabus.pdf' }
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
     4: {
@@ -99,27 +87,16 @@ const manifest = {
     },
     3: {
       1: [
-        { title: 'Business Economics and financial Analysis', file: 'BEFA.pdf', syllabus: 'BEFA_Syllabus.pdf' },
-        { title: 'Computer Graphics', file: 'CG.pdf', syllabus: 'CG_Syllabus.pdf' },
-        { title: 'Computer Networks', file: 'CN.pdf', syllabus: 'CN_Syllabus.pdf' },
-        { title: 'Design and Analysis of Algorithms', file: 'DAA.pdf', syllabus: 'DAA_Syllabus.pdf' },
-        { title: 'Graph Theory', file: 'GT.pdf', syllabus: 'GT_Syllabus.pdf' },
-        { title: 'Design and Analysis of Algorithms', file: 'DAA.pdf', syllabus: 'DAA_Syllabus.pdf' },
-        { title: 'Introduction to DataScience', file: 'IDS.pdf', syllabus: 'IDS_Syllabus.pdf' },
-        { title: 'Image Processing', file: 'IP.pdf', syllabus: 'IP_Syllabus.pdf' },
-        { title: 'Machine Learning ', file: 'ML.pdf', syllabus: 'ML_Syllabus.pdf' },
-        { title: 'Web Programming', file: 'WP.pdf', syllabus: 'WP_Syllabus.pdf' }
-        
+        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
+        { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
       2: [
-        { title: 'Artificial Intelligence', file: 'AI.pdf', syllabus: 'AI_Syllabus.pdf' },
-        { title: 'Information Retrieval Systems', file: 'IRS.pdf', syllabus: 'IRS_Syllabus.pdf' },
-        { title: 'Computer Vision and Robotics', file: 'CVR.pdf', syllabus: 'CVR_Syllabus.pdf' },
-        { title: 'Data Warehouse and Business Intelligence', file: 'DWBI.pdf', syllabus: 'DWBI_Syllabus.pdf' },
-        { title: 'Natural Language Processing', file: 'NLP.pdf', syllabus: 'NLP_Syllabus.pdf' },
-        { title: 'Pattern Recognition', file: 'PR.pdf', syllabus: 'PR_Syllabus.pdf' },
-        { title: 'Software Testing Methodologies', file: 'STM.pdf', syllabus: 'STM_Syllabus.pdf' },
-        { title: 'Knowledge Representation and Reasoning', file: 'KRR.pdf', syllabus: 'KRR_Syllabus.pdf' }
+        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
+        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
+        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
+        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
       ]
     },
     4: {
