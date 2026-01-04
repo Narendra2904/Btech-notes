@@ -776,7 +776,7 @@ document.addEventListener('DOMContentLoaded', () => {
         icon: "instagram",
         color: "bg-pink-400",
         links: [
-          { name: "Madhan Myana", url: "insta.html" },
+          { name: "Madhan Myana", url: "https://www.instagram.com/madhan.myana/" },
           { name: "Narendra Yenagandula", url: "https://instagram.com/narendra_yenagandula" }
         ]
       },
