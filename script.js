@@ -1,4 +1,4 @@
-const API_BASE = "https://btech-notes.vercel.app/";
+const API_BASE = "http://localhost:5000";
 
 const state = {
   branch: null,
