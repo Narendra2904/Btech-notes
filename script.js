@@ -189,7 +189,7 @@ const manifest = {
         { title: 'Satellite Communication', file: 'SC.pdf', syllabus: 'SC_Syllabus.pdf' }
       ],
       2: [
-        { title: 'System on chip architecture', file: 'SOCA.pdf', syllabus: "SOCA_Syllabus.pdf' },
+        { title: 'System on chip architecture', file: 'SOCA.pdf', syllabus: "SOCA_Syllabus.pdf" },
         { title: 'Introduction to computer Networks', file: 'CN.pdf', syllabus: 'CN_Syllabus.pdf' },
         { title: 'Artificial intelligence', file: 'IAI.pdf', syllabus: 'IAI_Syllabus.pdf' }
       ]
