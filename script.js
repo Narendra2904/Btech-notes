@@ -193,7 +193,7 @@ const manifest = {
         { title: 'Introduction to computer Networks', file: 'CN.pdf', syllabus: 'CN_Syllabus.pdf' },
         { title: 'Artificial intelligence', file: 'IAI.pdf', syllabus: 'IAI_Syllabus.pdf' }
       ]
-    }
+    
   },
   "CSE(DS)": {
     1: {
