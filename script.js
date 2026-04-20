@@ -68,10 +68,9 @@ const manifest = {
         { title: 'UTILIZATION OF ELECTRIC ENERGY', file: 'UEE.pdf', syllabus: 'UEE_Syllabus.pdf' }
       ],
       2: [
-        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
-        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
-        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
-        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+        { title: 'Organisational behaviour', file: 'OB_Full.pdf', syllabus: 'OB_Syllabus.pdf' },
+        { title: 'Human computer interface', file: 'HCI_Full.pdf', syllabus: 'HCI_Syllabus.pdf' },
+        { title: 'Communication technologies', file: 'CT.pdf', syllabus: 'CT_Syllabus.pdf' }
       ]
     }
   },
