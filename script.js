@@ -189,10 +189,9 @@ const manifest = {
         { title: 'Satellite Communication', file: 'SC.pdf', syllabus: 'SC_Syllabus.pdf' }
       ],
       2: [
-        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
-        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
-        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
-        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+        { title: 'System on chip architecture', file: 'SOCA.pdf', syllabus: "SOCA_Syllabus.pdf' },
+        { title: 'Introduction to computer Networks', file: 'CN.pdf', syllabus: 'CN_Syllabus.pdf' },
+        { title: 'Artificial intelligence', file: 'IAI.pdf', syllabus: 'IAI_Syllabus.pdf' }
       ]
     }
   },
