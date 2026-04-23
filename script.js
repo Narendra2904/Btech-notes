@@ -131,10 +131,9 @@ const manifest = {
         { title: 'Remote sensing & GIS', file: 'RSGIS.pdf', syllabus: 'RSGIS_Syllabus.pdf' }
       ],
       2: [
-        { title: 'Mathematics-II', file: 'Maths2.pdf', syllabus: 'Maths2_Syllabus.pdf' },
-        { title: 'Data Structures', file: 'DS.pdf', syllabus: 'DS_Syllabus.pdf' },
-        { title: 'English', file: 'English.pdf', syllabus: 'English_Syllabus.pdf' },
-        { title: 'Basic Electrical Eng', file: 'BEE.pdf', syllabus: 'BEE_Syllabus.pdf' }
+        { title: 'Ad hoc Sensor and networks', file: 'ASN.pdf', syllabus: 'ASN_Syllabus.pdf' },
+        { title: 'Cognitive computing', file: 'CC.pdf', syllabus: 'CC_Syllabus.pdf' },
+        { title: 'Entrepreneurship Development', file: 'ED.pdf', syllabus: 'ED_Syllabus.pdf' }
       ]
     }
   },
