@@ -374,8 +374,8 @@ const manifest = {
   "CIV": {
     1: {
       1: [
-        { title: 'Mathematics-I', file: 'Maths1.pdf', syllabus: 'Maths1_Syllabus.pdf' },
-        { title: 'Applied Physics', file: 'Physics.pdf', syllabus: 'Physics_Syllabus.pdf' },
+        { title: 'Mathematics-I', file: 'M1.pdf', syllabus: 'M1_Syllabus.pdf' },
+        { title: 'Applied Physics', file: 'AP.pdf', syllabus: 'AP_Syllabus.pdf' },
         { title: 'Prog. for Problem Solving', file: 'PPS.pdf', syllabus: 'PPS_Syllabus.pdf' },
         { title: 'Engineering Workshop', file: 'Workshop.pdf', syllabus: 'Workshop_Syllabus.pdf' }
       ],
