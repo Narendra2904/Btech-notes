@@ -1,0 +1,5911 @@
+{
+  "CIV": {
+    "1": {
+      "1": [
+        {
+          "code": "AP",
+          "title": "Applied Physics",
+          "syllabus": {
+            "title": "Applied Physics Syllabus",
+            "filename": "AP_Syllabus.pdf",
+            "relPath": "CIV/year1/sem1/AP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "AP - Unit 1.pdf",
+              "relPath": "CIV/year1/sem1/AP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "AP - Unit 2.pdf",
+              "relPath": "CIV/year1/sem1/AP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "AP - Unit 3.pdf",
+              "relPath": "CIV/year1/sem1/AP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "AP - Unit 4.pdf",
+              "relPath": "CIV/year1/sem1/AP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "AP - Unit 5.pdf",
+              "relPath": "CIV/year1/sem1/AP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "M1",
+          "title": "Mathematics-I",
+          "syllabus": {
+            "title": "Mathematics-I Syllabus",
+            "filename": "M1_Syllabus.pdf",
+            "relPath": "CIV/year1/sem1/M1_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "M1 - Unit 1.pdf",
+              "relPath": "CIV/year1/sem1/M1 - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "M1 - Unit 2.pdf",
+              "relPath": "CIV/year1/sem1/M1 - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "M1 - Unit 3.pdf",
+              "relPath": "CIV/year1/sem1/M1 - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "M1 - Unit 4.pdf",
+              "relPath": "CIV/year1/sem1/M1 - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "M1 - Unit 5.pdf",
+              "relPath": "CIV/year1/sem1/M1 - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "1": [
+        {
+          "code": "HWRE",
+          "title": "Hydrology & Water Resources Engineering",
+          "syllabus": {
+            "title": "Hydrology & Water Resources Engineering Syllabus",
+            "filename": "HWRE_Syllabus.pdf",
+            "relPath": "CIV/year3/sem1/HWRE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "HWRE - Unit 3.pdf",
+              "relPath": "CIV/year3/sem1/HWRE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "HWRE - Unit 4.pdf",
+              "relPath": "CIV/year3/sem1/HWRE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "HWRE - Unit 5.pdf",
+              "relPath": "CIV/year3/sem1/HWRE - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "SA",
+          "title": "Structural Analysis",
+          "syllabus": {
+            "title": "Structural Analysis Syllabus",
+            "filename": "SA_Syllabus.pdf",
+            "relPath": "CIV/year3/sem1/SA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SE1",
+          "title": "Structural Engineering I",
+          "syllabus": {
+            "title": "Structural Engineering I Syllabus",
+            "filename": "SE1_Syllabus.pdf",
+            "relPath": "CIV/year3/sem1/SE1_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "TE",
+          "title": "Transportation Engineering",
+          "syllabus": {
+            "title": "Transportation Engineering Syllabus",
+            "filename": "TE_Syllabus.pdf",
+            "relPath": "CIV/year3/sem1/TE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "TE - Unit 1.pdf",
+              "relPath": "CIV/year3/sem1/TE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "TE - Unit 2.pdf",
+              "relPath": "CIV/year3/sem1/TE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "TE - Unit 3.pdf",
+              "relPath": "CIV/year3/sem1/TE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "TE - Unit 4.pdf",
+              "relPath": "CIV/year3/sem1/TE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "TE - Unit 5.pdf",
+              "relPath": "CIV/year3/sem1/TE - Unit 5.pdf"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "code": "BMS",
+          "title": "Bridge Management System",
+          "syllabus": {
+            "title": "Bridge Management System Syllabus",
+            "filename": "BMS_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/BMS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "DPPM",
+          "title": "Disaster Preparedness & Planning Mgmt",
+          "syllabus": {
+            "title": "Disaster Preparedness & Planning Mgmt Syllabus",
+            "filename": "DPPM_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/DPPM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "EE",
+          "title": "Environmental Engineering",
+          "syllabus": {
+            "title": "Environmental Engineering Syllabus",
+            "filename": "EE_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/EE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "EE - Unit 1.pdf",
+              "relPath": "CIV/year3/sem2/EE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "EE - Unit 2.pdf",
+              "relPath": "CIV/year3/sem2/EE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "EE - Unit 3.pdf",
+              "relPath": "CIV/year3/sem2/EE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "EE - Unit 4.pdf",
+              "relPath": "CIV/year3/sem2/EE - Unit 4.pdf"
+            }
+          ]
+        },
+        {
+          "code": "EIA",
+          "title": "Environmental Impact Assessment",
+          "syllabus": {
+            "title": "Environmental Impact Assessment Syllabus",
+            "filename": "EIA_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/EIA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "FE",
+          "title": "Foundation Engineering",
+          "syllabus": {
+            "title": "Foundation Engineering Syllabus",
+            "filename": "FE_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/FE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "FE - Unit 1.pdf",
+              "relPath": "CIV/year3/sem2/FE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "FE - Unit 2.pdf",
+              "relPath": "CIV/year3/sem2/FE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "FE - Unit 3.pdf",
+              "relPath": "CIV/year3/sem2/FE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "FE - Unit 4.pdf",
+              "relPath": "CIV/year3/sem2/FE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "FE - Unit 5.pdf",
+              "relPath": "CIV/year3/sem2/FE - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "GA",
+          "title": "Geomatic Applications in CIVIL Engn",
+          "syllabus": {
+            "title": "Geomatic Applications in CIVIL Engn Syllabus",
+            "filename": "GA_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/GA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "GBT",
+          "title": "Green Building Technologies",
+          "syllabus": {
+            "title": "Green Building Technologies Syllabus",
+            "filename": "GBT_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/GBT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SCPM",
+          "title": "Smart Cities Planning & Mgmt",
+          "syllabus": {
+            "title": "Smart Cities Planning & Mgmt Syllabus",
+            "filename": "SCPM_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/SCPM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SE2",
+          "title": "Structural Engineering II",
+          "syllabus": {
+            "title": "Structural Engineering II Syllabus",
+            "filename": "SE2_Syllabus.pdf",
+            "relPath": "CIV/year3/sem2/SE2_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "code": "GIT",
+          "title": "Ground Improvement Techniques",
+          "syllabus": {
+            "title": "Ground Improvement Techniques Syllabus",
+            "filename": "GIT_Syllabus.pdf",
+            "relPath": "CIV/year4/sem1/GIT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "GIT - Unit 1.pdf",
+              "relPath": "CIV/year4/sem1/GIT - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "GIT - Unit 2.pdf",
+              "relPath": "CIV/year4/sem1/GIT - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "GIT - Unit 3.pdf",
+              "relPath": "CIV/year4/sem1/GIT - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "GIT - Unit 4.pdf",
+              "relPath": "CIV/year4/sem1/GIT - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "GIT - Unit 5.pdf",
+              "relPath": "CIV/year4/sem1/GIT - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "GWH",
+          "title": "Ground Water Hydrology",
+          "syllabus": {
+            "title": "Ground Water Hydrology Syllabus",
+            "filename": "GWH_Syllabus.pdf",
+            "relPath": "CIV/year4/sem1/GWH_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "PC",
+          "title": "Prestressed Concrete",
+          "syllabus": {
+            "title": "Prestressed Concrete Syllabus",
+            "filename": "PC_Syllabus.pdf",
+            "relPath": "CIV/year4/sem1/PC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "PC - Unit 1.pdf",
+              "relPath": "CIV/year4/sem1/PC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PC - Unit 2.pdf",
+              "relPath": "CIV/year4/sem1/PC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "PC - Unit 3.pdf",
+              "relPath": "CIV/year4/sem1/PC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PC - Unit 4.pdf",
+              "relPath": "CIV/year4/sem1/PC - Unit 4.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PM",
+          "title": "Project Management",
+          "syllabus": {
+            "title": "Project Management Syllabus",
+            "filename": "PM_Syllabus.pdf",
+            "relPath": "CIV/year4/sem1/PM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "QSV",
+          "title": "Quantum Survey and Valuation",
+          "syllabus": {
+            "title": "Quantum Survey and Valuation Syllabus",
+            "filename": "QSV_Syllabus.pdf",
+            "relPath": "CIV/year4/sem1/QSV_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "QSV - Unit 1.pdf",
+              "relPath": "CIV/year4/sem1/QSV - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "QSV - Unit 2.pdf",
+              "relPath": "CIV/year4/sem1/QSV - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "QSV - Unit 3.pdf",
+              "relPath": "CIV/year4/sem1/QSV - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "QSV - Unit 4.pdf",
+              "relPath": "CIV/year4/sem1/QSV - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "QSV - Unit 5.pdf",
+              "relPath": "CIV/year4/sem1/QSV - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "SE",
+          "title": "Software Engineering",
+          "syllabus": {
+            "title": "Software Engineering Syllabus",
+            "filename": "SE_Syllabus.pdf",
+            "relPath": "CIV/year4/sem1/SE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SE - Unit 1.pdf",
+              "relPath": "CIV/year4/sem1/SE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SE - Unit 2.pdf",
+              "relPath": "CIV/year4/sem1/SE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SE - Unit 3.pdf",
+              "relPath": "CIV/year4/sem1/SE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SE - Unit 4.pdf",
+              "relPath": "CIV/year4/sem1/SE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SE - Unit 5.pdf",
+              "relPath": "CIV/year4/sem1/SE - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CSE": {
+    "1": {
+      "1": [
+        {
+          "code": "EDC",
+          "title": "Electronic Devices & Circuits",
+          "syllabus": {
+            "title": "Electronic Devices & Circuits Syllabus",
+            "filename": "EDC_Syllabus.pdf",
+            "relPath": "CSE/year1/sem1/EDC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "EDC - Unit 1.pdf",
+              "relPath": "CSE/year1/sem1/EDC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "EDC - Unit 2.pdf",
+              "relPath": "CSE/year1/sem1/EDC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "EDC - Unit 3.pdf",
+              "relPath": "CSE/year1/sem1/EDC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "EDC - Unit 4.pdf",
+              "relPath": "CSE/year1/sem1/EDC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "EDC - Unit 5.pdf",
+              "relPath": "CSE/year1/sem1/EDC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "EC",
+          "title": "Engineering Chemistry",
+          "syllabus": {
+            "title": "Engineering Chemistry Syllabus",
+            "filename": "EC_Syllabus.pdf",
+            "relPath": "CSE/year1/sem1/EC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "EC - Unit 1.pdf",
+              "relPath": "CSE/year1/sem1/EC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "EC - Unit 2.pdf",
+              "relPath": "CSE/year1/sem1/EC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "EC - Unit 3.pdf",
+              "relPath": "CSE/year1/sem1/EC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "EC - Unit 4.pdf",
+              "relPath": "CSE/year1/sem1/EC - Unit 4.pdf"
+            }
+          ]
+        },
+        {
+          "code": "M1",
+          "title": "Mathematics-I",
+          "syllabus": {
+            "title": "Mathematics-I Syllabus",
+            "filename": "M1_Syllabus.pdf",
+            "relPath": "CSE/year1/sem1/M1_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "M1 - Unit 1.pdf",
+              "relPath": "CSE/year1/sem1/M1 - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "M1 - Unit 2.pdf",
+              "relPath": "CSE/year1/sem1/M1 - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "M1 - Unit 3.pdf",
+              "relPath": "CSE/year1/sem1/M1 - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "M1 - Unit 4.pdf",
+              "relPath": "CSE/year1/sem1/M1 - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "M1 - Unit 5.pdf",
+              "relPath": "CSE/year1/sem1/M1 - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PPS",
+          "title": "Prog. for Problem Solving",
+          "syllabus": {
+            "title": "Prog. for Problem Solving Syllabus",
+            "filename": "PPS_Syllabus.pdf",
+            "relPath": "CSE/year1/sem1/PPS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ],
+      "2": [
+        {
+          "code": "BEE",
+          "title": "Basic Electrical Eng",
+          "syllabus": {
+            "title": "Basic Electrical Eng Syllabus",
+            "filename": "BEE_Syllabus.pdf",
+            "relPath": "CSE/year1/sem2/BEE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "BEE - Unit 1.pdf",
+              "relPath": "CSE/year1/sem2/BEE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "BEE - Unit 2.pdf",
+              "relPath": "CSE/year1/sem2/BEE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "BEE - Unit 3.pdf",
+              "relPath": "CSE/year1/sem2/BEE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "BEE - Unit 4.pdf",
+              "relPath": "CSE/year1/sem2/BEE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "BEE - Unit 5.pdf",
+              "relPath": "CSE/year1/sem2/BEE - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "M2",
+          "title": "Mathematics-II",
+          "syllabus": {
+            "title": "Mathematics-II Syllabus",
+            "filename": "M2_Syllabus.pdf",
+            "relPath": "CSE/year1/sem2/M2_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "M2 - Unit 1.pdf",
+              "relPath": "CSE/year1/sem2/M2 - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "M2 - Unit 2.pdf",
+              "relPath": "CSE/year1/sem2/M2 - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "M2 - Unit 3.pdf",
+              "relPath": "CSE/year1/sem2/M2 - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "M2 - Unit 4.pdf",
+              "relPath": "CSE/year1/sem2/M2 - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "M2 - Unit 5.pdf",
+              "relPath": "CSE/year1/sem2/M2 - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "1": [
+        {
+          "code": "ACA",
+          "title": "Advanced Communication Architecture",
+          "syllabus": {
+            "title": "Advanced Communication Architecture Syllabus",
+            "filename": "ACA_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/ACA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "CG",
+          "title": "Computer Graphics",
+          "syllabus": {
+            "title": "Computer Graphics Syllabus",
+            "filename": "CG_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/CG_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CG - Unit 1.pdf",
+              "relPath": "CSE/year3/sem1/CG - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CG - Unit 2.pdf",
+              "relPath": "CSE/year3/sem1/CG - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CG - Unit 3.pdf",
+              "relPath": "CSE/year3/sem1/CG - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CG - Unit 4.pdf",
+              "relPath": "CSE/year3/sem1/CG - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CG - Unit 5.pdf",
+              "relPath": "CSE/year3/sem1/CG - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CN",
+          "title": "Computer Networks",
+          "syllabus": {
+            "title": "Computer Networks Syllabus",
+            "filename": "CN_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/CN_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CN - Unit 1.pdf",
+              "relPath": "CSE/year3/sem1/CN - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CN - Unit 2.pdf",
+              "relPath": "CSE/year3/sem1/CN - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CN - Unit 3.pdf",
+              "relPath": "CSE/year3/sem1/CN - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CN - Unit 4.pdf",
+              "relPath": "CSE/year3/sem1/CN - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CN - Unit 5.pdf",
+              "relPath": "CSE/year3/sem1/CN - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DEV",
+          "title": "DevOps",
+          "syllabus": {
+            "title": "DevOps Syllabus",
+            "filename": "DEV_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/DEV_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DEV - Unit 1.pdf",
+              "relPath": "CSE/year3/sem1/DEV - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DEV - Unit 2.pdf",
+              "relPath": "CSE/year3/sem1/DEV - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DEV - Unit 3.pdf",
+              "relPath": "CSE/year3/sem1/DEV - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DEV - Unit 4.pdf",
+              "relPath": "CSE/year3/sem1/DEV - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DEV - Unit 5.pdf",
+              "relPath": "CSE/year3/sem1/DEV - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DDB",
+          "title": "Distributed Databases",
+          "syllabus": {
+            "title": "Distributed Databases Syllabus",
+            "filename": "DDB_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/DDB_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DDB - Unit 1.pdf",
+              "relPath": "CSE/year3/sem1/DDB - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DDB - Unit 2.pdf",
+              "relPath": "CSE/year3/sem1/DDB - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DDB - Unit 3.pdf",
+              "relPath": "CSE/year3/sem1/DDB - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DDB - Unit 4.pdf",
+              "relPath": "CSE/year3/sem1/DDB - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DDB - Unit 5.pdf",
+              "relPath": "CSE/year3/sem1/DDB - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "title": "Electronic Sensors",
+          "syllabus": {
+            "title": "Electronic Sensors Syllabus",
+            "filename": "ES_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/ES_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "IP",
+          "title": "Image Processing",
+          "syllabus": {
+            "title": "Image Processing Syllabus",
+            "filename": "IP_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/IP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IP - Unit 1.pdf",
+              "relPath": "CSE/year3/sem1/IP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IP - Unit 2.pdf",
+              "relPath": "CSE/year3/sem1/IP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IP - Unit 3.pdf",
+              "relPath": "CSE/year3/sem1/IP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IP - Unit 4.pdf",
+              "relPath": "CSE/year3/sem1/IP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IP - Unit 5.pdf",
+              "relPath": "CSE/year3/sem1/IP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "IRS",
+          "title": "information retrieval Systems",
+          "syllabus": {
+            "title": "information retrieval Systems Syllabus",
+            "filename": "IRS_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/IRS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IRS - Unit 1.pdf",
+              "relPath": "CSE/year3/sem1/IRS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IRS - Unit 2.pdf",
+              "relPath": "CSE/year3/sem1/IRS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IRS - Unit 3.pdf",
+              "relPath": "CSE/year3/sem1/IRS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IRS - Unit 4.pdf",
+              "relPath": "CSE/year3/sem1/IRS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IRS - Unit 5.pdf",
+              "relPath": "CSE/year3/sem1/IRS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "NLP",
+          "title": "Natural Language Processing",
+          "syllabus": {
+            "title": "Natural Language Processing Syllabus",
+            "filename": "NLP_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/NLP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "NLP - Unit 1.pdf",
+              "relPath": "CSE/year3/sem1/NLP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "NLP - Unit 2.pdf",
+              "relPath": "CSE/year3/sem1/NLP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "NLP - Unit 3.pdf",
+              "relPath": "CSE/year3/sem1/NLP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "NLP - Unit 4.pdf",
+              "relPath": "CSE/year3/sem1/NLP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "NLP - Unit 5.pdf",
+              "relPath": "CSE/year3/sem1/NLP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PPL",
+          "title": "Principles of Programming Languages",
+          "syllabus": {
+            "title": "Principles of Programming Languages Syllabus",
+            "filename": "PPL_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/PPL_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "PPL - Unit 1.pdf",
+              "relPath": "CSE/year3/sem1/PPL - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PPL - Unit 2.pdf",
+              "relPath": "CSE/year3/sem1/PPL - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "PPL - Unit 3.pdf",
+              "relPath": "CSE/year3/sem1/PPL - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PPL - Unit 4.pdf",
+              "relPath": "CSE/year3/sem1/PPL - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "PPL - Unit 5.pdf",
+              "relPath": "CSE/year3/sem1/PPL - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "QC",
+          "title": "Quantum Computing",
+          "syllabus": {
+            "title": "Quantum Computing Syllabus",
+            "filename": "QC_Syllabus.pdf",
+            "relPath": "CSE/year3/sem1/QC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ],
+      "2": [
+        {
+          "code": "AI",
+          "title": "Artificial Intelligence",
+          "syllabus": {
+            "title": "Artificial Intelligence Syllabus",
+            "filename": "AI_Syllabus.pdf",
+            "relPath": "CSE/year3/sem2/AI_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "AI - Unit 1.pdf",
+              "relPath": "CSE/year3/sem2/AI - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "AI - Unit 2.pdf",
+              "relPath": "CSE/year3/sem2/AI - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "AI - Unit 3.pdf",
+              "relPath": "CSE/year3/sem2/AI - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "AI - Unit 4.pdf",
+              "relPath": "CSE/year3/sem2/AI - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "AI - Unit 5.pdf",
+              "relPath": "CSE/year3/sem2/AI - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "FLAT - Unit",
+          "title": "FLAT - Unit",
+          "syllabus": null,
+          "fullNotes": {
+            "title": "Complete Notes",
+            "filename": "FLAT - Unit.pdf",
+            "relPath": "CSE/year3/sem2/FLAT - Unit.pdf"
+          },
+          "units": []
+        },
+        {
+          "code": "FLAT",
+          "title": "Formal Language and Automata Theory",
+          "syllabus": {
+            "title": "Formal Language and Automata Theory Syllabus",
+            "filename": "FLAT_Syllabus.pdf",
+            "relPath": "CSE/year3/sem2/FLAT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "FLAT - Unit 1.pdf",
+              "relPath": "CSE/year3/sem2/FLAT - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "FLAT - Unit 2.pdf",
+              "relPath": "CSE/year3/sem2/FLAT - Unit 2.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "FLAT - Unit 4.pdf",
+              "relPath": "CSE/year3/sem2/FLAT - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "FLAT - Unit 5.pdf",
+              "relPath": "CSE/year3/sem2/FLAT - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "FSD",
+          "title": "Full Stack Development",
+          "syllabus": {
+            "title": "Full Stack Development Syllabus",
+            "filename": "FSD_Syllabus.pdf",
+            "relPath": "CSE/year3/sem2/FSD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "IOT",
+          "title": "Internet of things",
+          "syllabus": {
+            "title": "Internet of things Syllabus",
+            "filename": "IOT_Syllabus.pdf",
+            "relPath": "CSE/year3/sem2/IOT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IOT - Unit 1.pdf",
+              "relPath": "CSE/year3/sem2/IOT - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IOT - Unit 2.pdf",
+              "relPath": "CSE/year3/sem2/IOT - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IOT - Unit 3.pdf",
+              "relPath": "CSE/year3/sem2/IOT - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IOT - Unit 4.pdf",
+              "relPath": "CSE/year3/sem2/IOT - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IOT - Unit 5.pdf",
+              "relPath": "CSE/year3/sem2/IOT - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "ML",
+          "title": "Machine Learning",
+          "syllabus": {
+            "title": "Machine Learning Syllabus",
+            "filename": "ML_Syllabus.pdf",
+            "relPath": "CSE/year3/sem2/ML_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ML - Unit 1.pdf",
+              "relPath": "CSE/year3/sem2/ML - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ML - Unit 2.pdf",
+              "relPath": "CSE/year3/sem2/ML - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ML - Unit 3.pdf",
+              "relPath": "CSE/year3/sem2/ML - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ML - Unit 4.pdf",
+              "relPath": "CSE/year3/sem2/ML - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ML - Unit 5.pdf",
+              "relPath": "CSE/year3/sem2/ML - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "MAD",
+          "title": "Mobile Application Development",
+          "syllabus": {
+            "title": "Mobile Application Development Syllabus",
+            "filename": "MAD_Syllabus.pdf",
+            "relPath": "CSE/year3/sem2/MAD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SL",
+          "title": "Scripting Languages",
+          "syllabus": {
+            "title": "Scripting Languages Syllabus",
+            "filename": "SL_Syllabus.pdf",
+            "relPath": "CSE/year3/sem2/SL_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SL - Unit 1.pdf",
+              "relPath": "CSE/year3/sem2/SL - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SL - Unit 2.pdf",
+              "relPath": "CSE/year3/sem2/SL - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SL - Unit 3.pdf",
+              "relPath": "CSE/year3/sem2/SL - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SL - Unit 4.pdf",
+              "relPath": "CSE/year3/sem2/SL - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SL - Unit 5.pdf",
+              "relPath": "CSE/year3/sem2/SL - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "STM",
+          "title": "Software Testing Methodologies",
+          "syllabus": {
+            "title": "Software Testing Methodologies Syllabus",
+            "filename": "STM_Syllabus.pdf",
+            "relPath": "CSE/year3/sem2/STM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "STM - Unit 1.pdf",
+              "relPath": "CSE/year3/sem2/STM - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "STM - Unit 2.pdf",
+              "relPath": "CSE/year3/sem2/STM - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "STM - Unit 3.pdf",
+              "relPath": "CSE/year3/sem2/STM - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "STM - Unit 4.pdf",
+              "relPath": "CSE/year3/sem2/STM - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "STM - Unit 5.pdf",
+              "relPath": "CSE/year3/sem2/STM - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "code": "CC",
+          "title": "Cloud Computing",
+          "syllabus": {
+            "title": "Cloud Computing Syllabus",
+            "filename": "CC_Syllabus.pdf",
+            "relPath": "CSE/year4/sem1/CC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CC - Unit 1.pdf",
+              "relPath": "CSE/year4/sem1/CC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CC - Unit 2.pdf",
+              "relPath": "CSE/year4/sem1/CC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CC - Unit 3.pdf",
+              "relPath": "CSE/year4/sem1/CC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CC - Unit 4.pdf",
+              "relPath": "CSE/year4/sem1/CC - Unit 4.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CD",
+          "title": "Compiler Design",
+          "syllabus": {
+            "title": "Compiler Design Syllabus",
+            "filename": "CD_Syllabus.pdf",
+            "relPath": "CSE/year4/sem1/CD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CD - Unit 1.pdf",
+              "relPath": "CSE/year4/sem1/CD - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CD - Unit 2.pdf",
+              "relPath": "CSE/year4/sem1/CD - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CD - Unit 3.pdf",
+              "relPath": "CSE/year4/sem1/CD - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CD - Unit 4.pdf",
+              "relPath": "CSE/year4/sem1/CD - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CD - Unit 5.pdf",
+              "relPath": "CSE/year4/sem1/CD - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CNS",
+          "title": "Cryptography amd Network Security",
+          "syllabus": {
+            "title": "Cryptography amd Network Security Syllabus",
+            "filename": "CNS_Syllabus.pdf",
+            "relPath": "CSE/year4/sem1/CNS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CNS - Unit 1.pdf",
+              "relPath": "CSE/year4/sem1/CNS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CNS - Unit 2.pdf",
+              "relPath": "CSE/year4/sem1/CNS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CNS - Unit 3.pdf",
+              "relPath": "CSE/year4/sem1/CNS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CNS - Unit 4.pdf",
+              "relPath": "CSE/year4/sem1/CNS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CNS - Unit 5.pdf",
+              "relPath": "CSE/year4/sem1/CNS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "SPPM",
+          "title": "Software Process and Project Management",
+          "syllabus": {
+            "title": "Software Process and Project Management Syllabus",
+            "filename": "SPPM_Syllabus.pdf",
+            "relPath": "CSE/year4/sem1/SPPM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SPPM - Unit 1.pdf",
+              "relPath": "CSE/year4/sem1/SPPM - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SPPM - Unit 2.pdf",
+              "relPath": "CSE/year4/sem1/SPPM - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SPPM - Unit 3.pdf",
+              "relPath": "CSE/year4/sem1/SPPM - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SPPM - Unit 4.pdf",
+              "relPath": "CSE/year4/sem1/SPPM - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SPPM - Unit 5.pdf",
+              "relPath": "CSE/year4/sem1/SPPM - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "UEE",
+          "title": "UTILIZATION OF ELECTRIC ENERGY",
+          "syllabus": {
+            "title": "UTILIZATION OF ELECTRIC ENERGY Syllabus",
+            "filename": "UEE_Syllabus.pdf",
+            "relPath": "CSE/year4/sem1/UEE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "UEE - Unit 1.pdf",
+              "relPath": "CSE/year4/sem1/UEE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "UEE - Unit 2.pdf",
+              "relPath": "CSE/year4/sem1/UEE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "UEE - Unit 3.pdf",
+              "relPath": "CSE/year4/sem1/UEE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "UEE - Unit 4.pdf",
+              "relPath": "CSE/year4/sem1/UEE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "UEE - Unit 5.pdf",
+              "relPath": "CSE/year4/sem1/UEE - Unit 5.pdf"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "code": "HCI",
+          "title": "Human computer interface",
+          "syllabus": {
+            "title": "Human computer interface Syllabus",
+            "filename": "HCI_Syllabus.pdf",
+            "relPath": "CSE/year4/sem2/HCI_Syllabus.pdf"
+          },
+          "fullNotes": {
+            "title": "Complete Notes",
+            "filename": "HCI_Full.pdf",
+            "relPath": "CSE/year4/sem2/HCI_Full.pdf"
+          },
+          "units": []
+        },
+        {
+          "code": "OB",
+          "title": "Organisational behaviour",
+          "syllabus": {
+            "title": "Organisational behaviour Syllabus",
+            "filename": "OB_Syllabus.pdf",
+            "relPath": "CSE/year4/sem2/OB_Syllabus.pdf"
+          },
+          "fullNotes": {
+            "title": "Complete Notes",
+            "filename": "OB_Full.pdf",
+            "relPath": "CSE/year4/sem2/OB_Full.pdf"
+          },
+          "units": []
+        }
+      ]
+    }
+  },
+  "CSE(AIML)": {
+    "3": {
+      "1": [
+        {
+          "code": "BEFA",
+          "title": "Business Economics and financial Analysis",
+          "syllabus": {
+            "title": "Business Economics and financial Analysis Syllabus",
+            "filename": "BEFA_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/BEFA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "BEFA - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/BEFA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "BEFA - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/BEFA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "BEFA - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/BEFA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "BEFA - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/BEFA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "BEFA - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/BEFA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CG",
+          "title": "Computer Graphics",
+          "syllabus": {
+            "title": "Computer Graphics Syllabus",
+            "filename": "CG_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/CG_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CG - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CG - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CG - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CG - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CG - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CG - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CG - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CG - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CG - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CG - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CN",
+          "title": "Computer Networks",
+          "syllabus": {
+            "title": "Computer Networks Syllabus",
+            "filename": "CN_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/CN_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CN - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CN - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CN - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CN - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CN - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CN - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CN - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CN - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CN - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/CN - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DAA",
+          "title": "Design and Analysis of Algorithms",
+          "syllabus": {
+            "title": "Design and Analysis of Algorithms Syllabus",
+            "filename": "DAA_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/DAA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DAA - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/DAA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DAA - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/DAA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DAA - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/DAA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DAA - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/DAA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DAA - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/DAA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "GT",
+          "title": "Graph Theory",
+          "syllabus": {
+            "title": "Graph Theory Syllabus",
+            "filename": "GT_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/GT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "IP",
+          "title": "Image Processing",
+          "syllabus": {
+            "title": "Image Processing Syllabus",
+            "filename": "IP_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/IP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IP - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IP - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IP - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IP - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IP - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "IDS",
+          "title": "Introduction to DataScience",
+          "syllabus": {
+            "title": "Introduction to DataScience Syllabus",
+            "filename": "IDS_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/IDS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IDS - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IDS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IDS - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IDS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IDS - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IDS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IDS - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IDS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IDS - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/IDS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "KRR",
+          "title": "Knowledge Representation and Reasoning",
+          "syllabus": null,
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "KRR - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/KRR - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "KRR - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/KRR - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "KRR - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/KRR - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "KRR - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/KRR - Unit 4.pdf"
+            }
+          ]
+        },
+        {
+          "code": "ML",
+          "title": "Machine Learning",
+          "syllabus": {
+            "title": "Machine Learning Syllabus",
+            "filename": "ML_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/ML_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ML - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/ML - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ML - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/ML - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ML - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/ML - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ML - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/ML - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ML - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/ML - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "WP",
+          "title": "Web Programming",
+          "syllabus": {
+            "title": "Web Programming Syllabus",
+            "filename": "WP_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem1/WP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "WP - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/WP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "WP - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/WP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "WP - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/WP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "WP - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/WP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "WP - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem1/WP - Unit 5.pdf"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "code": "AI",
+          "title": "Artificial Intelligence",
+          "syllabus": {
+            "title": "Artificial Intelligence Syllabus",
+            "filename": "AI_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem2/AI_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "AI - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/AI - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "AI - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/AI - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "AI - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/AI - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "AI - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/AI - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "AI - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/AI - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CVR",
+          "title": "Computer Vision and Robotics",
+          "syllabus": {
+            "title": "Computer Vision and Robotics Syllabus",
+            "filename": "CVR_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem2/CVR_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "DWBI",
+          "title": "Data Warehouse and Business Intelligence",
+          "syllabus": {
+            "title": "Data Warehouse and Business Intelligence Syllabus",
+            "filename": "DWBI_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem2/DWBI_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "IRS",
+          "title": "information retrieval Systems",
+          "syllabus": {
+            "title": "information retrieval Systems Syllabus",
+            "filename": "IRS_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem2/IRS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IRS - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/IRS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IRS - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/IRS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IRS - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/IRS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IRS - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/IRS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IRS - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/IRS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "KRR",
+          "title": "Knowledge Representation and Reasoning",
+          "syllabus": {
+            "title": "Knowledge Representation and Reasoning Syllabus",
+            "filename": "KRR_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem2/KRR_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "KRR - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/KRR - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "KRR - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/KRR - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "KRR - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/KRR - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "KRR - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/KRR - Unit 4.pdf"
+            }
+          ]
+        },
+        {
+          "code": "NLP",
+          "title": "Natural Language Processing",
+          "syllabus": {
+            "title": "Natural Language Processing Syllabus",
+            "filename": "NLP_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem2/NLP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "NLP - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/NLP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "NLP - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/NLP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "NLP - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/NLP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "NLP - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/NLP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "NLP - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/NLP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PR",
+          "title": "Pattern Recognition",
+          "syllabus": {
+            "title": "Pattern Recognition Syllabus",
+            "filename": "PR_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem2/PR_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "STM",
+          "title": "Software Testing Methodologies",
+          "syllabus": {
+            "title": "Software Testing Methodologies Syllabus",
+            "filename": "STM_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year3/sem2/STM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "STM - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/STM - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "STM - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/STM - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "STM - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/STM - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "STM - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/STM - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "STM - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year3/sem2/STM - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "code": "DL",
+          "title": "Deep Learning",
+          "syllabus": {
+            "title": "Deep Learning Syllabus",
+            "filename": "DL_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year4/sem1/DL_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DL - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/DL - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DL - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/DL - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DL - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/DL - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DL - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/DL - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DL - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/DL - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "MC",
+          "title": "MicroControllers",
+          "syllabus": {
+            "title": "MicroControllers Syllabus",
+            "filename": "MC_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year4/sem1/MC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "MC - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/MC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "MC - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/MC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "MC - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/MC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "MC - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/MC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "MC - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/MC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "NIC",
+          "title": "Nature Inspired Computing",
+          "syllabus": {
+            "title": "Nature Inspired Computing Syllabus",
+            "filename": "NIC_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year4/sem1/NIC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "NIC - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/NIC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "NIC - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/NIC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "NIC - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/NIC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "NIC - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/NIC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "NIC - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/NIC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PPLE",
+          "title": "Professional Practice, Law & Ethics",
+          "syllabus": {
+            "title": "Professional Practice, Law & Ethics Syllabus",
+            "filename": "PPLE_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year4/sem1/PPLE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "PPLE - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/PPLE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PPLE - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/PPLE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "PPLE - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/PPLE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PPLE - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/PPLE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "PPLE - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/PPLE - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "SL",
+          "title": "Scripting Languages",
+          "syllabus": {
+            "title": "Scripting Languages Syllabus",
+            "filename": "SL_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year4/sem1/SL_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SL - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/SL - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SL - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/SL - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SL - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/SL - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SL - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/SL - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SL - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year4/sem1/SL - Unit 5.pdf"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "code": "ASN",
+          "title": "Ad hoc Sensor and networks",
+          "syllabus": {
+            "title": "Ad hoc Sensor and networks Syllabus",
+            "filename": "ASN_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year4/sem2/ASN_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ASN - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ASN - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ASN - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ASN - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ASN - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ASN - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ASN - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ASN - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ASN - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ASN - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CC",
+          "title": "Cloud Computing",
+          "syllabus": {
+            "title": "Cloud Computing Syllabus",
+            "filename": "CC_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year4/sem2/CC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CC - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/CC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CC - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/CC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CC - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/CC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CC - Unit 4.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/CC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CC - Unit 5.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/CC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "ED",
+          "title": "Entrepreneurship Development",
+          "syllabus": {
+            "title": "Entrepreneurship Development Syllabus",
+            "filename": "ED_Syllabus.pdf",
+            "relPath": "CSE(AIML)/year4/sem2/ED_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ED - Unit 1.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ED - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ED - Unit 2.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ED - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ED - Unit 3.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ED - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ED - unit 4.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ED - unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ED - unit 5.pdf",
+              "relPath": "CSE(AIML)/year4/sem2/ED - unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CSE(Design)": {
+    "3": {
+      "1": [
+        {
+          "code": "CG",
+          "title": "Computer Graphics",
+          "syllabus": {
+            "title": "Computer Graphics Syllabus",
+            "filename": "CG_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/CG_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CG - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CG - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CG - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CG - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CG - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CG - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CG - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CG - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CG - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CG - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CN",
+          "title": "Computer Networks",
+          "syllabus": {
+            "title": "Computer Networks Syllabus",
+            "filename": "CN_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/CN_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CN - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CN - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CN - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CN - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CN - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CN - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CN - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CN - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CN - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem1/CN - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DA",
+          "title": "Data Analytics",
+          "syllabus": {
+            "title": "Data Analytics Syllabus",
+            "filename": "DA_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/DA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DA - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DA - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DA - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DA - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DA - Unit 4.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DT",
+          "title": "Design Thinking",
+          "syllabus": {
+            "title": "Design Thinking Syllabus",
+            "filename": "DT_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/DT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "DDB",
+          "title": "Distributed Databases",
+          "syllabus": {
+            "title": "Distributed Databases Syllabus",
+            "filename": "DDB_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/DDB_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DDB - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DDB - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DDB - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DDB - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DDB - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DDB - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DDB - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DDB - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DDB - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem1/DDB - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "title": "Electronic Sensors",
+          "syllabus": {
+            "title": "Electronic Sensors Syllabus",
+            "filename": "ES_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/ES_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "IP",
+          "title": "Image Processing",
+          "syllabus": {
+            "title": "Image Processing Syllabus",
+            "filename": "IP_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/IP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IP - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IP - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IP - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IP - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IP - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "IRS",
+          "title": "information retrieval Systems",
+          "syllabus": {
+            "title": "information retrieval Systems Syllabus",
+            "filename": "IRS_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/IRS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IRS - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IRS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IRS - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IRS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IRS - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IRS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IRS - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IRS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IRS - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem1/IRS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "NLP",
+          "title": "Natural Language Processing",
+          "syllabus": {
+            "title": "Natural Language Processing Syllabus",
+            "filename": "NLP_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/NLP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "NLP - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem1/NLP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "NLP - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem1/NLP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "NLP - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem1/NLP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "NLP - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem1/NLP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "NLP - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem1/NLP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "QC",
+          "title": "Quantum Computing",
+          "syllabus": {
+            "title": "Quantum Computing Syllabus",
+            "filename": "QC_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/QC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SM",
+          "title": "System Management",
+          "syllabus": {
+            "title": "System Management Syllabus",
+            "filename": "SM_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem1/SM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ],
+      "2": [
+        {
+          "code": "ADA",
+          "title": "Advanced Data Structures & Algorithms",
+          "syllabus": {
+            "title": "Advanced Data Structures & Algorithms Syllabus",
+            "filename": "ADA_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem2/ADA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ADA - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem2/ADA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ADA - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem2/ADA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ADA - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem2/ADA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ADA - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem2/ADA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ADA - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem2/ADA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "FLAT - Unit",
+          "title": "FLAT - Unit",
+          "syllabus": null,
+          "fullNotes": {
+            "title": "Complete Notes",
+            "filename": "FLAT - Unit.pdf",
+            "relPath": "CSE(Design)/year3/sem2/FLAT - Unit.pdf"
+          },
+          "units": []
+        },
+        {
+          "code": "FLAT",
+          "title": "Formal Language and Automata Theory",
+          "syllabus": {
+            "title": "Formal Language and Automata Theory Syllabus",
+            "filename": "FLAT_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem2/FLAT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "FLAT - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem2/FLAT - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "FLAT - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem2/FLAT - Unit 2.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "FLAT - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem2/FLAT - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "FLAT - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem2/FLAT - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "FSD",
+          "title": "Full Stack Development",
+          "syllabus": {
+            "title": "Full Stack Development Syllabus",
+            "filename": "FSD_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem2/FSD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "IOT",
+          "title": "Internet of things",
+          "syllabus": {
+            "title": "Internet of things Syllabus",
+            "filename": "IOT_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem2/IOT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IOT - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem2/IOT - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IOT - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem2/IOT - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IOT - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem2/IOT - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IOT - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem2/IOT - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IOT - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem2/IOT - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "IED",
+          "title": "Intro to Engineering Design",
+          "syllabus": {
+            "title": "Intro to Engineering Design Syllabus",
+            "filename": "IED_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem2/IED_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "MAD",
+          "title": "Mobile Application Development",
+          "syllabus": {
+            "title": "Mobile Application Development Syllabus",
+            "filename": "MAD_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem2/MAD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SL",
+          "title": "Scripting Languages",
+          "syllabus": {
+            "title": "Scripting Languages Syllabus",
+            "filename": "SL_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem2/SL_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SL - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem2/SL - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SL - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem2/SL - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SL - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem2/SL - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SL - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem2/SL - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SL - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem2/SL - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "STM",
+          "title": "Software Testing Methodologies",
+          "syllabus": {
+            "title": "Software Testing Methodologies Syllabus",
+            "filename": "STM_Syllabus.pdf",
+            "relPath": "CSE(Design)/year3/sem2/STM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "STM - Unit 1.pdf",
+              "relPath": "CSE(Design)/year3/sem2/STM - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "STM - Unit 2.pdf",
+              "relPath": "CSE(Design)/year3/sem2/STM - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "STM - Unit 3.pdf",
+              "relPath": "CSE(Design)/year3/sem2/STM - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "STM - Unit 4.pdf",
+              "relPath": "CSE(Design)/year3/sem2/STM - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "STM - Unit 5.pdf",
+              "relPath": "CSE(Design)/year3/sem2/STM - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "code": "AM",
+          "title": "Automobile Engineering",
+          "syllabus": {
+            "title": "Automobile Engineering Syllabus",
+            "filename": "AM_Syllabus.pdf",
+            "relPath": "CSE(Design)/year4/sem1/AM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "CC",
+          "title": "Cloud Computing",
+          "syllabus": {
+            "title": "Cloud Computing Syllabus",
+            "filename": "CC_Syllabus.pdf",
+            "relPath": "CSE(Design)/year4/sem1/CC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CC - Unit 1.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CC - Unit 2.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CC - Unit 3.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CC - Unit 4.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CC - Unit 5.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CD",
+          "title": "Compiler Design",
+          "syllabus": {
+            "title": "Compiler Design Syllabus",
+            "filename": "CD_Syllabus.pdf",
+            "relPath": "CSE(Design)/year4/sem1/CD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CD - Unit 1.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CD - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CD - Unit 2.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CD - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CD - Unit 3.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CD - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CD - Unit 4.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CD - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CD - Unit 5.pdf",
+              "relPath": "CSE(Design)/year4/sem1/CD - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "ES",
+          "title": "Electronic Sensors",
+          "syllabus": {
+            "title": "Electronic Sensors Syllabus",
+            "filename": "ES_Syllabus.pdf",
+            "relPath": "CSE(Design)/year4/sem1/ES_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ES - Unit 1.pdf",
+              "relPath": "CSE(Design)/year4/sem1/ES - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ES - Unit 2.pdf",
+              "relPath": "CSE(Design)/year4/sem1/ES - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ES - Unit 3.pdf",
+              "relPath": "CSE(Design)/year4/sem1/ES - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ES - Unit 4.pdf",
+              "relPath": "CSE(Design)/year4/sem1/ES - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ES - Unit 5.pdf",
+              "relPath": "CSE(Design)/year4/sem1/ES - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CSE(DS)": {
+    "3": {
+      "1": [
+        {
+          "code": "ADA",
+          "title": "Advanced Data Structures & Algorithms",
+          "syllabus": {
+            "title": "Advanced Data Structures & Algorithms Syllabus",
+            "filename": "ADA_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/ADA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ADA - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem1/ADA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ADA - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem1/ADA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ADA - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem1/ADA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ADA - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem1/ADA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ADA - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem1/ADA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "AI",
+          "title": "Artificial Intelligence",
+          "syllabus": {
+            "title": "Artificial Intelligence Syllabus",
+            "filename": "AI_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/AI_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "AI - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem1/AI - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "AI - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem1/AI - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "AI - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem1/AI - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "AI - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem1/AI - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "AI - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem1/AI - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CG",
+          "title": "Computer Graphics",
+          "syllabus": {
+            "title": "Computer Graphics Syllabus",
+            "filename": "CG_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/CG_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CG - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CG - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CG - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CG - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CG - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CG - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CG - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CG - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CG - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CG - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CN",
+          "title": "Computer Networks",
+          "syllabus": {
+            "title": "Computer Networks Syllabus",
+            "filename": "CN_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/CN_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CN - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CN - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CN - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CN - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CN - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CN - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CN - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CN - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CN - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem1/CN - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CVR",
+          "title": "Computer Vision and Robotics",
+          "syllabus": {
+            "title": "Computer Vision and Robotics Syllabus",
+            "filename": "CVR_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/CVR_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "DWBI",
+          "title": "Data Warehouse and Business Intelligence",
+          "syllabus": {
+            "title": "Data Warehouse and Business Intelligence Syllabus",
+            "filename": "DWBI_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/DWBI_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "DEV",
+          "title": "DevOps",
+          "syllabus": {
+            "title": "DevOps Syllabus",
+            "filename": "DEV_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/DEV_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "IP",
+          "title": "Image Processing",
+          "syllabus": {
+            "title": "Image Processing Syllabus",
+            "filename": "IP_Sylabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/IP_Sylabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IP - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IP - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IP - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IP - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IP - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "IRS",
+          "title": "information retrieval Systems",
+          "syllabus": {
+            "title": "information retrieval Systems Syllabus",
+            "filename": "IRS_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/IRS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IRS - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IRS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IRS - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IRS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IRS - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IRS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IRS - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IRS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IRS - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IRS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "IDS",
+          "title": "Introduction to DataScience",
+          "syllabus": {
+            "title": "Introduction to DataScience Syllabus",
+            "filename": "IDS_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/IDS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IDS - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IDS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IDS - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IDS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IDS - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IDS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IDS - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IDS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IDS - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem1/IDS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "SMD",
+          "title": "SMD",
+          "syllabus": {
+            "title": "SMD Syllabus",
+            "filename": "SMD_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/SMD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SPM",
+          "title": "SPM",
+          "syllabus": {
+            "title": "SPM Syllabus",
+            "filename": "SPM_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/SPM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "WP",
+          "title": "Web Programming",
+          "syllabus": {
+            "title": "Web Programming Syllabus",
+            "filename": "WP_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem1/WP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "WP - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem1/WP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "WP - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem1/WP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "WP - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem1/WP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "WP - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem1/WP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "WP - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem1/WP - Unit 5.pdf"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "code": "ACD",
+          "title": "Advanced Compiler Design",
+          "syllabus": {
+            "title": "Advanced Compiler Design Syllabus",
+            "filename": "ACD_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/ACD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ACD - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ACD - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ACD - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ACD - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ACD - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ACD - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ACD - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ACD - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ACD - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ACD - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "BDA",
+          "title": "BDA",
+          "syllabus": {
+            "title": "BDA Syllabus",
+            "filename": "BDA_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/BDA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "CNS",
+          "title": "Cryptography amd Network Security",
+          "syllabus": {
+            "title": "Cryptography amd Network Security Syllabus",
+            "filename": "CNS_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/CNS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CNS - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem2/CNS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CNS - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem2/CNS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CNS - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem2/CNS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CNS - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem2/CNS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CNS - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem2/CNS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DVT",
+          "title": "DVT",
+          "syllabus": {
+            "title": "DVT Syllabus",
+            "filename": "DVT_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/DVT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "FDS",
+          "title": "FDS",
+          "syllabus": {
+            "title": "FDS Syllabus",
+            "filename": "FDS_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/FDS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "ML",
+          "title": "Machine Learning",
+          "syllabus": {
+            "title": "Machine Learning Syllabus",
+            "filename": "ML_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/ML_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ML - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ML - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ML - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ML - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ML - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ML - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ML - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ML - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ML - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem2/ML - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "MAD",
+          "title": "Mobile Application Development",
+          "syllabus": {
+            "title": "Mobile Application Development Syllabus",
+            "filename": "MAD_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/MAD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "RP",
+          "title": "RP",
+          "syllabus": {
+            "title": "RP Syllabus",
+            "filename": "RP_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/RP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SL",
+          "title": "Scripting Languages",
+          "syllabus": {
+            "title": "Scripting Languages Syllabus",
+            "filename": "SL_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/SL_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SL - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem2/SL - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SL - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem2/SL - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SL - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem2/SL - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SL - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem2/SL - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SL - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem2/SL - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "STM",
+          "title": "Software Testing Methodologies",
+          "syllabus": {
+            "title": "Software Testing Methodologies Syllabus",
+            "filename": "STM_Syllabus.pdf",
+            "relPath": "CSE(DS)/year3/sem2/STM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "STM - Unit 1.pdf",
+              "relPath": "CSE(DS)/year3/sem2/STM - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "STM - Unit 2.pdf",
+              "relPath": "CSE(DS)/year3/sem2/STM - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "STM - Unit 3.pdf",
+              "relPath": "CSE(DS)/year3/sem2/STM - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "STM - Unit 4.pdf",
+              "relPath": "CSE(DS)/year3/sem2/STM - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "STM - Unit 5.pdf",
+              "relPath": "CSE(DS)/year3/sem2/STM - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "code": "CC",
+          "title": "Cloud Computing",
+          "syllabus": {
+            "title": "Cloud Computing Syllabus",
+            "filename": "CC_Syllabus.pdf",
+            "relPath": "CSE(DS)/year4/sem1/CC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CC - Unit 1.pdf",
+              "relPath": "CSE(DS)/year4/sem1/CC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CC - Unit 2.pdf",
+              "relPath": "CSE(DS)/year4/sem1/CC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CC - Unit 3.pdf",
+              "relPath": "CSE(DS)/year4/sem1/CC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CC - Unit 4.pdf",
+              "relPath": "CSE(DS)/year4/sem1/CC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CC - Unit 5.pdf",
+              "relPath": "CSE(DS)/year4/sem1/CC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "NLP",
+          "title": "Natural Language Processing",
+          "syllabus": {
+            "title": "Natural Language Processing Syllabus",
+            "filename": "NLP_Syllabus.pdf",
+            "relPath": "CSE(DS)/year4/sem1/NLP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "NLP - Unit 1.pdf",
+              "relPath": "CSE(DS)/year4/sem1/NLP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "NLP - Unit 2.pdf",
+              "relPath": "CSE(DS)/year4/sem1/NLP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "NLP - Unit 3.pdf",
+              "relPath": "CSE(DS)/year4/sem1/NLP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "NLP - Unit 4.pdf",
+              "relPath": "CSE(DS)/year4/sem1/NLP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "NLP - Unit 5.pdf",
+              "relPath": "CSE(DS)/year4/sem1/NLP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PA",
+          "title": "Predictive Analytics",
+          "syllabus": {
+            "title": "Predictive Analytics Syllabus",
+            "filename": "PA_Syllabus.pdf",
+            "relPath": "CSE(DS)/year4/sem1/PA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PA - Unit 2.pdf",
+              "relPath": "CSE(DS)/year4/sem1/PA - Unit 2.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PA - Unit 4.pdf",
+              "relPath": "CSE(DS)/year4/sem1/PA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "PA - Unit 5.pdf",
+              "relPath": "CSE(DS)/year4/sem1/PA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "RSGIS",
+          "title": "Remote Sensing & GIS",
+          "syllabus": {
+            "title": "Remote Sensing & GIS Syllabus",
+            "filename": "RSGIS_Syllabus.pdf",
+            "relPath": "CSE(DS)/year4/sem1/RSGIS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "RSGIS - Unit 1.pdf",
+              "relPath": "CSE(DS)/year4/sem1/RSGIS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "RSGIS - Unit 2.pdf",
+              "relPath": "CSE(DS)/year4/sem1/RSGIS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "RSGIS - Unit 3.pdf",
+              "relPath": "CSE(DS)/year4/sem1/RSGIS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "RSGIS - Unit 4.pdf",
+              "relPath": "CSE(DS)/year4/sem1/RSGIS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "RSGIS - Unit 5.pdf",
+              "relPath": "CSE(DS)/year4/sem1/RSGIS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "WSMA",
+          "title": "Web and Social Media analytics",
+          "syllabus": {
+            "title": "Web and Social Media analytics Syllabus",
+            "filename": "WSMA_Syllabus.pdf",
+            "relPath": "CSE(DS)/year4/sem1/WSMA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "WSMA - Unit 1.pdf",
+              "relPath": "CSE(DS)/year4/sem1/WSMA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "WSMA - Unit 2.pdf",
+              "relPath": "CSE(DS)/year4/sem1/WSMA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "WSMA - Unit 3.pdf",
+              "relPath": "CSE(DS)/year4/sem1/WSMA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "WSMA - Unit 4.pdf",
+              "relPath": "CSE(DS)/year4/sem1/WSMA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "WSMA - Unit 5.pdf",
+              "relPath": "CSE(DS)/year4/sem1/WSMA - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ECE": {
+    "3": {
+      "1": [
+        {
+          "code": "BEFA",
+          "title": "Business Economics and financial Analysis",
+          "syllabus": {
+            "title": "Business Economics and financial Analysis Syllabus",
+            "filename": "BEFA_Syllabus.pdf",
+            "relPath": "ECE/year3/sem1/BEFA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "BEFA - Unit 1.pdf",
+              "relPath": "ECE/year3/sem1/BEFA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "BEFA - Unit 2.pdf",
+              "relPath": "ECE/year3/sem1/BEFA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "BEFA - Unit 3.pdf",
+              "relPath": "ECE/year3/sem1/BEFA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "BEFA - Unit 4.pdf",
+              "relPath": "ECE/year3/sem1/BEFA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "BEFA - Unit 5.pdf",
+              "relPath": "ECE/year3/sem1/BEFA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "COOS",
+          "title": "Computer Organization and Operating Systems",
+          "syllabus": {
+            "title": "Computer Organization and Operating Systems Syllabus",
+            "filename": "COOS_Syllabus.pdf",
+            "relPath": "ECE/year3/sem1/COOS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "COOS - Unit 1.pdf",
+              "relPath": "ECE/year3/sem1/COOS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "COOS - Unit 2.pdf",
+              "relPath": "ECE/year3/sem1/COOS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "COOS - Unit 3.pdf",
+              "relPath": "ECE/year3/sem1/COOS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "COOS - Unit 4.pdf",
+              "relPath": "ECE/year3/sem1/COOS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "COOS - Unit 5.pdf",
+              "relPath": "ECE/year3/sem1/COOS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CS",
+          "title": "Control Systems",
+          "syllabus": {
+            "title": "Control Systems Syllabus",
+            "filename": "CS_Syllabus.pdf",
+            "relPath": "ECE/year3/sem1/CS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CS - Unit 1.pdf",
+              "relPath": "ECE/year3/sem1/CS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CS - Unit 2.pdf",
+              "relPath": "ECE/year3/sem1/CS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CS - Unit 3.pdf",
+              "relPath": "ECE/year3/sem1/CS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CS - Unit 4.pdf",
+              "relPath": "ECE/year3/sem1/CS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CS - Unit 5.pdf",
+              "relPath": "ECE/year3/sem1/CS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DCCN",
+          "title": "Data Communication and Computer Networks",
+          "syllabus": {
+            "title": "Data Communication and Computer Networks Syllabus",
+            "filename": "DCCN_Syllabus.pdf",
+            "relPath": "ECE/year3/sem1/DCCN_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DCCN - Unit 1.pdf",
+              "relPath": "ECE/year3/sem1/DCCN - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DCCN - Unit 2.pdf",
+              "relPath": "ECE/year3/sem1/DCCN - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DCCN - Unit 3.pdf",
+              "relPath": "ECE/year3/sem1/DCCN - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DCCN - Unit 4.pdf",
+              "relPath": "ECE/year3/sem1/DCCN - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DCCN - Unit 5.pdf",
+              "relPath": "ECE/year3/sem1/DCCN - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "EMI",
+          "title": "Electronic Measuring Instruments",
+          "syllabus": {
+            "title": "Electronic Measuring Instruments Syllabus",
+            "filename": "EMI_Syllabus.pdf",
+            "relPath": "ECE/year3/sem1/EMI_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "EMI - Unit 1.pdf",
+              "relPath": "ECE/year3/sem1/EMI - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "EMI - Unit 2.pdf",
+              "relPath": "ECE/year3/sem1/EMI - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "EMI - Unit 3.pdf",
+              "relPath": "ECE/year3/sem1/EMI - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "EMI - Unit 4.pdf",
+              "relPath": "ECE/year3/sem1/EMI - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "EMI - Unit 5.pdf",
+              "relPath": "ECE/year3/sem1/EMI - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "IAP",
+          "title": "IOT Architectures and Protocols",
+          "syllabus": {
+            "title": "IOT Architectures and Protocols Syllabus",
+            "filename": "IAP_Syllabus.pdf",
+            "relPath": "ECE/year3/sem1/IAP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "MC",
+          "title": "MicroControllers",
+          "syllabus": {
+            "title": "MicroControllers Syllabus",
+            "filename": "MC_Syllabus.pdf",
+            "relPath": "ECE/year3/sem1/MC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "MC - Unit 1.pdf",
+              "relPath": "ECE/year3/sem1/MC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "MC - Unit 2.pdf",
+              "relPath": "ECE/year3/sem1/MC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "MC - Unit 3.pdf",
+              "relPath": "ECE/year3/sem1/MC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "MC - Unit 4.pdf",
+              "relPath": "ECE/year3/sem1/MC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "MC - Unit 5.pdf",
+              "relPath": "ECE/year3/sem1/MC - Unit 5.pdf"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "code": "AWP",
+          "title": "Antennas and wave Propogation",
+          "syllabus": {
+            "title": "Antennas and wave Propogation Syllabus",
+            "filename": "AWP_Syllabus.pdf",
+            "relPath": "ECE/year3/sem2/AWP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "AWP - Unit 1.pdf",
+              "relPath": "ECE/year3/sem2/AWP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "AWP - Unit 2.pdf",
+              "relPath": "ECE/year3/sem2/AWP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "AWP - Unit 3.pdf",
+              "relPath": "ECE/year3/sem2/AWP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "AWP - Unit 4.pdf",
+              "relPath": "ECE/year3/sem2/AWP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "AWP - Unit 5.pdf",
+              "relPath": "ECE/year3/sem2/AWP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DIP",
+          "title": "Digital Image Processing",
+          "syllabus": {
+            "title": "Digital Image Processing Syllabus",
+            "filename": "DIP_Syllabus.pdf",
+            "relPath": "ECE/year3/sem2/DIP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "DSP",
+          "title": "Digital Signal Processing",
+          "syllabus": {
+            "title": "Digital Signal Processing Syllabus",
+            "filename": "DSP_Syllabus.pdf",
+            "relPath": "ECE/year3/sem2/DSP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DSP - Unit 1.pdf",
+              "relPath": "ECE/year3/sem2/DSP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DSP - Unit 2.pdf",
+              "relPath": "ECE/year3/sem2/DSP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DSP - Unit 3.pdf",
+              "relPath": "ECE/year3/sem2/DSP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DSP - Unit 4.pdf",
+              "relPath": "ECE/year3/sem2/DSP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DSP - Unit 5.pdf",
+              "relPath": "ECE/year3/sem2/DSP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "ESD",
+          "title": "Embedded System Design",
+          "syllabus": {
+            "title": "Embedded System Design Syllabus",
+            "filename": "ESD_Syllabus.pdf",
+            "relPath": "ECE/year3/sem2/ESD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "ESD - Unit 1.pdf",
+              "relPath": "ECE/year3/sem2/ESD - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "ESD - Unit 2.pdf",
+              "relPath": "ECE/year3/sem2/ESD - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "ESD - Unit 3.pdf",
+              "relPath": "ECE/year3/sem2/ESD - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "ESD - Unit 4.pdf",
+              "relPath": "ECE/year3/sem2/ESD - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "ESD - Unit 5.pdf",
+              "relPath": "ECE/year3/sem2/ESD - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "MCN",
+          "title": "Mobile Communication and Networks",
+          "syllabus": {
+            "title": "Mobile Communication and Networks Syllabus",
+            "filename": "MCN_Syllabus.pdf",
+            "relPath": "ECE/year3/sem2/MCN_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "VLSI",
+          "title": "VLSO Design",
+          "syllabus": {
+            "title": "VLSO Design Syllabus",
+            "filename": "VLSI_Syllabus.pdf",
+            "relPath": "ECE/year3/sem2/VLSI_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "VLSI - Unit 1.pdf",
+              "relPath": "ECE/year3/sem2/VLSI - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "VLSI - Unit 2.pdf",
+              "relPath": "ECE/year3/sem2/VLSI - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "VLSI - Unit 3.pdf",
+              "relPath": "ECE/year3/sem2/VLSI - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "VLSI - Unit 4.pdf",
+              "relPath": "ECE/year3/sem2/VLSI - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "VLSI - Unit 5.pdf",
+              "relPath": "ECE/year3/sem2/VLSI - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "code": "MWOC",
+          "title": "MicroWave and Optical Communications",
+          "syllabus": {
+            "title": "MicroWave and Optical Communications Syllabus",
+            "filename": "MWOC_Syllabus.pdf",
+            "relPath": "ECE/year4/sem1/MWOC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "MWOC - Unit 1.pdf",
+              "relPath": "ECE/year4/sem1/MWOC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "MWOC - Unit 2.pdf",
+              "relPath": "ECE/year4/sem1/MWOC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "MWOC - Unit 3.pdf",
+              "relPath": "ECE/year4/sem1/MWOC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "MWOC - Unit 4.pdf",
+              "relPath": "ECE/year4/sem1/MWOC - Unit 4.pdf"
+            },
+            {
+              "unit": 25,
+              "title": "Unit 25",
+              "filename": "MWOC - Unit 25.pdf",
+              "relPath": "ECE/year4/sem1/MWOC - Unit 25.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PPLE",
+          "title": "Professional Practice, Law & Ethics",
+          "syllabus": {
+            "title": "Professional Practice, Law & Ethics Syllabus",
+            "filename": "PPLE_Syllabus.pdf",
+            "relPath": "ECE/year4/sem1/PPLE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "PPLE - Unit 1.pdf",
+              "relPath": "ECE/year4/sem1/PPLE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PPLE - Unit 2.pdf",
+              "relPath": "ECE/year4/sem1/PPLE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "PPLE - Unit 3.pdf",
+              "relPath": "ECE/year4/sem1/PPLE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PPLE - Unit 4.pdf",
+              "relPath": "ECE/year4/sem1/PPLE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "PPLE - Unit 5.pdf",
+              "relPath": "ECE/year4/sem1/PPLE - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "RS",
+          "title": "Radar Systems",
+          "syllabus": {
+            "title": "Radar Systems Syllabus",
+            "filename": "RS_Syllabus.pdf",
+            "relPath": "ECE/year4/sem1/RS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "RS - Unit 1.pdf",
+              "relPath": "ECE/year4/sem1/RS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "RS - Unit 2.pdf",
+              "relPath": "ECE/year4/sem1/RS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "RS - Unit 3.pdf",
+              "relPath": "ECE/year4/sem1/RS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "RS - Unit 4.pdf",
+              "relPath": "ECE/year4/sem1/RS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "RS - Unit 5.pdf",
+              "relPath": "ECE/year4/sem1/RS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "SC",
+          "title": "Satellite Communication",
+          "syllabus": {
+            "title": "Satellite Communication Syllabus",
+            "filename": "SC_Syllabus.pdf",
+            "relPath": "ECE/year4/sem1/SC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SC - Unit 1.pdf",
+              "relPath": "ECE/year4/sem1/SC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SC - Unit 2.pdf",
+              "relPath": "ECE/year4/sem1/SC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SC - Unit 3.pdf",
+              "relPath": "ECE/year4/sem1/SC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SC - Unit 4.pdf",
+              "relPath": "ECE/year4/sem1/SC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SC - Unit 5.pdf",
+              "relPath": "ECE/year4/sem1/SC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "SE",
+          "title": "Software Engineering",
+          "syllabus": {
+            "title": "Software Engineering Syllabus",
+            "filename": "SE_Syllabus.pdf",
+            "relPath": "ECE/year4/sem1/SE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SE - Unit 1.pdf",
+              "relPath": "ECE/year4/sem1/SE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SE - Unit 2.pdf",
+              "relPath": "ECE/year4/sem1/SE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SE - Unit 3.pdf",
+              "relPath": "ECE/year4/sem1/SE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SE - Unit 4.pdf",
+              "relPath": "ECE/year4/sem1/SE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SE - Unit 5.pdf",
+              "relPath": "ECE/year4/sem1/SE - Unit 5.pdf"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "code": "IAI",
+          "title": "Artificial intelligence",
+          "syllabus": null,
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IAI - Unit 1.pdf",
+              "relPath": "ECE/year4/sem2/IAI - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IAI - Unit 2.pdf",
+              "relPath": "ECE/year4/sem2/IAI - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IAI - Unit 3.pdf",
+              "relPath": "ECE/year4/sem2/IAI - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IAI - Unit 4.pdf",
+              "relPath": "ECE/year4/sem2/IAI - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IAI - Unit 5.pdf",
+              "relPath": "ECE/year4/sem2/IAI - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "AI",
+          "title": "Artificial Intelligence",
+          "syllabus": {
+            "title": "Artificial Intelligence Syllabus",
+            "filename": "AI_Syllabus.pdf",
+            "relPath": "ECE/year4/sem2/AI_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "CN",
+          "title": "Computer Networks",
+          "syllabus": {
+            "title": "Computer Networks Syllabus",
+            "filename": "CN_Syllabus.pdf",
+            "relPath": "ECE/year4/sem2/CN_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CN - Unit 1.pdf",
+              "relPath": "ECE/year4/sem2/CN - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CN - Unit 2.pdf",
+              "relPath": "ECE/year4/sem2/CN - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CN - Unit 3.pdf",
+              "relPath": "ECE/year4/sem2/CN - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CN - Unit 4.pdf",
+              "relPath": "ECE/year4/sem2/CN - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CN - Unit 5.pdf",
+              "relPath": "ECE/year4/sem2/CN - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "SOCA",
+          "title": "System on chip architecture",
+          "syllabus": {
+            "title": "System on chip architecture Syllabus",
+            "filename": "SOCA_Syllabus.pdf",
+            "relPath": "ECE/year4/sem2/SOCA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "SOCA - Unit 1.pdf",
+              "relPath": "ECE/year4/sem2/SOCA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "SOCA - Unit 2.pdf",
+              "relPath": "ECE/year4/sem2/SOCA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "SOCA - Unit 3.pdf",
+              "relPath": "ECE/year4/sem2/SOCA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "SOCA - Unit 4.pdf",
+              "relPath": "ECE/year4/sem2/SOCA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "SOCA - Unit 5.pdf",
+              "relPath": "ECE/year4/sem2/SOCA - Unit 5.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "EEE": {
+    "3": {
+      "1": [
+        {
+          "code": "BEFA",
+          "title": "Business Economics and financial Analysis",
+          "syllabus": {
+            "title": "Business Economics and financial Analysis Syllabus",
+            "filename": "BEFA_Syllabus.pdf",
+            "relPath": "EEE/year3/sem1/BEFA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "BEFA - Unit 1.pdf",
+              "relPath": "EEE/year3/sem1/BEFA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "BEFA - Unit 2.pdf",
+              "relPath": "EEE/year3/sem1/BEFA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "BEFA - Unit 3.pdf",
+              "relPath": "EEE/year3/sem1/BEFA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "BEFA - Unit 4.pdf",
+              "relPath": "EEE/year3/sem1/BEFA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "BEFA - Unit 5.pdf",
+              "relPath": "EEE/year3/sem1/BEFA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CAEMD",
+          "title": "Computer Aided Electrical Machine Design",
+          "syllabus": {
+            "title": "Computer Aided Electrical Machine Design Syllabus",
+            "filename": "CAEMD_Syllabus.pdf",
+            "relPath": "EEE/year3/sem1/CAEMD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "CS",
+          "title": "Control Systems",
+          "syllabus": {
+            "title": "Control Systems Syllabus",
+            "filename": "CS_Syllabus.pdf",
+            "relPath": "EEE/year3/sem1/CS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CS - Unit 1.pdf",
+              "relPath": "EEE/year3/sem1/CS - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CS - Unit 2.pdf",
+              "relPath": "EEE/year3/sem1/CS - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CS - Unit 3.pdf",
+              "relPath": "EEE/year3/sem1/CS - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "CS - Unit 4.pdf",
+              "relPath": "EEE/year3/sem1/CS - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "CS - Unit 5.pdf",
+              "relPath": "EEE/year3/sem1/CS - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "HVE",
+          "title": "High Voltage Engineering",
+          "syllabus": {
+            "title": "High Voltage Engineering Syllabus",
+            "filename": "HVE_Syllabus.pdf",
+            "relPath": "EEE/year3/sem1/HVE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "HVE - Unit 1.pdf",
+              "relPath": "EEE/year3/sem1/HVE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "HVE - Unit 2.pdf",
+              "relPath": "EEE/year3/sem1/HVE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "HVE - Unit 3.pdf",
+              "relPath": "EEE/year3/sem1/HVE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "HVE - Unit 4.pdf",
+              "relPath": "EEE/year3/sem1/HVE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "HVE - Unit 5.pdf",
+              "relPath": "EEE/year3/sem1/HVE - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "IOTA",
+          "title": "IOT Applications in EE",
+          "syllabus": {
+            "title": "IOT Applications in EE Syllabus",
+            "filename": "IOTA_Syllabus.pdf",
+            "relPath": "EEE/year3/sem1/IOTA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "IOTA - Unit 1.pdf",
+              "relPath": "EEE/year3/sem1/IOTA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "IOTA - Unit 2.pdf",
+              "relPath": "EEE/year3/sem1/IOTA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "IOTA - Unit 3.pdf",
+              "relPath": "EEE/year3/sem1/IOTA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "IOTA - Unit 4.pdf",
+              "relPath": "EEE/year3/sem1/IOTA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "IOTA - Unit 5.pdf",
+              "relPath": "EEE/year3/sem1/IOTA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "MPMC",
+          "title": "Microprocessors & Microcontrollers",
+          "syllabus": {
+            "title": "Microprocessors & Microcontrollers Syllabus",
+            "filename": "MPMC_Syllabus.pdf",
+            "relPath": "EEE/year3/sem1/MPMC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "MPMC - Unit 1.pdf",
+              "relPath": "EEE/year3/sem1/MPMC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "MPMC - Unit 2.pdf",
+              "relPath": "EEE/year3/sem1/MPMC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "MPMC - Unit 3.pdf",
+              "relPath": "EEE/year3/sem1/MPMC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "MPMC - Unit 4.pdf",
+              "relPath": "EEE/year3/sem1/MPMC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "MPMC - Unit 5.pdf",
+              "relPath": "EEE/year3/sem1/MPMC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PE",
+          "title": "Power Electronics",
+          "syllabus": {
+            "title": "Power Electronics Syllabus",
+            "filename": "PE_Syllabus.pdf",
+            "relPath": "EEE/year3/sem1/PE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "PE - Unit 1.pdf",
+              "relPath": "EEE/year3/sem1/PE - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PE - Unit 2.pdf",
+              "relPath": "EEE/year3/sem1/PE - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "PE - Unit 3.pdf",
+              "relPath": "EEE/year3/sem1/PE - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PE - Unit 4.pdf",
+              "relPath": "EEE/year3/sem1/PE - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "PE - Unit 5.pdf",
+              "relPath": "EEE/year3/sem1/PE - Unit 5.pdf"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "code": "CPS",
+          "title": "Cyber Physical Systems",
+          "syllabus": {
+            "title": "Cyber Physical Systems Syllabus",
+            "filename": "CPS_Syllabus.pdf",
+            "relPath": "EEE/year3/sem2/CPS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "DSP",
+          "title": "Digital Signal Processing",
+          "syllabus": {
+            "title": "Digital Signal Processing Syllabus",
+            "filename": "DSP_Syllabus.pdf",
+            "relPath": "EEE/year3/sem2/DSP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DSP - Unit 1.pdf",
+              "relPath": "EEE/year3/sem2/DSP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DSP - Unit 2.pdf",
+              "relPath": "EEE/year3/sem2/DSP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DSP - Unit 3.pdf",
+              "relPath": "EEE/year3/sem2/DSP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DSP - Unit 4.pdf",
+              "relPath": "EEE/year3/sem2/DSP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DSP - Unit 5.pdf",
+              "relPath": "EEE/year3/sem2/DSP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "FEV",
+          "title": "Fundamental of Electric Vehicles",
+          "syllabus": {
+            "title": "Fundamental of Electric Vehicles Syllabus",
+            "filename": "FEV_Syllabus.pdf",
+            "relPath": "EEE/year3/sem2/FEV_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "PSD",
+          "title": "Power Semiconductor Drives",
+          "syllabus": {
+            "title": "Power Semiconductor Drives Syllabus",
+            "filename": "PSD_Syllabus.pdf",
+            "relPath": "EEE/year3/sem2/PSD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "PSD - Unit 1.pdf",
+              "relPath": "EEE/year3/sem2/PSD - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PSD - Unit 2.pdf",
+              "relPath": "EEE/year3/sem2/PSD - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "PSD - Unit 3.pdf",
+              "relPath": "EEE/year3/sem2/PSD - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PSD - Unit 4.pdf",
+              "relPath": "EEE/year3/sem2/PSD - Unit 4.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PSOC",
+          "title": "Power System opration and control",
+          "syllabus": {
+            "title": "Power System opration and control Syllabus",
+            "filename": "PSOC_Syllabus.pdf",
+            "relPath": "EEE/year3/sem2/PSOC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "PSOC - Unit 1.pdf",
+              "relPath": "EEE/year3/sem2/PSOC - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PSOC - Unit 2.pdf",
+              "relPath": "EEE/year3/sem2/PSOC - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "PSOC - Unit 3.pdf",
+              "relPath": "EEE/year3/sem2/PSOC - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PSOC - Unit 4.pdf",
+              "relPath": "EEE/year3/sem2/PSOC - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "PSOC - Unit 5.pdf",
+              "relPath": "EEE/year3/sem2/PSOC - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "PSP",
+          "title": "Power System Protection",
+          "syllabus": {
+            "title": "Power System Protection Syllabus",
+            "filename": "PSP_Syllabus.pdf",
+            "relPath": "EEE/year3/sem2/PSP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "PSP - Unit 1.pdf",
+              "relPath": "EEE/year3/sem2/PSP - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "PSP - Unit 2.pdf",
+              "relPath": "EEE/year3/sem2/PSP - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "PSP - Unit 3.pdf",
+              "relPath": "EEE/year3/sem2/PSP - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "PSP - Unit 4.pdf",
+              "relPath": "EEE/year3/sem2/PSP - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "PSP - Unit 5.pdf",
+              "relPath": "EEE/year3/sem2/PSP - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "RES",
+          "title": "Renewable Energy Sources",
+          "syllabus": {
+            "title": "Renewable Energy Sources Syllabus",
+            "filename": "RES_Syllabus.pdf",
+            "relPath": "EEE/year3/sem2/RES_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "WSES",
+          "title": "Wind and Solar Energy Systems",
+          "syllabus": {
+            "title": "Wind and Solar Energy Systems Syllabus",
+            "filename": "WSES_Syllabus.pdf",
+            "relPath": "EEE/year3/sem2/WSES_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "code": "EHV",
+          "title": "Electric and Hybrid Vehicles",
+          "syllabus": {
+            "title": "Electric and Hybrid Vehicles Syllabus",
+            "filename": "EHV_Syllabus.pdf",
+            "relPath": "EEE/year4/sem1/EHV_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "FME",
+          "title": "Fundamentals of Management for Engineers",
+          "syllabus": {
+            "title": "Fundamentals of Management for Engineers Syllabus",
+            "filename": "FME_Syllabus.pdf",
+            "relPath": "EEE/year4/sem1/FME_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "HVDC",
+          "title": "HVDC Transmission",
+          "syllabus": {
+            "title": "HVDC Transmission Syllabus",
+            "filename": "HVDC_Syllabus.pdf",
+            "relPath": "EEE/year4/sem1/HVDC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "PEA",
+          "title": "Power Electric Applications to renewable Energy Systems",
+          "syllabus": {
+            "title": "Power Electric Applications to renewable Energy Systems Syllabus",
+            "filename": "PEA_Syllabus.pdf",
+            "relPath": "EEE/year4/sem1/PEA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SE",
+          "title": "Software Engineering",
+          "syllabus": {
+            "title": "Software Engineering Syllabus",
+            "filename": "SE_Syllabus.pdf",
+            "relPath": "EEE/year4/sem1/SE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ]
+    }
+  },
+  "MECH": {
+    "3": {
+      "1": [
+        {
+          "code": "BEFA",
+          "title": "Business Economics and financial Analysis",
+          "syllabus": {
+            "title": "Business Economics and financial Analysis Syllabus",
+            "filename": "BEFA_Syllabus.pdf",
+            "relPath": "MECH/year3/sem1/BEFA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "BEFA - Unit 1.pdf",
+              "relPath": "MECH/year3/sem1/BEFA - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "BEFA - Unit 2.pdf",
+              "relPath": "MECH/year3/sem1/BEFA - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "BEFA - Unit 3.pdf",
+              "relPath": "MECH/year3/sem1/BEFA - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "BEFA - Unit 4.pdf",
+              "relPath": "MECH/year3/sem1/BEFA - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "BEFA - Unit 5.pdf",
+              "relPath": "MECH/year3/sem1/BEFA - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "CADCAM",
+          "title": "CAD/CAM",
+          "syllabus": {
+            "title": "CAD/CAM Syllabus",
+            "filename": "CADCAM_Syllabus.pdf",
+            "relPath": "MECH/year3/sem1/CADCAM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "CADCAM - Unit 1.pdf",
+              "relPath": "MECH/year3/sem1/CADCAM - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "CADCAM - Unit 2.pdf",
+              "relPath": "MECH/year3/sem1/CADCAM - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "CADCAM - Unit 3.pdf",
+              "relPath": "MECH/year3/sem1/CADCAM - Unit 3.pdf"
+            },
+            {
+              "unit": 6,
+              "title": "Unit 6",
+              "filename": "CADCAM - Unit 6.pdf",
+              "relPath": "MECH/year3/sem1/CADCAM - Unit 6.pdf"
+            }
+          ]
+        },
+        {
+          "code": "DOME",
+          "title": "Design of Machine Elements",
+          "syllabus": {
+            "title": "Design of Machine Elements Syllabus",
+            "filename": "DOME_Syllabus.pdf",
+            "relPath": "MECH/year3/sem1/DOME_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "DOM",
+          "title": "Dynamics of Machinery",
+          "syllabus": {
+            "title": "Dynamics of Machinery Syllabus",
+            "filename": "DOM_Syllabus.pdf",
+            "relPath": "MECH/year3/sem1/DOM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": [
+            {
+              "unit": 1,
+              "title": "Unit 1",
+              "filename": "DOM - Unit 1.pdf",
+              "relPath": "MECH/year3/sem1/DOM - Unit 1.pdf"
+            },
+            {
+              "unit": 2,
+              "title": "Unit 2",
+              "filename": "DOM - Unit 2.pdf",
+              "relPath": "MECH/year3/sem1/DOM - Unit 2.pdf"
+            },
+            {
+              "unit": 3,
+              "title": "Unit 3",
+              "filename": "DOM - Unit 3.pdf",
+              "relPath": "MECH/year3/sem1/DOM - Unit 3.pdf"
+            },
+            {
+              "unit": 4,
+              "title": "Unit 4",
+              "filename": "DOM - Unit 4.pdf",
+              "relPath": "MECH/year3/sem1/DOM - Unit 4.pdf"
+            },
+            {
+              "unit": 5,
+              "title": "Unit 5",
+              "filename": "DOM - Unit 5.pdf",
+              "relPath": "MECH/year3/sem1/DOM - Unit 5.pdf"
+            }
+          ]
+        },
+        {
+          "code": "Finite Element Methods",
+          "title": "Finite Element Methods",
+          "syllabus": null,
+          "fullNotes": {
+            "title": "Complete Notes",
+            "filename": "Finite Element Methods.pdf",
+            "relPath": "MECH/year3/sem1/Finite Element Methods.pdf"
+          },
+          "units": []
+        },
+        {
+          "code": "MMT",
+          "title": "Metrology & Machine Tools",
+          "syllabus": {
+            "title": "Metrology & Machine Tools Syllabus",
+            "filename": "MMT_Syllabus.pdf",
+            "relPath": "MECH/year3/sem1/MMT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "STJP",
+          "title": "Special Topics in Jet Propulsion",
+          "syllabus": {
+            "title": "Special Topics in Jet Propulsion Syllabus",
+            "filename": "STJP_Syllabus.pdf",
+            "relPath": "MECH/year3/sem1/STJP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ],
+      "2": [
+        {
+          "code": "BME",
+          "title": "Basic Mechanical Engineering",
+          "syllabus": {
+            "title": "Basic Mechanical Engineering Syllabus",
+            "filename": "BME_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/BME_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "FEM",
+          "title": "Finite Element Methods",
+          "syllabus": {
+            "title": "Finite Element Methods Syllabus",
+            "filename": "FEM_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/FEM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "Heat-Transfer",
+          "title": "Heat Transfer",
+          "syllabus": null,
+          "fullNotes": {
+            "title": "Complete Notes",
+            "filename": "Heat-Transfer.pdf",
+            "relPath": "MECH/year3/sem2/Heat-Transfer.pdf"
+          },
+          "units": []
+        },
+        {
+          "code": "HT",
+          "title": "Heat Transfer",
+          "syllabus": {
+            "title": "Heat Transfer Syllabus",
+            "filename": "HT_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/HT_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "MD",
+          "title": "Machine Design",
+          "syllabus": {
+            "title": "Machine Design Syllabus",
+            "filename": "MD_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/MD_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "MPA",
+          "title": "Modern Practice in Architecture",
+          "syllabus": {
+            "title": "Modern Practice in Architecture Syllabus",
+            "filename": "MPA_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/MPA_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "OR",
+          "title": "Operational Research",
+          "syllabus": {
+            "title": "Operational Research Syllabus",
+            "filename": "OR_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/OR_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "PPC",
+          "title": "Production Planning & Control",
+          "syllabus": {
+            "title": "Production Planning & Control Syllabus",
+            "filename": "PPC_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/PPC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "RES",
+          "title": "Renewable Energy Sources",
+          "syllabus": {
+            "title": "Renewable Energy Sources Syllabus",
+            "filename": "RES_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/RES_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "UMP",
+          "title": "Unconventional Machining Process",
+          "syllabus": {
+            "title": "Unconventional Machining Process Syllabus",
+            "filename": "UMP_Syllabus.pdf",
+            "relPath": "MECH/year3/sem2/UMP_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "code": "AIM",
+          "title": "Automation in Manufacturing",
+          "syllabus": {
+            "title": "Automation in Manufacturing Syllabus",
+            "filename": "AIM_Syllabus.pdf",
+            "relPath": "MECH/year4/sem1/AIM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "AM",
+          "title": "Automobile Engineering",
+          "syllabus": {
+            "title": "Automobile Engineering Syllabus",
+            "filename": "AM_Syllabus.pdf",
+            "relPath": "MECH/year4/sem1/AM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "FPS",
+          "title": "Fluid Power System",
+          "syllabus": {
+            "title": "Fluid Power System Syllabus",
+            "filename": "FPS_Syllabus.pdf",
+            "relPath": "MECH/year4/sem1/FPS_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "IM",
+          "title": "Industrial Management",
+          "syllabus": {
+            "title": "Industrial Management Syllabus",
+            "filename": "IM_Syllabus.pdf",
+            "relPath": "MECH/year4/sem1/IM_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "RAC",
+          "title": "refrigerator & Air Conditioning",
+          "syllabus": {
+            "title": "refrigerator & Air Conditioning Syllabus",
+            "filename": "RAC_Syllabus.pdf",
+            "relPath": "MECH/year4/sem1/RAC_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        },
+        {
+          "code": "SE",
+          "title": "Software Engineering",
+          "syllabus": {
+            "title": "Software Engineering Syllabus",
+            "filename": "SE_Syllabus.pdf",
+            "relPath": "MECH/year4/sem1/SE_Syllabus.pdf"
+          },
+          "fullNotes": null,
+          "units": []
+        }
+      ]
+    }
+  }
+}
