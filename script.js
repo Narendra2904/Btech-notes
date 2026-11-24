@@ -59,9 +59,10 @@
     const lfsCdn = `https://media.githubusercontent.com/media/Narendra2904/Btech-notes/main/assets/${encodedRel}`;
     const rawGithub = `https://raw.githubusercontent.com/Narendra2904/Btech-notes/main/assets/${encodedRel}`;
     const local = `assets/${encodedRel}`;
+    const primary = isLfs ? lfsCdn : rawGithub;
 
     return {
-      primary: isLfs ? lfsCdn : local,
+      primary,
       lfsCdn,
       rawGithub,
       local,
@@ -100,17 +101,19 @@
     frameContainer.innerHTML = '';
 
     // Direct actions fallback handlers
-    downloadBtn.onclick = () => window.triggerDownload(urls.lfsCdn, filename);
-    newTabBtn.onclick = () => window.open(urls.lfsCdn, '_blank');
+    downloadBtn.onclick = () => window.triggerDownload(urls.primary, filename);
+    newTabBtn.onclick = () => window.open(urls.primary, '_blank');
 
     try {
       // Fetch binary PDF blob for zero-CORS / zero-plugin preview
-      // Try LFS CDN first if LFS, or raw/local
-      let fetchUrl = isLfs ? urls.lfsCdn : urls.rawGithub;
+      let fetchUrl = urls.primary;
       let resp = await fetch(fetchUrl).catch(() => null);
 
       if (!resp || !resp.ok) {
         resp = await fetch(urls.lfsCdn).catch(() => null);
+      }
+      if (!resp || !resp.ok) {
+        resp = await fetch(urls.rawGithub).catch(() => null);
       }
       if (!resp || !resp.ok) {
         resp = await fetch(urls.local).catch(() => null);
@@ -168,11 +171,11 @@
             Direct in-browser preview was intercepted. You can view or save this PDF right now using the buttons below:
           </p>
           <div class="flex flex-wrap justify-center gap-4">
-            <a href="${urls.lfsCdn}" target="_blank" rel="noopener noreferrer" 
+            <a href="${urls.primary}" target="_blank" rel="noopener noreferrer" 
                class="px-6 py-3 bg-black text-white font-black neo-shadow hover:bg-yellow-400 hover:text-black transition-colors uppercase text-sm flex items-center gap-2">
               <span>Open in New Tab</span> <span>↗</span>
             </a>
-            <button onclick="window.triggerDownload('${urls.lfsCdn}', '${esc(filename)}')" 
+            <button onclick="window.triggerDownload('${urls.primary}', '${esc(filename)}')" 
                     class="px-6 py-3 bg-yellow-400 text-black border-2 border-black font-black neo-shadow hover:bg-black hover:text-white transition-colors uppercase text-sm flex items-center gap-2">
               <span>Download PDF</span> <span>📥</span>
             </button>
@@ -199,7 +202,16 @@
 
   window.triggerDownload = async function (url, filename) {
     try {
-      const res = await fetch(url);
+      let res = await fetch(url).catch(() => null);
+      if (!res || !res.ok) {
+        // Fallback between media CDN and raw github if one is 404
+        const fallbackUrl = url.includes('media.githubusercontent.com')
+          ? url.replace('media.githubusercontent.com/media', 'raw.githubusercontent.com')
+          : url.replace('raw.githubusercontent.com', 'media.githubusercontent.com/media');
+        res = await fetch(fallbackUrl).catch(() => null);
+      }
+      if (!res || !res.ok) throw new Error('Download fetch failed');
+
       const blob = await res.blob();
       const blobUrl = URL.createObjectURL(new Blob([blob], { type: 'application/pdf' }));
       const a = document.createElement('a');
@@ -334,7 +346,7 @@
                         class="px-3 py-1.5 bg-yellow-300 hover:bg-black hover:text-white border border-black font-bold text-xs uppercase transition-colors">
                   Open 👁️
                 </button>
-                <button onclick="window.triggerDownload('${resolveAssetUrls(u.relPath, u.isLfs).lfsCdn}', '${esc(u.filename)}')"
+                <button onclick="window.triggerDownload('${resolveAssetUrls(u.relPath, u.isLfs).primary}', '${esc(u.filename)}')"
                         title="Download PDF"
                         class="p-1.5 bg-white hover:bg-yellow-200 border border-black transition-colors">
                   <i data-lucide="download" class="w-3.5 h-3.5"></i>
