@@ -226,23 +226,26 @@
     const unitsHTML = (sub.units || []).map(u => {
       const isTarget = requestedUnit && u.unit === requestedUnit;
       const highlight = isTarget ? 'bg-yellow-400 text-black border-black font-black scale-105 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]' : 'bg-white hover:bg-yellow-200 text-black border-black';
+      const relPath = u.relPath || `${sub.branch}/year${sub.year}/sem${sub.sem}/${u.filename}`;
       return `
-        <button onclick="window.openPdfViewer('${sub.branch}/year${sub.year}/sem${sub.sem}/${encodeURIComponent(u.filename)}', '${esc(sub.title)}', ${u.isLfs}, '${esc(u.title)}')"
+        <button onclick="window.openPdfViewer('${relPath}', '${esc(sub.title)}', ${u.isLfs}, '${esc(u.title)}')"
                 class="px-2.5 py-1 text-xs border border-black font-mono transition-transform ${highlight}">
           ${esc(u.title)} ${isTarget ? '⭐' : ''}
         </button>
       `;
     }).join('');
 
+    const sylRel = sub.syllabus ? (sub.syllabus.relPath || `${sub.branch}/year${sub.year}/sem${sub.sem}/${sub.syllabus.filename}`) : '';
     const sylBtn = sub.syllabus ? `
-      <button onclick="window.openPdfViewer('${sub.branch}/year${sub.year}/sem${sub.sem}/${encodeURIComponent(sub.syllabus.filename)}', '${esc(sub.title)} Syllabus', ${sub.syllabus.isLfs}, 'Syllabus Copy')"
+      <button onclick="window.openPdfViewer('${sylRel}', '${esc(sub.title)} Syllabus', ${sub.syllabus.isLfs}, 'Syllabus Copy')"
               class="px-3 py-1 text-xs border border-black bg-pink-300 hover:bg-pink-400 font-bold text-black transition-colors flex items-center gap-1">
         <span>📜 Syllabus</span>
       </button>
     ` : '';
 
+    const fullRel = sub.fullNotes ? (sub.fullNotes.relPath || `${sub.branch}/year${sub.year}/sem${sub.sem}/${sub.fullNotes.filename}`) : '';
     const fullBtn = sub.fullNotes ? `
-      <button onclick="window.openPdfViewer('${sub.branch}/year${sub.year}/sem${sub.sem}/${encodeURIComponent(sub.fullNotes.filename)}', '${esc(sub.title)} Full Notes', ${sub.fullNotes.isLfs}, 'Complete Book')"
+      <button onclick="window.openPdfViewer('${fullRel}', '${esc(sub.title)} Full Notes', ${sub.fullNotes.isLfs}, 'Complete Book')"
               class="px-3 py-1 text-xs border border-black bg-green-300 hover:bg-green-400 font-bold text-black transition-colors flex items-center gap-1">
         <span>📖 Complete Notes</span>
       </button>
