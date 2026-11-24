@@ -44,7 +44,18 @@
 
   // Resolve true binary PDF URL (handles GitHub LFS vs normal blob vs Vercel static)
   function resolveAssetUrls(relPath, isLfs) {
-    const encodedRel = relPath.split('/').map(p => encodeURIComponent(p)).join('/');
+    let rawPath = String(relPath || '');
+    // Decode until completely unescaped to eliminate any single or double-encoding (%2520 -> %20 -> ' ')
+    try {
+      while (rawPath.includes('%')) {
+        const decoded = decodeURIComponent(rawPath);
+        if (decoded === rawPath) break;
+        rawPath = decoded;
+      }
+    } catch (e) {}
+
+    // Encode each path segment cleanly once
+    const encodedRel = rawPath.split('/').map(p => encodeURIComponent(p)).join('/');
     const lfsCdn = `https://media.githubusercontent.com/media/Narendra2904/Btech-notes/main/assets/${encodedRel}`;
     const rawGithub = `https://raw.githubusercontent.com/Narendra2904/Btech-notes/main/assets/${encodedRel}`;
     const local = `assets/${encodedRel}`;
@@ -54,7 +65,7 @@
       lfsCdn,
       rawGithub,
       local,
-      filename: relPath.split('/').pop()
+      filename: rawPath.split('/').pop()
     };
   }
 
